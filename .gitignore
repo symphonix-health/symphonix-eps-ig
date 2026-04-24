@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+.coverage
+
+# Node
+node_modules/
+.vite/
+frontend/dist/
+
+# Env / secrets
+.env
+*.key
+*.pem
+credentials.json
+
+# Local DBs
+*.db
+*.db-journal
+data/
+
+# OS / editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Engineer worktrees
+.claude/worktrees/

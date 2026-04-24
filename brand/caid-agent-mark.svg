@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="caid-agent">
+  <title>caid-agent</title>
+  <desc>Central hub delegating to three isolated worker nodes. Represents Centralised Asynchronous Isolated Delegation.</desc>
+
+  <!-- Faint concentric ring: the "isolation envelope" between hub and workers -->
+  <circle cx="32" cy="32" r="24" fill="none" stroke="#0d4f4f" stroke-width="1" stroke-dasharray="2 3" opacity="0.32"/>
+
+  <!-- Delegation arrows (hub -> worker). Drawn before workers so the arrowheads sit cleanly behind the node fills. -->
+  <g stroke="#0d4f4f" stroke-width="2" stroke-linecap="round" fill="none">
+    <line x1="32" y1="32" x2="32" y2="10"/>
+    <line x1="32" y1="32" x2="52" y2="44"/>
+    <line x1="32" y1="32" x2="12" y2="44"/>
+  </g>
+
+  <!-- Central hub: deeper teal rounded square -->
+  <rect x="24" y="24" width="16" height="16" rx="3" fill="#0d4f4f"/>
+
+  <!-- Three isolated worker nodes: amber rounded squares at asymmetric positions (async rhythm) -->
+  <rect x="26" y="4"  width="12" height="12" rx="2.5" fill="#f59e0b"/>
+  <rect x="46" y="38" width="12" height="12" rx="2.5" fill="#f59e0b"/>
+  <rect x="6"  y="38" width="12" height="12" rx="2.5" fill="#f59e0b"/>
+</svg>
