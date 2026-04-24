@@ -8,11 +8,17 @@ build/
 .pytest_cache/
 .ruff_cache/
 .coverage
+*.egg-info/
 
-# Node
-node_modules/
-.vite/
-frontend/dist/
+# SUSHI / IG Publisher build artefacts
+fsh-generated/
+output/
+input-cache/
+temp/
+qa/
+template/
+tx-cache/
+.fhir/
 
 # Env / secrets
 .env
@@ -20,16 +26,8 @@ frontend/dist/
 *.pem
 credentials.json
 
-# Local DBs
-*.db
-*.db-journal
-data/
-
 # OS / editor
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
-
-# Engineer worktrees
-.claude/worktrees/

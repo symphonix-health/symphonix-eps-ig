@@ -1,0 +1,55 @@
+name: ig-build
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  sushi-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install SUSHI
+        run: npm install -g fsh-sushi
+
+      - name: Fetch IG Publisher
+        run: bash ./_updatePublisher.sh
+
+      - name: Build IG (SUSHI + Publisher)
+        run: bash ./_genonce.sh
+
+      - name: Install Python harness
+        run: pip install -e .[dev]
+
+      - name: Run profile validation harness
+        run: pytest tests/test_profiles.py -q
+
+      - name: Run citation resolver (slow)
+        run: pytest tests/test_citations.py -q -m slow
+        continue-on-error: true
+
+      - name: Upload IG output
+        uses: actions/upload-artifact@v4
+        with:
+          name: ig-output
+          path: output/
+          retention-days: 30

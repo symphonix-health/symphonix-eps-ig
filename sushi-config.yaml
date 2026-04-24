@@ -1,0 +1,59 @@
+id: symphonix.eps.ig
+canonical: https://symphonix.health/fhir/eps
+name: SymphonixEPS
+title: Symphonix Electronic Prescription Service Implementation Guide
+description: >-
+  Shared FHIR R4 contract between the etps (Electronic Transmission of
+  Prescription System) transport simulator and the eps (Electronic Prescription
+  System) clinical-workflow simulator, onboarded onto the Symphonix BulletTrain
+  Health Information Exchange. Anchored to NHS Digital EPS FHIR APIs and IHE
+  Pharm MPD, generalised for global deployment.
+status: active
+version: 0.1.0
+fhirVersion: 4.0.1
+copyrightYear: 2026+
+releaseLabel: ci-build
+license: CC0-1.0
+publisher:
+  name: Symphonix Health
+  url: https://symphonix.health
+  email: eps-ig@symphonix.health
+
+dependencies:
+  hl7.fhir.us.core: 6.1.0  # optional US-core interop reference
+  # hl7.fhir.uv.pharm-mpd pending stable release; track via roadmap.md
+
+pages:
+  index.md:
+    title: Home
+  workflows.md:
+    title: Workflows
+  safety.md:
+    title: Safety Controls (Top-10 Pain Points)
+  bounded-contexts.md:
+    title: Bounded Contexts (ETPS vs EPS)
+  terminology.md:
+    title: Terminology Binding Strategy
+  references.md:
+    title: Research & Standards References
+  roadmap.md:
+    title: Roadmap
+
+menu:
+  Home: index.html
+  Conformance:
+    Profiles: artifacts.html#structures-resource-profiles
+    Extensions: artifacts.html#structures-extension-definitions
+    ValueSets: artifacts.html#terminology-value-sets
+    CapabilityStatements: artifacts.html#behavior-capability-statements
+  Workflows: workflows.html
+  Safety: safety.html
+  Bounded Contexts: bounded-contexts.html
+  References: references.html
+
+parameters:
+  apply-extension-metadata-to-root: true
+  excludexml: true
+  excludettl: true
+
+# Every profile MUST map to a top-10 pain-point control; see safety.md.
