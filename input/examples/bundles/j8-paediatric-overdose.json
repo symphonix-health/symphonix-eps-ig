@@ -1,0 +1,62 @@
+{
+  "resourceType": "Bundle",
+  "id": "j8-paediatric-overdose",
+  "type": "message",
+  "timestamp": "2026-04-25T12:03:00Z",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:msg-header-j8",
+      "resource": {
+        "resourceType": "MessageHeader",
+        "id": "msg-header-j8",
+        "eventUri": "https://symphonix.health/fhir/eps/prescribe",
+        "destination": [{ "endpoint": "https://etps.example/FHIR/R4/$process-message" }],
+        "source": { "endpoint": "https://eps.example/api/prescriptions", "name": "EPS" }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:rx-enoxaparin-overdose",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "rx-enoxaparin-overdose",
+        "status": "active",
+        "intent": "order",
+        "subject": { "reference": "Patient/SYN-P-0002" },
+        "requester": { "reference": "Practitioner/SYN-PR-0001" },
+        "supportingInformation": [
+          { "display": "Patient weight: 18.5 kg (measured 2026-04-25)" }
+        ],
+        "medicationCodeableConcept": {
+          "coding": [
+            { "system": "http://snomed.info/sct", "code": "319282005", "display": "Enoxaparin sodium" }
+          ]
+        },
+        "dosageInstruction": [
+          {
+            "text": "18mg subcutaneously twice daily (ERROR: 10x intended 1.85mg/kg dose)",
+            "doseAndRate": [
+              {
+                "doseQuantity": { "value": 18, "unit": "mg", "system": "http://unitsofmeasure.org", "code": "mg" },
+                "extension": [
+                  {
+                    "url": "https://symphonix.health/fhir/eps/StructureDefinition/eps-dose-band-limit",
+                    "extension": [
+                      {
+                        "url": "softLimitPerKg",
+                        "valueQuantity": { "value": 0.1, "unit": "mg/kg" }
+                      },
+                      {
+                        "url": "hardLimitPerKg",
+                        "valueQuantity": { "value": 0.3, "unit": "mg/kg" }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

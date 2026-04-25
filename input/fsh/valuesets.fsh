@@ -99,7 +99,8 @@ National Patient Safety Alert on penicillin vs penicillamine
 (November 2025). Grouped by clinically-relevant cross-reactivity, not
 by drug-name prefix."
 * #penicillin-class            "Penicillin class"                  "All penicillins and beta-lactams with documented cross-reactivity."
-* #cephalosporin-class         "Cephalosporin class"               "Cephalosporins."
+* #cephalosporin-class         "Cephalosporin class"               "First / second-generation cephalosporins (cefalexin, cefuroxime). Empirical ~10% cross-reactivity with penicillin-allergic patients per BNF; advisory severity at sign-time, not hard-stop."
+* #cephalosporin-class-extended "Cephalosporin class (extended)"    "Third / fourth / fifth-generation cephalosporins (ceftriaxone, ceftazidime, cefepime, ceftaroline) with reduced (~1-3%) penicillin cross-reactivity. Adds the side-chain-specific cross-reactivity model from the 2026 NatPSA update; advisory only when patient is recorded penicillin-class allergic AND no prior tolerance documented."
 * #sulfonamide-antibiotic      "Sulfonamide antibiotic"            "Sulfonamide antibiotics (distinct from non-antibiotic sulfonamides)."
 * #nsaid-class                 "NSAID class"                       "Non-steroidal anti-inflammatory drugs as a cross-reactive group."
 * #iodinated-contrast          "Iodinated contrast media"          "Radiocontrast agents."

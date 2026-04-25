@@ -9,7 +9,7 @@ description: >-
   Health Information Exchange. Anchored to NHS Digital EPS FHIR APIs and IHE
   Pharm MPD, generalised for global deployment.
 status: active
-version: 0.1.0
+version: 0.2.0
 fhirVersion: 4.0.1
 copyrightYear: 2026+
 releaseLabel: ci-build

@@ -1,0 +1,71 @@
+{
+  "resourceType": "Bundle",
+  "id": "j6-paracetamol-duplicate-pair",
+  "type": "message",
+  "timestamp": "2026-04-25T12:02:00Z",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:msg-header-j6",
+      "resource": {
+        "resourceType": "MessageHeader",
+        "id": "msg-header-j6",
+        "eventUri": "https://symphonix.health/fhir/eps/prescribe",
+        "destination": [
+          { "endpoint": "https://etps.example/FHIR/R4/$process-message" }
+        ],
+        "source": {
+          "endpoint": "https://eps.example/api/prescriptions",
+          "name": "EPS clinical workflow"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:rx-paracetamol",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "rx-paracetamol",
+        "status": "active",
+        "intent": "order",
+        "subject": { "reference": "Patient/SYN-P-0001" },
+        "requester": { "reference": "Practitioner/SYN-PR-0001" },
+        "medicationCodeableConcept": {
+          "coding": [
+            { "system": "http://snomed.info/sct", "code": "387517004", "display": "Paracetamol" }
+          ]
+        },
+        "dosageInstruction": [
+          {
+            "text": "500mg four times a day PRN",
+            "doseAndRate": [
+              { "doseQuantity": { "value": 500, "unit": "mg", "system": "http://unitsofmeasure.org", "code": "mg" } }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:rx-cocodamol",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "rx-cocodamol",
+        "status": "active",
+        "intent": "order",
+        "subject": { "reference": "Patient/SYN-P-0001" },
+        "requester": { "reference": "Practitioner/SYN-PR-0001" },
+        "medicationCodeableConcept": {
+          "coding": [
+            { "system": "http://snomed.info/sct", "code": "331400009", "display": "Co-codamol 30mg/500mg tablet" }
+          ]
+        },
+        "dosageInstruction": [
+          {
+            "text": "1-2 tablets four times a day PRN",
+            "doseAndRate": [
+              { "doseQuantity": { "value": 500, "unit": "mg", "system": "http://unitsofmeasure.org", "code": "mg" } }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

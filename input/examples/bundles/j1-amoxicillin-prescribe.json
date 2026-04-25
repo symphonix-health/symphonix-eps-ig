@@ -1,0 +1,105 @@
+{
+  "resourceType": "Bundle",
+  "id": "j1-amoxicillin-prescribe",
+  "type": "message",
+  "timestamp": "2026-04-25T12:00:00Z",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:msg-header",
+      "resource": {
+        "resourceType": "MessageHeader",
+        "id": "msg-header-j1",
+        "eventUri": "https://symphonix.health/fhir/eps/prescribe",
+        "destination": [
+          {
+            "endpoint": "https://etps.example/FHIR/R4/$process-message",
+            "receiver": {
+              "identifier": {
+                "system": "https://symphonix.health/fhir/identifier/global-org-id",
+                "value": "SYN-O-0001"
+              }
+            }
+          }
+        ],
+        "source": {
+          "endpoint": "https://eps.example/api/prescriptions",
+          "name": "EPS clinical workflow"
+        },
+        "extension": [
+          {
+            "url": "https://symphonix.health/fhir/eps/StructureDefinition/eps-idempotency-key",
+            "valueString": "j1-key-001"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:rx-001",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "rx-001",
+        "meta": {
+          "profile": ["https://symphonix.health/fhir/eps/StructureDefinition/eps-medication-request"]
+        },
+        "status": "active",
+        "intent": "order",
+        "subject": { "reference": "Patient/SYN-P-0001" },
+        "requester": { "reference": "Practitioner/SYN-PR-0001" },
+        "medicationCodeableConcept": {
+          "coding": [
+            { "system": "http://snomed.info/sct", "code": "27658006", "display": "Amoxicillin" },
+            { "system": "http://www.nlm.nih.gov/research/umls/rxnorm", "code": "723" },
+            { "system": "http://www.whocc.no/atc", "code": "J01CA04" }
+          ]
+        },
+        "dosageInstruction": [
+          {
+            "text": "500mg three times a day for 7 days",
+            "additionalInstruction": [
+              {
+                "coding": [
+                  { "system": "http://snomed.info/sct", "code": "395104009", "display": "Take regularly with meals" }
+                ]
+              }
+            ],
+            "doseAndRate": [
+              {
+                "doseQuantity": { "value": 500, "unit": "mg", "system": "http://unitsofmeasure.org", "code": "mg" }
+              }
+            ]
+          }
+        ],
+        "extension": [
+          {
+            "url": "https://symphonix.health/fhir/eps/StructureDefinition/eps-nomination-type",
+            "valueCode": "explicit"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:patient-alice",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "SYN-P-0001",
+        "identifier": [
+          { "system": "https://symphonix.health/fhir/identifier/global-patient-id", "value": "SYN-P-0001" }
+        ],
+        "name": [{ "family": "Example", "given": ["Alice"] }],
+        "gender": "female",
+        "birthDate": "1987-03-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:practitioner-hale",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "SYN-PR-0001",
+        "identifier": [
+          { "system": "https://symphonix.health/fhir/identifier/global-prescriber-id", "value": "SYN-PR-0001" }
+        ],
+        "name": [{ "family": "Hale", "given": ["J"], "prefix": ["Dr"] }]
+      }
+    }
+  ]
+}

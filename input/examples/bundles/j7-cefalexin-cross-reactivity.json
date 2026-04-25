@@ -1,0 +1,79 @@
+{
+  "resourceType": "Bundle",
+  "id": "j7-cefalexin-cross-reactivity",
+  "type": "message",
+  "timestamp": "2026-04-25T12:01:00Z",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:msg-header-j7",
+      "resource": {
+        "resourceType": "MessageHeader",
+        "id": "msg-header-j7",
+        "eventUri": "https://symphonix.health/fhir/eps/prescribe",
+        "destination": [
+          { "endpoint": "https://etps.example/FHIR/R4/$process-message" }
+        ],
+        "source": {
+          "endpoint": "https://eps.example/api/prescriptions",
+          "name": "EPS clinical workflow"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:rx-cefalexin",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "rx-cefalexin",
+        "meta": {
+          "profile": ["https://symphonix.health/fhir/eps/StructureDefinition/eps-medication-request"]
+        },
+        "status": "active",
+        "intent": "order",
+        "subject": { "reference": "Patient/SYN-P-0001" },
+        "requester": { "reference": "Practitioner/SYN-PR-0001" },
+        "medicationCodeableConcept": {
+          "coding": [
+            { "system": "http://snomed.info/sct", "code": "387467008", "display": "Cefalexin" },
+            { "system": "http://www.whocc.no/atc", "code": "J01DB01" }
+          ]
+        },
+        "dosageInstruction": [
+          {
+            "text": "500mg four times a day for 7 days",
+            "doseAndRate": [
+              {
+                "doseQuantity": { "value": 500, "unit": "mg", "system": "http://unitsofmeasure.org", "code": "mg" }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:allergy-penicillin",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "allergy-penicillin",
+        "meta": {
+          "profile": ["https://symphonix.health/fhir/eps/StructureDefinition/eps-allergy-intolerance"]
+        },
+        "patient": { "reference": "Patient/SYN-P-0001" },
+        "code": {
+          "coding": [
+            { "system": "http://snomed.info/sct", "code": "373270004", "display": "Substance with penicillin structure and antibacterial mechanism of action" }
+          ]
+        },
+        "extension": [
+          {
+            "url": "https://symphonix.health/fhir/eps/StructureDefinition/eps-allergen-group",
+            "valueCodeableConcept": {
+              "coding": [
+                { "system": "https://symphonix.health/fhir/eps/CodeSystem/eps-allergen-group", "code": "penicillin-class" }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

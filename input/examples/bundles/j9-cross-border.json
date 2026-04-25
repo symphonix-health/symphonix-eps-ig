@@ -1,0 +1,64 @@
+{
+  "resourceType": "Bundle",
+  "id": "j9-cross-border",
+  "type": "message",
+  "timestamp": "2026-04-25T12:04:00Z",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:msg-header-j9",
+      "resource": {
+        "resourceType": "MessageHeader",
+        "id": "msg-header-j9",
+        "eventUri": "https://symphonix.health/fhir/eps/prescribe",
+        "destination": [
+          {
+            "endpoint": "https://etps.example/FHIR/R4/$process-message",
+            "receiver": {
+              "identifier": {
+                "system": "https://symphonix.health/fhir/identifier/global-org-id",
+                "value": "SYN-O-0001"
+              }
+            }
+          }
+        ],
+        "source": { "endpoint": "https://eps.ie.example/api/prescriptions", "name": "EPS-IE" }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:rx-cross-border",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "rx-cross-border",
+        "status": "active",
+        "intent": "order",
+        "subject": {
+          "identifier": {
+            "system": "https://hse.ie/fhir/identifier/national-health-id",
+            "value": "IE-PHN-9000001"
+          }
+        },
+        "requester": {
+          "identifier": {
+            "system": "https://imc.ie/fhir/identifier/prescriber-registry",
+            "value": "IE-PR-0042"
+          }
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            { "system": "http://snomed.info/sct", "code": "27658006", "display": "Amoxicillin" },
+            { "system": "http://www.nlm.nih.gov/research/umls/rxnorm", "code": "723" },
+            { "system": "http://www.whocc.no/atc", "code": "J01CA04" }
+          ]
+        },
+        "dosageInstruction": [
+          {
+            "text": "500mg three times a day for 7 days",
+            "doseAndRate": [
+              { "doseQuantity": { "value": 500, "unit": "mg", "system": "http://unitsofmeasure.org", "code": "mg" } }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
