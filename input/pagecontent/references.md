@@ -57,7 +57,7 @@ next release (L-244).
 ## WHO / global
 
 - [WHO Global Strategy on Digital Health 2020-2025 / -2027 extension](https://www.who.int/publications/b/81640)
-- [WHO SMART Guidelines (DAK overview)](https://www.who.int/teams/digital-health-and-innovation/harnessing-digital-health/smart-guidelines)
+- [WHO SMART Guidelines](https://www.who.int/teams/digital-health-and-innovation/smart-guidelines)
 
 ## Community Pharmacy England / operational guidance
 
