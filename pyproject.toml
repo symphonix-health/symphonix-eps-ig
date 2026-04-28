@@ -29,4 +29,30 @@ packages = ["tests"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+markers = [
+    "scenario: scenario tests",
+    "monetisation: monetisation scenario tests",
+    "helixcare: HelixCare-specific tests",
+    "slow: slow / network-dependent tests",
+    "integration: integration tests against real services",
+    "visual: visual inspection tests requiring live servers and Playwright",
+    "unit: unit tests",
+    "contract: contract tests",
+    "system: system / e2e tests",
+    "acceptance: scenario acceptance tests",
+    "e2e: end-to-end tests",
+    "asyncio: async tests",
+]
+filterwarnings = [
+    "ignore:datetime.datetime.utcnow.*:DeprecationWarning",
+    "ignore::DeprecationWarning:langchain_core",
+    "ignore:asyncio.iscoroutinefunction:DeprecationWarning",
+    "ignore::jwt.warnings.InsecureKeyLengthWarning",
+]
 asyncio_mode = "auto"
+# Default sweep deselects @pytest.mark.slow (the citation-resolution
+# tests in test_citations.py). Those probe external regulatory hosts
+# and historically produce 26 skips per run when CDNs anti-bot the
+# test runner. Operators who want to verify citation health on demand:
+#   pytest -m slow tests/test_citations.py
+addopts = "-m 'not slow'"
