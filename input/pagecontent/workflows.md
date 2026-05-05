@@ -6,6 +6,7 @@ journeys J1-J10 authored by the test harness in the consumer simulators.
 ## J1 — Happy-path prescribe to dispense
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#121445', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#6C63FF', 'lineColor': '#6C63FF', 'secondaryColor': '#1a237e', 'tertiaryColor': '#0d3b2e', 'noteBkgColor': '#2c1a4e', 'noteTextColor': '#ffffff', 'activationBkgColor': '#4a0072', 'activationBorderColor': '#ce93d8'}}}%%
 sequenceDiagram
     participant Prescriber as provider-portal
     participant EPS as eps (clinical)
@@ -30,6 +31,7 @@ sequenceDiagram
 ## J2 — Nomination churn mid-flow
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#121445', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#6C63FF', 'lineColor': '#6C63FF', 'secondaryColor': '#1a237e', 'tertiaryColor': '#0d3b2e', 'noteBkgColor': '#2c1a4e', 'noteTextColor': '#ffffff', 'activationBkgColor': '#4a0072', 'activationBorderColor': '#ce93d8'}}}%%
 sequenceDiagram
     participant Patient as citizen-portal
     participant ETPS as etps
@@ -55,6 +57,7 @@ Parent prescription authorises N issues over interval_days. EPS owns the
 `repeat-issue-number` extension and releases each issue on schedule.
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#121445', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#6C63FF', 'lineColor': '#6C63FF', 'secondaryColor': '#1a237e', 'tertiaryColor': '#0d3b2e', 'noteBkgColor': '#2c1a4e', 'noteTextColor': '#ffffff', 'activationBkgColor': '#4a0072', 'activationBorderColor': '#ce93d8'}}}%%
 sequenceDiagram
     participant EPS as eps
     participant ETPS as etps
@@ -75,6 +78,7 @@ Controlled-drug register append is a separate webhook fan-out.
 ## J5 — Spine outage: store-and-forward
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#121445', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#6C63FF', 'lineColor': '#6C63FF', 'secondaryColor': '#1a237e', 'tertiaryColor': '#0d3b2e', 'noteBkgColor': '#2c1a4e', 'noteTextColor': '#ffffff', 'activationBkgColor': '#4a0072', 'activationBorderColor': '#ce93d8'}}}%%
 sequenceDiagram
     participant Pharm as pharmacy-system (offline)
     participant LocalQ as local queue
