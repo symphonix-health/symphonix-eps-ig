@@ -1,0 +1,24 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-json
+      - id: check-merge-conflict
+      - id: check-added-large-files
+        args: ["--maxkb=512"]
+
+  - repo: local
+    hooks:
+      - id: pytest-profiles
+        name: pytest FHIR profiles (replaces ig-build.yml test step)
+        entry: python -m pytest tests/test_profiles.py -x --tb=short -q
+        language: system
+        pass_filenames: false
+        files: ^(input/.*|tests/test_profiles\.py)$
+
+# NOTE: The full IG build (fsh-sushi + _genonce.sh) downloads the FHIR
+# publisher JAR and takes minutes. Run as a local script, not pre-commit:
+#   npm install -g fsh-sushi && bash _updatePublisher.sh && bash _genonce.sh
