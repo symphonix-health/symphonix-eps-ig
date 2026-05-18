@@ -1,4 +1,4 @@
-subsystem_default = "eps"
+subsystem_default = "symphonix-eps-ig"
 requirement_id_prefixes = ["EPSIG-"]
 
 [paths]
