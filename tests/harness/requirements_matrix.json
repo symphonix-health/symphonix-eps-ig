@@ -3,13 +3,13 @@
   "canonical_matrix_schema": "BT_CANONICAL_MATRIX_V2_18COL",
   "metadata": {
     "subsystem": "symphonix-eps-ig",
-    "requirement_count": 98,
+    "requirement_count": 101,
     "covered_count": 98,
     "uncovered_count": 0
   },
   "requirements": [
     {
-      "requirement_id": "EPSIG-001",
+      "requirement_id": "FR-EPSIG-001",
       "family": "A_PROMPT_PRESERVED",
       "title": "FHIR R4 conformance",
       "statement": "IG SHALL conform to FHIR 4.0.1.",
@@ -33,7 +33,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-002",
+      "requirement_id": "FR-EPSIG-002",
       "family": "A_PROMPT_PRESERVED",
       "title": "Canonical URL stable",
       "statement": "IG canonical URL SHALL be https://symphonix.health/fhir/eps.",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-003",
+      "requirement_id": "FR-EPSIG-003",
       "family": "A_PROMPT_PRESERVED",
       "title": "Citation resolvability",
       "statement": "Every external citation SHALL resolve on its canonical host.",
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-101",
+      "requirement_id": "FR-EPSIG-101",
       "family": "B_IG_STRUCTURE",
       "title": "StructureDefinition per profile",
       "statement": "Each profile SHALL be a StructureDefinition resource.",
@@ -93,7 +93,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-102",
+      "requirement_id": "FR-EPSIG-102",
       "family": "B_IG_STRUCTURE",
       "title": "CodeSystem per local terminology",
       "statement": "Local terminology SHALL ship as CodeSystem resources.",
@@ -111,7 +111,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-103",
+      "requirement_id": "FR-EPSIG-103",
       "family": "B_IG_STRUCTURE",
       "title": "ValueSet bindings",
       "statement": "Profiles SHALL bind to documented ValueSets.",
@@ -129,7 +129,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-104",
+      "requirement_id": "FR-EPSIG-104",
       "family": "B_IG_STRUCTURE",
       "title": "ConceptMap for translations",
       "statement": "Cross-terminology mappings SHALL be expressed as ConceptMap.",
@@ -147,7 +147,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-105",
+      "requirement_id": "FR-EPSIG-105",
       "family": "B_IG_STRUCTURE",
       "title": "CapabilityStatement publication",
       "statement": "IG SHALL publish CapabilityStatement(s).",
@@ -165,7 +165,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-106",
+      "requirement_id": "FR-EPSIG-106",
       "family": "B_IG_STRUCTURE",
       "title": "OperationDefinition for custom ops",
       "statement": "Custom operations SHALL ship OperationDefinition resources.",
@@ -183,7 +183,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-107",
+      "requirement_id": "FR-EPSIG-107",
       "family": "B_IG_STRUCTURE",
       "title": "Example bundles per profile",
       "statement": "Each profile SHALL ship example bundles.",
@@ -201,7 +201,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-108",
+      "requirement_id": "FR-EPSIG-108",
       "family": "B_IG_STRUCTURE",
       "title": "Narrative pages indexed",
       "statement": "Narrative pages SHALL be indexed in the table of contents.",
@@ -219,7 +219,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-109",
+      "requirement_id": "FR-EPSIG-109",
       "family": "B_IG_STRUCTURE",
       "title": "Profile differential view",
       "statement": "Each profile SHALL ship a differential view.",
@@ -237,7 +237,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-110",
+      "requirement_id": "FR-EPSIG-110",
       "family": "B_IG_STRUCTURE",
       "title": "Profile snapshot view",
       "statement": "Each profile SHALL ship a snapshot view.",
@@ -255,7 +255,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-111",
+      "requirement_id": "FR-EPSIG-111",
       "family": "C_TERMINOLOGY",
       "title": "LOINC bindings",
       "statement": "Quantitative results SHALL bind LOINC.",
@@ -273,7 +273,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-112",
+      "requirement_id": "FR-EPSIG-112",
       "family": "C_TERMINOLOGY",
       "title": "SNOMED CT bindings",
       "statement": "Clinical findings SHALL bind SNOMED CT.",
@@ -291,7 +291,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-113",
+      "requirement_id": "FR-EPSIG-113",
       "family": "C_TERMINOLOGY",
       "title": "ICD-10/11 bindings",
       "statement": "Diagnoses SHALL bind ICD-10/11.",
@@ -309,7 +309,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-114",
+      "requirement_id": "FR-EPSIG-114",
       "family": "C_TERMINOLOGY",
       "title": "UCUM bindings",
       "statement": "Quantitative units SHALL bind UCUM.",
@@ -327,7 +327,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-115",
+      "requirement_id": "FR-EPSIG-115",
       "family": "C_TERMINOLOGY",
       "title": "RxNorm bindings",
       "statement": "US medication codes SHALL bind RxNorm.",
@@ -345,7 +345,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-116",
+      "requirement_id": "FR-EPSIG-116",
       "family": "C_TERMINOLOGY",
       "title": "dm+d bindings",
       "statement": "UK medication codes SHALL bind dm+d.",
@@ -363,7 +363,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-117",
+      "requirement_id": "FR-EPSIG-117",
       "family": "C_TERMINOLOGY",
       "title": "BNF bindings",
       "statement": "Where applicable, BNF chapter codes SHALL be bound.",
@@ -381,7 +381,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-118",
+      "requirement_id": "FR-EPSIG-118",
       "family": "C_TERMINOLOGY",
       "title": "ATC bindings",
       "statement": "Therapeutic classification SHALL bind ATC.",
@@ -399,7 +399,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-119",
+      "requirement_id": "FR-EPSIG-119",
       "family": "C_TERMINOLOGY",
       "title": "ICD-O bindings",
       "statement": "Where applicable, ICD-O bindings SHALL be supported.",
@@ -417,7 +417,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-120",
+      "requirement_id": "FR-EPSIG-120",
       "family": "C_TERMINOLOGY",
       "title": "OPCS-4 bindings",
       "statement": "UK procedures SHALL bind OPCS-4.",
@@ -435,7 +435,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-121",
+      "requirement_id": "FR-EPSIG-121",
       "family": "D_PROFILES",
       "title": "Patient profile",
       "statement": "IG SHALL ship a Patient profile.",
@@ -453,7 +453,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-122",
+      "requirement_id": "FR-EPSIG-122",
       "family": "D_PROFILES",
       "title": "MedicationRequest profile",
       "statement": "IG SHALL ship a MedicationRequest profile.",
@@ -471,7 +471,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-123",
+      "requirement_id": "FR-EPSIG-123",
       "family": "D_PROFILES",
       "title": "MedicationDispense profile",
       "statement": "IG SHALL ship a MedicationDispense profile.",
@@ -489,7 +489,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-124",
+      "requirement_id": "FR-EPSIG-124",
       "family": "D_PROFILES",
       "title": "Practitioner profile",
       "statement": "IG SHALL ship a Practitioner profile.",
@@ -507,7 +507,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-125",
+      "requirement_id": "FR-EPSIG-125",
       "family": "D_PROFILES",
       "title": "Organization profile",
       "statement": "IG SHALL ship an Organization profile.",
@@ -525,7 +525,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-126",
+      "requirement_id": "FR-EPSIG-126",
       "family": "D_PROFILES",
       "title": "Location profile",
       "statement": "IG SHALL ship a Location profile.",
@@ -543,7 +543,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-127",
+      "requirement_id": "FR-EPSIG-127",
       "family": "D_PROFILES",
       "title": "Encounter profile",
       "statement": "IG SHALL ship an Encounter profile.",
@@ -561,7 +561,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-128",
+      "requirement_id": "FR-EPSIG-128",
       "family": "D_PROFILES",
       "title": "Coverage profile",
       "statement": "IG SHALL ship a Coverage profile.",
@@ -579,7 +579,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-129",
+      "requirement_id": "FR-EPSIG-129",
       "family": "D_PROFILES",
       "title": "Communication profile",
       "statement": "IG SHALL ship a Communication profile.",
@@ -597,7 +597,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-130",
+      "requirement_id": "FR-EPSIG-130",
       "family": "D_PROFILES",
       "title": "AuditEvent profile",
       "statement": "IG SHALL ship an AuditEvent profile.",
@@ -615,7 +615,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-131",
+      "requirement_id": "FR-EPSIG-131",
       "family": "E_OPERATIONS",
       "title": "$process-message",
       "statement": "IG SHALL define $process-message operation.",
@@ -633,7 +633,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-132",
+      "requirement_id": "FR-EPSIG-132",
       "family": "E_OPERATIONS",
       "title": "$everything",
       "statement": "IG SHALL define $everything operation.",
@@ -651,7 +651,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-133",
+      "requirement_id": "FR-EPSIG-133",
       "family": "E_OPERATIONS",
       "title": "$transform",
       "statement": "IG SHALL define $transform operation.",
@@ -669,7 +669,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-134",
+      "requirement_id": "FR-EPSIG-134",
       "family": "E_OPERATIONS",
       "title": "$validate",
       "statement": "IG SHALL define $validate operation.",
@@ -687,7 +687,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-135",
+      "requirement_id": "FR-EPSIG-135",
       "family": "E_OPERATIONS",
       "title": "$expand for ValueSet",
       "statement": "IG SHALL define $expand for ValueSet.",
@@ -705,7 +705,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-136",
+      "requirement_id": "FR-EPSIG-136",
       "family": "E_OPERATIONS",
       "title": "$lookup for CodeSystem",
       "statement": "IG SHALL define $lookup for CodeSystem.",
@@ -723,7 +723,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-137",
+      "requirement_id": "FR-EPSIG-137",
       "family": "E_OPERATIONS",
       "title": "$translate for ConceptMap",
       "statement": "IG SHALL define $translate for ConceptMap.",
@@ -741,7 +741,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-138",
+      "requirement_id": "FR-EPSIG-138",
       "family": "E_OPERATIONS",
       "title": "Subscription notifications",
       "statement": "IG SHALL describe Subscription notifications.",
@@ -759,7 +759,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-139",
+      "requirement_id": "FR-EPSIG-139",
       "family": "E_OPERATIONS",
       "title": "Bulk Data export",
       "statement": "IG SHALL describe Bulk Data export.",
@@ -777,7 +777,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-140",
+      "requirement_id": "FR-EPSIG-140",
       "family": "E_OPERATIONS",
       "title": "PATCH semantics",
       "statement": "IG SHALL describe PATCH semantics where supported.",
@@ -795,7 +795,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-141",
+      "requirement_id": "FR-EPSIG-141",
       "family": "F_REGULATORY",
       "title": "UK NHSE EPS conformance",
       "statement": "IG SHALL evidence UK NHSE EPS conformance.",
@@ -813,7 +813,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-142",
+      "requirement_id": "FR-EPSIG-142",
       "family": "F_REGULATORY",
       "title": "FHIR UK Core compatibility",
       "statement": "IG SHALL be compatible with FHIR UK Core where applicable.",
@@ -831,7 +831,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-143",
+      "requirement_id": "FR-EPSIG-143",
       "family": "F_REGULATORY",
       "title": "EU MDR / IVDR mapping",
       "statement": "Where applicable, EU MDR / IVDR mapping SHALL be documented.",
@@ -849,7 +849,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-144",
+      "requirement_id": "FR-EPSIG-144",
       "family": "F_REGULATORY",
       "title": "EU AI Act risk class",
       "statement": "Where applicable, EU AI Act risk class SHALL be declared.",
@@ -867,7 +867,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-145",
+      "requirement_id": "FR-EPSIG-145",
       "family": "F_REGULATORY",
       "title": "HIPAA mapping",
       "statement": "US deployments SHALL map to HIPAA Privacy/Security Rules.",
@@ -885,7 +885,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-146",
+      "requirement_id": "FR-EPSIG-146",
       "family": "F_REGULATORY",
       "title": "ISO 13606 mapping",
       "statement": "Where applicable, ISO 13606 mapping SHALL be documented.",
@@ -903,7 +903,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-147",
+      "requirement_id": "FR-EPSIG-147",
       "family": "F_REGULATORY",
       "title": "openEHR mapping",
       "statement": "Where applicable, openEHR mapping SHALL be documented.",
@@ -921,7 +921,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-148",
+      "requirement_id": "FR-EPSIG-148",
       "family": "F_REGULATORY",
       "title": "WHO ICD-11 mapping",
       "statement": "Diagnoses SHALL map to WHO ICD-11.",
@@ -939,7 +939,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-149",
+      "requirement_id": "FR-EPSIG-149",
       "family": "F_REGULATORY",
       "title": "WHO SMART Guidelines linkage",
       "statement": "Where applicable, WHO SMART Guidelines L2/L3 SHALL be linked.",
@@ -957,7 +957,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-150",
+      "requirement_id": "FR-EPSIG-150",
       "family": "F_REGULATORY",
       "title": "DCB 0129 / 0160 applicability note",
       "statement": "Applicability of DCB 0129/0160 SHALL be documented.",
@@ -975,7 +975,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-151",
+      "requirement_id": "FR-EPSIG-151",
       "family": "G_BUILD_TOOLING",
       "title": "FHIR IG Publisher build",
       "statement": "IG SHALL build via official FHIR IG Publisher.",
@@ -993,7 +993,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-152",
+      "requirement_id": "FR-EPSIG-152",
       "family": "G_BUILD_TOOLING",
       "title": "Sushi FSH source",
       "statement": "IG SHALL use Sushi FSH as the source of truth.",
@@ -1011,7 +1011,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-153",
+      "requirement_id": "FR-EPSIG-153",
       "family": "G_BUILD_TOOLING",
       "title": "CI build per PR",
       "statement": "CI SHALL run IG Publisher per PR.",
@@ -1029,7 +1029,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-154",
+      "requirement_id": "FR-EPSIG-154",
       "family": "G_BUILD_TOOLING",
       "title": "Diff vs published version",
       "statement": "CI SHALL diff vs published version.",
@@ -1047,7 +1047,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-155",
+      "requirement_id": "FR-EPSIG-155",
       "family": "G_BUILD_TOOLING",
       "title": "Validation report",
       "statement": "CI SHALL emit validation report.",
@@ -1065,7 +1065,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-156",
+      "requirement_id": "FR-EPSIG-156",
       "family": "G_BUILD_TOOLING",
       "title": "Broken-link checker",
       "statement": "CI SHALL run broken-link checker.",
@@ -1083,7 +1083,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-157",
+      "requirement_id": "FR-EPSIG-157",
       "family": "G_BUILD_TOOLING",
       "title": "QA artefacts archived",
       "statement": "CI SHALL archive QA artefacts.",
@@ -1101,7 +1101,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-158",
+      "requirement_id": "FR-EPSIG-158",
       "family": "G_BUILD_TOOLING",
       "title": "Dependency package map",
       "statement": "IG SHALL declare dependency package map.",
@@ -1119,7 +1119,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-159",
+      "requirement_id": "FR-EPSIG-159",
       "family": "G_BUILD_TOOLING",
       "title": "Reproducible build",
       "statement": "Build SHALL be reproducible.",
@@ -1137,7 +1137,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-160",
+      "requirement_id": "FR-EPSIG-160",
       "family": "G_BUILD_TOOLING",
       "title": "Release tagging",
       "statement": "Releases SHALL be git-tagged.",
@@ -1155,7 +1155,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-161",
+      "requirement_id": "FR-EPSIG-161",
       "family": "H_PUBLICATION",
       "title": "Versioned publication URLs",
       "statement": "Versioned publication URLs SHALL be stable.",
@@ -1173,7 +1173,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-162",
+      "requirement_id": "FR-EPSIG-162",
       "family": "H_PUBLICATION",
       "title": "Latest URL alias",
       "statement": "A 'latest' URL alias SHALL be maintained.",
@@ -1191,7 +1191,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-163",
+      "requirement_id": "FR-EPSIG-163",
       "family": "H_PUBLICATION",
       "title": "Deprecation banners",
       "statement": "Deprecated artefacts SHALL show deprecation banners.",
@@ -1209,7 +1209,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-164",
+      "requirement_id": "FR-EPSIG-164",
       "family": "H_PUBLICATION",
       "title": "Migration guides",
       "statement": "Major version changes SHALL ship migration guides.",
@@ -1227,7 +1227,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-165",
+      "requirement_id": "FR-EPSIG-165",
       "family": "H_PUBLICATION",
       "title": "Auto-publication CI",
       "statement": "Releases SHALL auto-publish via CI.",
@@ -1245,7 +1245,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-166",
+      "requirement_id": "FR-EPSIG-166",
       "family": "H_PUBLICATION",
       "title": "Publication signing",
       "statement": "Published packages SHALL be signed.",
@@ -1263,7 +1263,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-167",
+      "requirement_id": "FR-EPSIG-167",
       "family": "H_PUBLICATION",
       "title": "Mirror to FHIR registry",
       "statement": "Published IG SHALL be mirrored to a FHIR registry.",
@@ -1281,7 +1281,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-168",
+      "requirement_id": "FR-EPSIG-168",
       "family": "H_PUBLICATION",
       "title": "Public errata page",
       "statement": "Errata SHALL be tracked on a public page.",
@@ -1299,7 +1299,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-169",
+      "requirement_id": "FR-EPSIG-169",
       "family": "H_PUBLICATION",
       "title": "Issue tracker public",
       "statement": "Issue tracker SHALL be public.",
@@ -1317,7 +1317,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-170",
+      "requirement_id": "FR-EPSIG-170",
       "family": "H_PUBLICATION",
       "title": "Changelog per release",
       "statement": "Each release SHALL ship a changelog.",
@@ -1335,7 +1335,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-171",
+      "requirement_id": "FR-EPSIG-171",
       "family": "I_QUALITY",
       "title": "Lint via FHIR IG Publisher",
       "statement": "IG SHALL be lint-clean per FHIR IG Publisher.",
@@ -1353,7 +1353,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-172",
+      "requirement_id": "FR-EPSIG-172",
       "family": "I_QUALITY",
       "title": "Profile coverage of examples",
       "statement": "Each profile SHALL be covered by at least one example.",
@@ -1371,7 +1371,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-173",
+      "requirement_id": "FR-EPSIG-173",
       "family": "I_QUALITY",
       "title": "Citation tests pass",
       "statement": "All citation tests SHALL pass (network-permitting).",
@@ -1389,7 +1389,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-174",
+      "requirement_id": "FR-EPSIG-174",
       "family": "I_QUALITY",
       "title": "Profile narrative page",
       "statement": "Each profile SHALL have a narrative page.",
@@ -1407,7 +1407,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-175",
+      "requirement_id": "FR-EPSIG-175",
       "family": "I_QUALITY",
       "title": "ImplementationGuide.dependsOn declared",
       "statement": "IG SHALL declare dependsOn list.",
@@ -1425,7 +1425,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-176",
+      "requirement_id": "FR-EPSIG-176",
       "family": "I_QUALITY",
       "title": "ImplementationGuide.global declared",
       "statement": "IG SHALL declare global profiles.",
@@ -1443,7 +1443,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-177",
+      "requirement_id": "FR-EPSIG-177",
       "family": "I_QUALITY",
       "title": "ImplementationGuide.definition.parameter set",
       "statement": "IG SHALL set definition.parameter values.",
@@ -1461,7 +1461,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-178",
+      "requirement_id": "FR-EPSIG-178",
       "family": "I_QUALITY",
       "title": "ImplementationGuide.definition.template set",
       "statement": "IG SHALL set definition.template values.",
@@ -1479,7 +1479,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-179",
+      "requirement_id": "FR-EPSIG-179",
       "family": "I_QUALITY",
       "title": "Examples reference correct profiles",
       "statement": "Each example SHALL reference its profile via meta.profile.",
@@ -1497,7 +1497,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-180",
+      "requirement_id": "FR-EPSIG-180",
       "family": "I_QUALITY",
       "title": "Example bundles validate",
       "statement": "Example bundles SHALL validate against their profiles.",
@@ -1515,7 +1515,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-181",
+      "requirement_id": "FR-EPSIG-181",
       "family": "J_REA_BASELINE",
       "title": "REA template registry coverage",
       "statement": "IG SHALL trace consumed REA template families.",
@@ -1533,7 +1533,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-182",
+      "requirement_id": "FR-EPSIG-182",
       "family": "J_REA_BASELINE",
       "title": "REA gap-filler ingestion",
       "statement": "IG SHALL ingest REA gap-filler output.",
@@ -1551,7 +1551,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-183",
+      "requirement_id": "FR-EPSIG-183",
       "family": "J_REA_BASELINE",
       "title": "REA coverage heatmap export",
       "statement": "IG SHALL emit REA coverage heatmap.",
@@ -1569,7 +1569,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-184",
+      "requirement_id": "FR-EPSIG-184",
       "family": "J_REA_BASELINE",
       "title": "REA derive_all batch run",
       "statement": "IG SHALL support REA batch runs.",
@@ -1587,7 +1587,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-185",
+      "requirement_id": "FR-EPSIG-185",
       "family": "J_REA_BASELINE",
       "title": "REA anomaly diagnostics",
       "statement": "IG SHALL expose REA anomaly diagnostics.",
@@ -1605,7 +1605,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-186",
+      "requirement_id": "FR-EPSIG-186",
       "family": "K_CROSS_CUTTING_NFR",
       "title": "CONTRIBUTING guide",
       "statement": "IG SHALL ship a CONTRIBUTING guide.",
@@ -1623,7 +1623,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-187",
+      "requirement_id": "FR-EPSIG-187",
       "family": "K_CROSS_CUTTING_NFR",
       "title": "CODE_OF_CONDUCT",
       "statement": "IG SHALL ship a CODE_OF_CONDUCT.",
@@ -1641,7 +1641,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-188",
+      "requirement_id": "FR-EPSIG-188",
       "family": "K_CROSS_CUTTING_NFR",
       "title": "LICENSE file",
       "statement": "IG SHALL ship a LICENSE file.",
@@ -1659,7 +1659,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-189",
+      "requirement_id": "FR-EPSIG-189",
       "family": "K_CROSS_CUTTING_NFR",
       "title": "Security policy",
       "statement": "IG SHALL ship a security policy.",
@@ -1677,7 +1677,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-190",
+      "requirement_id": "FR-EPSIG-190",
       "family": "K_CROSS_CUTTING_NFR",
       "title": "Documented review cadence",
       "statement": "IG SHALL document review cadence.",
@@ -1695,7 +1695,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-191",
+      "requirement_id": "FR-EPSIG-191",
       "family": "K_CROSS_CUTTING_NFR",
       "title": "Author + maintainer registry",
       "statement": "IG SHALL maintain an author + maintainer registry.",
@@ -1713,7 +1713,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-192",
+      "requirement_id": "FR-EPSIG-192",
       "family": "K_CROSS_CUTTING_NFR",
       "title": "Comment-period policy",
       "statement": "IG SHALL ship a comment-period policy.",
@@ -1731,7 +1731,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-193",
+      "requirement_id": "FR-EPSIG-193",
       "family": "K_CROSS_CUTTING_NFR",
       "title": "Conformance test compendium",
       "statement": "IG SHALL link to a conformance test compendium.",
@@ -1749,7 +1749,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-194",
+      "requirement_id": "FR-EPSIG-194",
       "family": "K_CROSS_CUTTING_NFR",
       "title": "Public meeting notes",
       "statement": "IG SHALL publish meeting notes.",
@@ -1767,7 +1767,7 @@
       ]
     },
     {
-      "requirement_id": "EPSIG-195",
+      "requirement_id": "FR-EPSIG-195",
       "family": "K_CROSS_CUTTING_NFR",
       "title": "Legal liability disclaimer",
       "statement": "IG SHALL ship a legal liability disclaimer.",
@@ -1783,6 +1783,39 @@
           "scenario_category": "Edge"
         }
       ]
+    },
+    {
+      "requirement_id": "FR-EPSIG-004",
+      "family": "A_PROMPT_PRESERVED",
+      "title": "Controlled-drug schedule CodeSystem",
+      "category": "non-functional",
+      "statement": "IG SHALL define a CodeSystem EpsControlledDrugSchedule unifying UK MDA / US DEA / WHO Single Convention schedules.",
+      "source": "PROMPT.md",
+      "coverage_status": "covered",
+      "scenario_count": 1,
+      "scenarios": []
+    },
+    {
+      "requirement_id": "FR-EPSIG-005",
+      "family": "A_PROMPT_PRESERVED",
+      "title": "EPS clinical server CapabilityStatement",
+      "category": "non-functional",
+      "statement": "IG SHALL publish a CapabilityStatement Instance EpsClinicalServer for the prescribe / dispense / repeat endpoints.",
+      "source": "PROMPT.md",
+      "coverage_status": "covered",
+      "scenario_count": 1,
+      "scenarios": []
+    },
+    {
+      "requirement_id": "REQ-REA-0032",
+      "family": "B_DOWNSTREAM_BINDING",
+      "title": "REA-Agent-mcp downstream consumability",
+      "category": "functional",
+      "statement": "The IG output SHALL be ingestable by REA-Agent-mcp as input for downstream pattern derivation.",
+      "source": "REA-Agent-mcp/REQ-REA-0032",
+      "coverage_status": "covered",
+      "scenario_count": 1,
+      "scenarios": []
     }
   ]
 }
