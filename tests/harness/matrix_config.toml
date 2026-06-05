@@ -1,5 +1,5 @@
 subsystem_default = "symphonix-eps-ig"
-requirement_id_prefixes = ["EPSIG-"]
+requirement_id_prefixes = ["FR-EPSIG-", "REQ-REA-"]
 
 [paths]
 json_dir = "tests/harness/json_matrices"
@@ -11,4 +11,4 @@ out_dir = "tests/harness/json_matrices"
 out_file = "compliance-policy_scenarios.json"
 uc_sep = "underscore"
 has_crosslink = false
-default_artefact = "docs/REQUIREMENTS_SUPERSET.md"
+default_artefact = "docs/REQUIREMENTS.md"

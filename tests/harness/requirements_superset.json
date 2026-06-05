@@ -5,6 +5,7 @@
     "requirement_count": 101,
     "families": [
       "A_PROMPT_PRESERVED",
+      "B_DOWNSTREAM_BINDING",
       "B_IG_STRUCTURE",
       "C_TERMINOLOGY",
       "D_PROFILES",

@@ -13,15 +13,15 @@ OUT = ROOT / "tests" / "harness" / "requirements_superset.json"
 
 def _build() -> list[dict]:
     reqs: list[dict] = [
-        {"requirement_id": "EPSIG-001", "family": "A_PROMPT_PRESERVED",
+        {"requirement_id": "FR-EPSIG-001", "family": "A_PROMPT_PRESERVED",
          "title": "FHIR R4 conformance", "category": "non-functional",
          "statement": "IG SHALL conform to FHIR 4.0.1.",
          "source": "README.md"},
-        {"requirement_id": "EPSIG-002", "family": "A_PROMPT_PRESERVED",
+        {"requirement_id": "FR-EPSIG-002", "family": "A_PROMPT_PRESERVED",
          "title": "Canonical URL stable", "category": "non-functional",
          "statement": "IG canonical URL SHALL be https://symphonix.health/fhir/eps.",
          "source": "README.md"},
-        {"requirement_id": "EPSIG-003", "family": "A_PROMPT_PRESERVED",
+        {"requirement_id": "FR-EPSIG-003", "family": "A_PROMPT_PRESERVED",
          "title": "Citation resolvability",
          "statement": "Every external citation SHALL resolve on its canonical host.",
          "category": "non-functional",
@@ -165,7 +165,7 @@ def _build() -> list[dict]:
     for family, items in families.items():
         for title, statement in items:
             while True:
-                rid = f"EPSIG-{next_id + 100:03d}"
+                rid = f"FR-EPSIG-{next_id + 100:03d}"
                 next_id += 1
                 if rid not in used:
                     break
@@ -178,6 +178,41 @@ def _build() -> list[dict]:
                             "non-functional",
                 "source": family.split("_", 1)[1].replace("_", " ").title(),
             })
+    reqs.extend([
+        {
+            "requirement_id": "FR-EPSIG-004",
+            "family": "A_PROMPT_PRESERVED",
+            "title": "Controlled-drug schedule CodeSystem",
+            "category": "non-functional",
+            "statement": (
+                "IG SHALL define a CodeSystem EpsControlledDrugSchedule "
+                "unifying UK MDA / US DEA / WHO Single Convention schedules."
+            ),
+            "source": "PROMPT.md",
+        },
+        {
+            "requirement_id": "FR-EPSIG-005",
+            "family": "A_PROMPT_PRESERVED",
+            "title": "EPS clinical server CapabilityStatement",
+            "category": "non-functional",
+            "statement": (
+                "IG SHALL publish a CapabilityStatement Instance "
+                "EpsClinicalServer for the prescribe / dispense / repeat endpoints."
+            ),
+            "source": "PROMPT.md",
+        },
+        {
+            "requirement_id": "REQ-REA-0032",
+            "family": "B_DOWNSTREAM_BINDING",
+            "title": "REA-Agent-mcp downstream consumability",
+            "category": "functional",
+            "statement": (
+                "The IG output SHALL be ingestable by REA-Agent-mcp as input "
+                "for downstream pattern derivation."
+            ),
+            "source": "REA-Agent-mcp/REQ-REA-0032",
+        },
+    ])
     return reqs
 
 

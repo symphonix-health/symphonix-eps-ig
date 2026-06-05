@@ -4,7 +4,7 @@
   "metadata": {
     "subsystem": "symphonix-eps-ig",
     "requirement_count": 101,
-    "covered_count": 98,
+    "covered_count": 101,
     "uncovered_count": 0
   },
   "requirements": [
@@ -16,19 +16,13 @@
       "category": "non-functional",
       "source": "README.md",
       "coverage_status": "covered",
-      "scenario_count": 2,
+      "scenario_count": 1,
       "scenarios": [
         {
           "matrix": "compliance_policy_canonical.json",
           "subsystem": "compliance-policy",
           "use_case_id": "compliance_policy_POS_0001",
           "scenario_category": "Positive"
-        },
-        {
-          "matrix": "compliance_policy_canonical.json",
-          "subsystem": "compliance-policy",
-          "use_case_id": "compliance_policy_EDG_0099",
-          "scenario_category": "Edge"
         }
       ]
     },
@@ -40,19 +34,13 @@
       "category": "non-functional",
       "source": "README.md",
       "coverage_status": "covered",
-      "scenario_count": 2,
+      "scenario_count": 1,
       "scenarios": [
         {
           "matrix": "compliance_policy_canonical.json",
           "subsystem": "compliance-policy",
           "use_case_id": "compliance_policy_POS_0002",
           "scenario_category": "Positive"
-        },
-        {
-          "matrix": "compliance_policy_canonical.json",
-          "subsystem": "compliance-policy",
-          "use_case_id": "compliance_policy_EDG_0100",
-          "scenario_category": "Edge"
         }
       ]
     },
@@ -1788,34 +1776,55 @@
       "requirement_id": "FR-EPSIG-004",
       "family": "A_PROMPT_PRESERVED",
       "title": "Controlled-drug schedule CodeSystem",
-      "category": "non-functional",
       "statement": "IG SHALL define a CodeSystem EpsControlledDrugSchedule unifying UK MDA / US DEA / WHO Single Convention schedules.",
+      "category": "non-functional",
       "source": "PROMPT.md",
       "coverage_status": "covered",
       "scenario_count": 1,
-      "scenarios": []
+      "scenarios": [
+        {
+          "matrix": "compliance_policy_canonical.json",
+          "subsystem": "compliance-policy",
+          "use_case_id": "compliance_policy_EDG_0099",
+          "scenario_category": "Edge"
+        }
+      ]
     },
     {
       "requirement_id": "FR-EPSIG-005",
       "family": "A_PROMPT_PRESERVED",
       "title": "EPS clinical server CapabilityStatement",
-      "category": "non-functional",
       "statement": "IG SHALL publish a CapabilityStatement Instance EpsClinicalServer for the prescribe / dispense / repeat endpoints.",
+      "category": "non-functional",
       "source": "PROMPT.md",
       "coverage_status": "covered",
       "scenario_count": 1,
-      "scenarios": []
+      "scenarios": [
+        {
+          "matrix": "compliance_policy_canonical.json",
+          "subsystem": "compliance-policy",
+          "use_case_id": "compliance_policy_EDG_0100",
+          "scenario_category": "Edge"
+        }
+      ]
     },
     {
       "requirement_id": "REQ-REA-0032",
       "family": "B_DOWNSTREAM_BINDING",
       "title": "REA-Agent-mcp downstream consumability",
-      "category": "functional",
       "statement": "The IG output SHALL be ingestable by REA-Agent-mcp as input for downstream pattern derivation.",
+      "category": "functional",
       "source": "REA-Agent-mcp/REQ-REA-0032",
       "coverage_status": "covered",
       "scenario_count": 1,
-      "scenarios": []
+      "scenarios": [
+        {
+          "matrix": "compliance_policy_canonical.json",
+          "subsystem": "compliance-policy",
+          "use_case_id": "compliance_policy_EDG_0099",
+          "scenario_category": "Edge"
+        }
+      ]
     }
   ]
 }

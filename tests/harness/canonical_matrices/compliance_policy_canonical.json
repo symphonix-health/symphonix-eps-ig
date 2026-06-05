@@ -31,13 +31,13 @@
       "use_case_id": "compliance_policy_POS_0001",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-001"
+        "FR-EPSIG-001"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-001 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-001: IG SHALL conform to FHIR 4.0.1.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -47,9 +47,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0001",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-001",
+          "requirement_id": "FR-EPSIG-001",
           "additional_requirement_ids": []
         }
       },
@@ -57,7 +57,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -67,9 +67,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-001",
+            "requirement_id": "FR-EPSIG-001",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -108,13 +108,13 @@
       "use_case_id": "compliance_policy_POS_0002",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-002"
+        "FR-EPSIG-002"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-002 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-002: IG canonical URL SHALL be https://symphonix.health/fhir/eps.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -124,9 +124,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0002",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-002",
+          "requirement_id": "FR-EPSIG-002",
           "additional_requirement_ids": []
         }
       },
@@ -134,7 +134,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -144,9 +144,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-002",
+            "requirement_id": "FR-EPSIG-002",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -185,13 +185,13 @@
       "use_case_id": "compliance_policy_POS_0003",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-003"
+        "FR-EPSIG-003"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-003 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-003: Every external citation SHALL resolve on its canonical host.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -201,9 +201,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0003",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-003",
+          "requirement_id": "FR-EPSIG-003",
           "additional_requirement_ids": []
         }
       },
@@ -211,7 +211,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -221,9 +221,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-003",
+            "requirement_id": "FR-EPSIG-003",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -262,13 +262,13 @@
       "use_case_id": "compliance_policy_POS_0004",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-101"
+        "FR-EPSIG-101"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-101 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-101: Each profile SHALL be a StructureDefinition resource.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -278,9 +278,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0004",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-101",
+          "requirement_id": "FR-EPSIG-101",
           "additional_requirement_ids": []
         }
       },
@@ -288,7 +288,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -298,9 +298,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-101",
+            "requirement_id": "FR-EPSIG-101",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -339,13 +339,13 @@
       "use_case_id": "compliance_policy_POS_0005",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-102"
+        "FR-EPSIG-102"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-102 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-102: Local terminology SHALL ship as CodeSystem resources.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -355,9 +355,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0005",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-102",
+          "requirement_id": "FR-EPSIG-102",
           "additional_requirement_ids": []
         }
       },
@@ -365,7 +365,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -375,9 +375,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-102",
+            "requirement_id": "FR-EPSIG-102",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -416,13 +416,13 @@
       "use_case_id": "compliance_policy_POS_0006",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-103"
+        "FR-EPSIG-103"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-103 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-103: Profiles SHALL bind to documented ValueSets.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -432,9 +432,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0006",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-103",
+          "requirement_id": "FR-EPSIG-103",
           "additional_requirement_ids": []
         }
       },
@@ -442,7 +442,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -452,9 +452,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-103",
+            "requirement_id": "FR-EPSIG-103",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -493,13 +493,13 @@
       "use_case_id": "compliance_policy_POS_0007",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-104"
+        "FR-EPSIG-104"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-104 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-104: Cross-terminology mappings SHALL be expressed as ConceptMap.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -509,9 +509,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0007",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-104",
+          "requirement_id": "FR-EPSIG-104",
           "additional_requirement_ids": []
         }
       },
@@ -519,7 +519,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -529,9 +529,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-104",
+            "requirement_id": "FR-EPSIG-104",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -570,13 +570,13 @@
       "use_case_id": "compliance_policy_POS_0008",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-105"
+        "FR-EPSIG-105"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-105 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-105: IG SHALL publish CapabilityStatement(s).",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -586,9 +586,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0008",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-105",
+          "requirement_id": "FR-EPSIG-105",
           "additional_requirement_ids": []
         }
       },
@@ -596,7 +596,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -606,9 +606,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-105",
+            "requirement_id": "FR-EPSIG-105",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -647,13 +647,13 @@
       "use_case_id": "compliance_policy_POS_0009",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-106"
+        "FR-EPSIG-106"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-106 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-106: Custom operations SHALL ship OperationDefinition resources.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -663,9 +663,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0009",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-106",
+          "requirement_id": "FR-EPSIG-106",
           "additional_requirement_ids": []
         }
       },
@@ -673,7 +673,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -683,9 +683,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-106",
+            "requirement_id": "FR-EPSIG-106",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -724,13 +724,13 @@
       "use_case_id": "compliance_policy_POS_0010",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-107"
+        "FR-EPSIG-107"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-107 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-107: Each profile SHALL ship example bundles.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -740,9 +740,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0010",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-107",
+          "requirement_id": "FR-EPSIG-107",
           "additional_requirement_ids": []
         }
       },
@@ -750,7 +750,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -760,9 +760,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-107",
+            "requirement_id": "FR-EPSIG-107",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -801,13 +801,13 @@
       "use_case_id": "compliance_policy_POS_0011",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-108"
+        "FR-EPSIG-108"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-108 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-108: Narrative pages SHALL be indexed in the table of contents.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -817,9 +817,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0011",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-108",
+          "requirement_id": "FR-EPSIG-108",
           "additional_requirement_ids": []
         }
       },
@@ -827,7 +827,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -837,9 +837,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-108",
+            "requirement_id": "FR-EPSIG-108",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -878,13 +878,13 @@
       "use_case_id": "compliance_policy_POS_0012",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-109"
+        "FR-EPSIG-109"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-109 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-109: Each profile SHALL ship a differential view.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -894,9 +894,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0012",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-109",
+          "requirement_id": "FR-EPSIG-109",
           "additional_requirement_ids": []
         }
       },
@@ -904,7 +904,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -914,9 +914,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-109",
+            "requirement_id": "FR-EPSIG-109",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -955,13 +955,13 @@
       "use_case_id": "compliance_policy_POS_0013",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-110"
+        "FR-EPSIG-110"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-110 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-110: Each profile SHALL ship a snapshot view.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -971,9 +971,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0013",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-110",
+          "requirement_id": "FR-EPSIG-110",
           "additional_requirement_ids": []
         }
       },
@@ -981,7 +981,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -991,9 +991,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-110",
+            "requirement_id": "FR-EPSIG-110",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -1032,13 +1032,13 @@
       "use_case_id": "compliance_policy_POS_0014",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-111"
+        "FR-EPSIG-111"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-111 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-111: Quantitative results SHALL bind LOINC.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -1048,9 +1048,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0014",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-111",
+          "requirement_id": "FR-EPSIG-111",
           "additional_requirement_ids": []
         }
       },
@@ -1058,7 +1058,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -1068,9 +1068,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-111",
+            "requirement_id": "FR-EPSIG-111",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -1109,13 +1109,13 @@
       "use_case_id": "compliance_policy_POS_0015",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-112"
+        "FR-EPSIG-112"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-112 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-112: Clinical findings SHALL bind SNOMED CT.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -1125,9 +1125,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0015",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-112",
+          "requirement_id": "FR-EPSIG-112",
           "additional_requirement_ids": []
         }
       },
@@ -1135,7 +1135,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -1145,9 +1145,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-112",
+            "requirement_id": "FR-EPSIG-112",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -1186,13 +1186,13 @@
       "use_case_id": "compliance_policy_POS_0016",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-113"
+        "FR-EPSIG-113"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-113 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-113: Diagnoses SHALL bind ICD-10/11.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -1202,9 +1202,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0016",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-113",
+          "requirement_id": "FR-EPSIG-113",
           "additional_requirement_ids": []
         }
       },
@@ -1212,7 +1212,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -1222,9 +1222,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-113",
+            "requirement_id": "FR-EPSIG-113",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -1263,13 +1263,13 @@
       "use_case_id": "compliance_policy_POS_0017",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-114"
+        "FR-EPSIG-114"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-114 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-114: Quantitative units SHALL bind UCUM.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -1279,9 +1279,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0017",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-114",
+          "requirement_id": "FR-EPSIG-114",
           "additional_requirement_ids": []
         }
       },
@@ -1289,7 +1289,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -1299,9 +1299,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-114",
+            "requirement_id": "FR-EPSIG-114",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -1340,13 +1340,13 @@
       "use_case_id": "compliance_policy_POS_0018",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-115"
+        "FR-EPSIG-115"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-115 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-115: US medication codes SHALL bind RxNorm.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -1356,9 +1356,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0018",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-115",
+          "requirement_id": "FR-EPSIG-115",
           "additional_requirement_ids": []
         }
       },
@@ -1366,7 +1366,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -1376,9 +1376,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-115",
+            "requirement_id": "FR-EPSIG-115",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -1417,13 +1417,13 @@
       "use_case_id": "compliance_policy_POS_0019",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-116"
+        "FR-EPSIG-116"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-116 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-116: UK medication codes SHALL bind dm+d.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -1433,9 +1433,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0019",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-116",
+          "requirement_id": "FR-EPSIG-116",
           "additional_requirement_ids": []
         }
       },
@@ -1443,7 +1443,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -1453,9 +1453,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-116",
+            "requirement_id": "FR-EPSIG-116",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -1494,13 +1494,13 @@
       "use_case_id": "compliance_policy_POS_0020",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-117"
+        "FR-EPSIG-117"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-117 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-117: Where applicable, BNF chapter codes SHALL be bound.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -1510,9 +1510,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0020",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-117",
+          "requirement_id": "FR-EPSIG-117",
           "additional_requirement_ids": []
         }
       },
@@ -1520,7 +1520,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -1530,9 +1530,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-117",
+            "requirement_id": "FR-EPSIG-117",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -1571,13 +1571,13 @@
       "use_case_id": "compliance_policy_POS_0021",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-118"
+        "FR-EPSIG-118"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-118 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-118: Therapeutic classification SHALL bind ATC.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -1587,9 +1587,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0021",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-118",
+          "requirement_id": "FR-EPSIG-118",
           "additional_requirement_ids": []
         }
       },
@@ -1597,7 +1597,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -1607,9 +1607,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-118",
+            "requirement_id": "FR-EPSIG-118",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -1648,13 +1648,13 @@
       "use_case_id": "compliance_policy_POS_0022",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-119"
+        "FR-EPSIG-119"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-119 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-119: Where applicable, ICD-O bindings SHALL be supported.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -1664,9 +1664,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0022",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-119",
+          "requirement_id": "FR-EPSIG-119",
           "additional_requirement_ids": []
         }
       },
@@ -1674,7 +1674,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -1684,9 +1684,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-119",
+            "requirement_id": "FR-EPSIG-119",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -1725,13 +1725,13 @@
       "use_case_id": "compliance_policy_POS_0023",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-120"
+        "FR-EPSIG-120"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-120 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-120: UK procedures SHALL bind OPCS-4.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -1741,9 +1741,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0023",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-120",
+          "requirement_id": "FR-EPSIG-120",
           "additional_requirement_ids": []
         }
       },
@@ -1751,7 +1751,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -1761,9 +1761,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-120",
+            "requirement_id": "FR-EPSIG-120",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -1802,13 +1802,13 @@
       "use_case_id": "compliance_policy_POS_0024",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-121"
+        "FR-EPSIG-121"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-121 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-121: IG SHALL ship a Patient profile.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -1818,9 +1818,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0024",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-121",
+          "requirement_id": "FR-EPSIG-121",
           "additional_requirement_ids": []
         }
       },
@@ -1828,7 +1828,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -1838,9 +1838,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-121",
+            "requirement_id": "FR-EPSIG-121",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -1879,13 +1879,13 @@
       "use_case_id": "compliance_policy_POS_0025",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-122"
+        "FR-EPSIG-122"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-122 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-122: IG SHALL ship a MedicationRequest profile.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -1895,9 +1895,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0025",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-122",
+          "requirement_id": "FR-EPSIG-122",
           "additional_requirement_ids": []
         }
       },
@@ -1905,7 +1905,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -1915,9 +1915,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-122",
+            "requirement_id": "FR-EPSIG-122",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -1956,13 +1956,13 @@
       "use_case_id": "compliance_policy_POS_0026",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-123"
+        "FR-EPSIG-123"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-123 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-123: IG SHALL ship a MedicationDispense profile.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -1972,9 +1972,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0026",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-123",
+          "requirement_id": "FR-EPSIG-123",
           "additional_requirement_ids": []
         }
       },
@@ -1982,7 +1982,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -1992,9 +1992,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-123",
+            "requirement_id": "FR-EPSIG-123",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -2033,13 +2033,13 @@
       "use_case_id": "compliance_policy_POS_0027",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-124"
+        "FR-EPSIG-124"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-124 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-124: IG SHALL ship a Practitioner profile.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -2049,9 +2049,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0027",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-124",
+          "requirement_id": "FR-EPSIG-124",
           "additional_requirement_ids": []
         }
       },
@@ -2059,7 +2059,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -2069,9 +2069,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-124",
+            "requirement_id": "FR-EPSIG-124",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -2110,13 +2110,13 @@
       "use_case_id": "compliance_policy_POS_0028",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-125"
+        "FR-EPSIG-125"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-125 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-125: IG SHALL ship an Organization profile.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -2126,9 +2126,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0028",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-125",
+          "requirement_id": "FR-EPSIG-125",
           "additional_requirement_ids": []
         }
       },
@@ -2136,7 +2136,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -2146,9 +2146,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-125",
+            "requirement_id": "FR-EPSIG-125",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -2187,13 +2187,13 @@
       "use_case_id": "compliance_policy_POS_0029",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-126"
+        "FR-EPSIG-126"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-126 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-126: IG SHALL ship a Location profile.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -2203,9 +2203,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0029",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-126",
+          "requirement_id": "FR-EPSIG-126",
           "additional_requirement_ids": []
         }
       },
@@ -2213,7 +2213,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -2223,9 +2223,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-126",
+            "requirement_id": "FR-EPSIG-126",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -2264,13 +2264,13 @@
       "use_case_id": "compliance_policy_POS_0030",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-127"
+        "FR-EPSIG-127"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-127 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-127: IG SHALL ship an Encounter profile.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -2280,9 +2280,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0030",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-127",
+          "requirement_id": "FR-EPSIG-127",
           "additional_requirement_ids": []
         }
       },
@@ -2290,7 +2290,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -2300,9 +2300,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-127",
+            "requirement_id": "FR-EPSIG-127",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -2341,13 +2341,13 @@
       "use_case_id": "compliance_policy_POS_0031",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-128"
+        "FR-EPSIG-128"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-128 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-128: IG SHALL ship a Coverage profile.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -2357,9 +2357,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0031",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-128",
+          "requirement_id": "FR-EPSIG-128",
           "additional_requirement_ids": []
         }
       },
@@ -2367,7 +2367,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -2377,9 +2377,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-128",
+            "requirement_id": "FR-EPSIG-128",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -2418,13 +2418,13 @@
       "use_case_id": "compliance_policy_POS_0032",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-129"
+        "FR-EPSIG-129"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-129 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-129: IG SHALL ship a Communication profile.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -2434,9 +2434,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0032",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-129",
+          "requirement_id": "FR-EPSIG-129",
           "additional_requirement_ids": []
         }
       },
@@ -2444,7 +2444,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -2454,9 +2454,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-129",
+            "requirement_id": "FR-EPSIG-129",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -2495,13 +2495,13 @@
       "use_case_id": "compliance_policy_POS_0033",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-130"
+        "FR-EPSIG-130"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-130 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-130: IG SHALL ship an AuditEvent profile.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -2511,9 +2511,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0033",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-130",
+          "requirement_id": "FR-EPSIG-130",
           "additional_requirement_ids": []
         }
       },
@@ -2521,7 +2521,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -2531,9 +2531,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-130",
+            "requirement_id": "FR-EPSIG-130",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -2572,13 +2572,13 @@
       "use_case_id": "compliance_policy_POS_0034",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-131"
+        "FR-EPSIG-131"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-131 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-131: IG SHALL define $process-message operation.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -2588,9 +2588,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0034",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-131",
+          "requirement_id": "FR-EPSIG-131",
           "additional_requirement_ids": []
         }
       },
@@ -2598,7 +2598,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -2608,9 +2608,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-131",
+            "requirement_id": "FR-EPSIG-131",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -2649,13 +2649,13 @@
       "use_case_id": "compliance_policy_POS_0035",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-132"
+        "FR-EPSIG-132"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-132 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-132: IG SHALL define $everything operation.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -2665,9 +2665,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0035",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-132",
+          "requirement_id": "FR-EPSIG-132",
           "additional_requirement_ids": []
         }
       },
@@ -2675,7 +2675,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -2685,9 +2685,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-132",
+            "requirement_id": "FR-EPSIG-132",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -2726,13 +2726,13 @@
       "use_case_id": "compliance_policy_POS_0036",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-133"
+        "FR-EPSIG-133"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-133 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-133: IG SHALL define $transform operation.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -2742,9 +2742,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0036",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-133",
+          "requirement_id": "FR-EPSIG-133",
           "additional_requirement_ids": []
         }
       },
@@ -2752,7 +2752,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -2762,9 +2762,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-133",
+            "requirement_id": "FR-EPSIG-133",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -2803,13 +2803,13 @@
       "use_case_id": "compliance_policy_POS_0037",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-134"
+        "FR-EPSIG-134"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-134 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-134: IG SHALL define $validate operation.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -2819,9 +2819,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0037",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-134",
+          "requirement_id": "FR-EPSIG-134",
           "additional_requirement_ids": []
         }
       },
@@ -2829,7 +2829,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -2839,9 +2839,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-134",
+            "requirement_id": "FR-EPSIG-134",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -2880,13 +2880,13 @@
       "use_case_id": "compliance_policy_POS_0038",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-135"
+        "FR-EPSIG-135"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-135 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-135: IG SHALL define $expand for ValueSet.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -2896,9 +2896,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0038",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-135",
+          "requirement_id": "FR-EPSIG-135",
           "additional_requirement_ids": []
         }
       },
@@ -2906,7 +2906,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -2916,9 +2916,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-135",
+            "requirement_id": "FR-EPSIG-135",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -2957,13 +2957,13 @@
       "use_case_id": "compliance_policy_POS_0039",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-136"
+        "FR-EPSIG-136"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-136 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-136: IG SHALL define $lookup for CodeSystem.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -2973,9 +2973,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0039",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-136",
+          "requirement_id": "FR-EPSIG-136",
           "additional_requirement_ids": []
         }
       },
@@ -2983,7 +2983,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -2993,9 +2993,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-136",
+            "requirement_id": "FR-EPSIG-136",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -3034,13 +3034,13 @@
       "use_case_id": "compliance_policy_POS_0040",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-137"
+        "FR-EPSIG-137"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-137 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-137: IG SHALL define $translate for ConceptMap.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -3050,9 +3050,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0040",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-137",
+          "requirement_id": "FR-EPSIG-137",
           "additional_requirement_ids": []
         }
       },
@@ -3060,7 +3060,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -3070,9 +3070,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-137",
+            "requirement_id": "FR-EPSIG-137",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -3111,13 +3111,13 @@
       "use_case_id": "compliance_policy_POS_0041",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-138"
+        "FR-EPSIG-138"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-138 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-138: IG SHALL describe Subscription notifications.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -3127,9 +3127,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0041",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-138",
+          "requirement_id": "FR-EPSIG-138",
           "additional_requirement_ids": []
         }
       },
@@ -3137,7 +3137,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -3147,9 +3147,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-138",
+            "requirement_id": "FR-EPSIG-138",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -3188,13 +3188,13 @@
       "use_case_id": "compliance_policy_POS_0042",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-139"
+        "FR-EPSIG-139"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-139 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-139: IG SHALL describe Bulk Data export.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -3204,9 +3204,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0042",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-139",
+          "requirement_id": "FR-EPSIG-139",
           "additional_requirement_ids": []
         }
       },
@@ -3214,7 +3214,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -3224,9 +3224,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-139",
+            "requirement_id": "FR-EPSIG-139",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -3265,13 +3265,13 @@
       "use_case_id": "compliance_policy_POS_0043",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-140"
+        "FR-EPSIG-140"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-140 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-140: IG SHALL describe PATCH semantics where supported.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -3281,9 +3281,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0043",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-140",
+          "requirement_id": "FR-EPSIG-140",
           "additional_requirement_ids": []
         }
       },
@@ -3291,7 +3291,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -3301,9 +3301,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-140",
+            "requirement_id": "FR-EPSIG-140",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -3342,13 +3342,13 @@
       "use_case_id": "compliance_policy_POS_0044",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-141"
+        "FR-EPSIG-141"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-141 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-141: IG SHALL evidence UK NHSE EPS conformance.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -3358,9 +3358,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0044",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-141",
+          "requirement_id": "FR-EPSIG-141",
           "additional_requirement_ids": []
         }
       },
@@ -3368,7 +3368,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -3378,9 +3378,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-141",
+            "requirement_id": "FR-EPSIG-141",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -3419,13 +3419,13 @@
       "use_case_id": "compliance_policy_POS_0045",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-142"
+        "FR-EPSIG-142"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-142 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-142: IG SHALL be compatible with FHIR UK Core where applicable.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -3435,9 +3435,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0045",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-142",
+          "requirement_id": "FR-EPSIG-142",
           "additional_requirement_ids": []
         }
       },
@@ -3445,7 +3445,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -3455,9 +3455,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-142",
+            "requirement_id": "FR-EPSIG-142",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -3496,13 +3496,13 @@
       "use_case_id": "compliance_policy_POS_0046",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-143"
+        "FR-EPSIG-143"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-143 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-143: Where applicable, EU MDR / IVDR mapping SHALL be documented.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -3512,9 +3512,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0046",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-143",
+          "requirement_id": "FR-EPSIG-143",
           "additional_requirement_ids": []
         }
       },
@@ -3522,7 +3522,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -3532,9 +3532,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-143",
+            "requirement_id": "FR-EPSIG-143",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -3573,13 +3573,13 @@
       "use_case_id": "compliance_policy_POS_0047",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-144"
+        "FR-EPSIG-144"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-144 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-144: Where applicable, EU AI Act risk class SHALL be declared.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -3589,9 +3589,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0047",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-144",
+          "requirement_id": "FR-EPSIG-144",
           "additional_requirement_ids": []
         }
       },
@@ -3599,7 +3599,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -3609,9 +3609,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-144",
+            "requirement_id": "FR-EPSIG-144",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -3650,13 +3650,13 @@
       "use_case_id": "compliance_policy_POS_0048",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-145"
+        "FR-EPSIG-145"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-145 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-145: US deployments SHALL map to HIPAA Privacy/Security Rules.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -3666,9 +3666,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0048",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-145",
+          "requirement_id": "FR-EPSIG-145",
           "additional_requirement_ids": []
         }
       },
@@ -3676,7 +3676,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -3686,9 +3686,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-145",
+            "requirement_id": "FR-EPSIG-145",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -3727,13 +3727,13 @@
       "use_case_id": "compliance_policy_POS_0049",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-146"
+        "FR-EPSIG-146"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-146 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-146: Where applicable, ISO 13606 mapping SHALL be documented.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -3743,9 +3743,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0049",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-146",
+          "requirement_id": "FR-EPSIG-146",
           "additional_requirement_ids": []
         }
       },
@@ -3753,7 +3753,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -3763,9 +3763,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-146",
+            "requirement_id": "FR-EPSIG-146",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -3804,13 +3804,13 @@
       "use_case_id": "compliance_policy_POS_0050",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-147"
+        "FR-EPSIG-147"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-147 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-147: Where applicable, openEHR mapping SHALL be documented.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -3820,9 +3820,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0050",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-147",
+          "requirement_id": "FR-EPSIG-147",
           "additional_requirement_ids": []
         }
       },
@@ -3830,7 +3830,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -3840,9 +3840,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-147",
+            "requirement_id": "FR-EPSIG-147",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -3881,13 +3881,13 @@
       "use_case_id": "compliance_policy_POS_0051",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-148"
+        "FR-EPSIG-148"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-148 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-148: Diagnoses SHALL map to WHO ICD-11.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -3897,9 +3897,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0051",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-148",
+          "requirement_id": "FR-EPSIG-148",
           "additional_requirement_ids": []
         }
       },
@@ -3907,7 +3907,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -3917,9 +3917,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-148",
+            "requirement_id": "FR-EPSIG-148",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -3958,13 +3958,13 @@
       "use_case_id": "compliance_policy_POS_0052",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-149"
+        "FR-EPSIG-149"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-149 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-149: Where applicable, WHO SMART Guidelines L2/L3 SHALL be linked.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -3974,9 +3974,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0052",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-149",
+          "requirement_id": "FR-EPSIG-149",
           "additional_requirement_ids": []
         }
       },
@@ -3984,7 +3984,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -3994,9 +3994,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-149",
+            "requirement_id": "FR-EPSIG-149",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -4035,13 +4035,13 @@
       "use_case_id": "compliance_policy_POS_0053",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-150"
+        "FR-EPSIG-150"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-150 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-150: Applicability of DCB 0129/0160 SHALL be documented.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -4051,9 +4051,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0053",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-150",
+          "requirement_id": "FR-EPSIG-150",
           "additional_requirement_ids": []
         }
       },
@@ -4061,7 +4061,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -4071,9 +4071,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-150",
+            "requirement_id": "FR-EPSIG-150",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -4112,13 +4112,13 @@
       "use_case_id": "compliance_policy_POS_0054",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-151"
+        "FR-EPSIG-151"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-151 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-151: IG SHALL build via official FHIR IG Publisher.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -4128,9 +4128,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0054",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-151",
+          "requirement_id": "FR-EPSIG-151",
           "additional_requirement_ids": []
         }
       },
@@ -4138,7 +4138,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -4148,9 +4148,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-151",
+            "requirement_id": "FR-EPSIG-151",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -4189,13 +4189,13 @@
       "use_case_id": "compliance_policy_POS_0055",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-152"
+        "FR-EPSIG-152"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-152 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-152: IG SHALL use Sushi FSH as the source of truth.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -4205,9 +4205,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0055",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-152",
+          "requirement_id": "FR-EPSIG-152",
           "additional_requirement_ids": []
         }
       },
@@ -4215,7 +4215,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -4225,9 +4225,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-152",
+            "requirement_id": "FR-EPSIG-152",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -4266,13 +4266,13 @@
       "use_case_id": "compliance_policy_POS_0056",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-153"
+        "FR-EPSIG-153"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-153 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-153: CI SHALL run IG Publisher per PR.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -4282,9 +4282,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0056",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-153",
+          "requirement_id": "FR-EPSIG-153",
           "additional_requirement_ids": []
         }
       },
@@ -4292,7 +4292,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -4302,9 +4302,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-153",
+            "requirement_id": "FR-EPSIG-153",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -4343,13 +4343,13 @@
       "use_case_id": "compliance_policy_POS_0057",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-154"
+        "FR-EPSIG-154"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-154 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-154: CI SHALL diff vs published version.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -4359,9 +4359,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0057",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-154",
+          "requirement_id": "FR-EPSIG-154",
           "additional_requirement_ids": []
         }
       },
@@ -4369,7 +4369,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -4379,9 +4379,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-154",
+            "requirement_id": "FR-EPSIG-154",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -4420,13 +4420,13 @@
       "use_case_id": "compliance_policy_POS_0058",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-155"
+        "FR-EPSIG-155"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-155 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-155: CI SHALL emit validation report.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -4436,9 +4436,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0058",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-155",
+          "requirement_id": "FR-EPSIG-155",
           "additional_requirement_ids": []
         }
       },
@@ -4446,7 +4446,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -4456,9 +4456,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-155",
+            "requirement_id": "FR-EPSIG-155",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -4497,13 +4497,13 @@
       "use_case_id": "compliance_policy_POS_0059",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-156"
+        "FR-EPSIG-156"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-156 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-156: CI SHALL run broken-link checker.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -4513,9 +4513,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0059",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-156",
+          "requirement_id": "FR-EPSIG-156",
           "additional_requirement_ids": []
         }
       },
@@ -4523,7 +4523,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -4533,9 +4533,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-156",
+            "requirement_id": "FR-EPSIG-156",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -4574,13 +4574,13 @@
       "use_case_id": "compliance_policy_POS_0060",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-157"
+        "FR-EPSIG-157"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-157 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-157: CI SHALL archive QA artefacts.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -4590,9 +4590,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0060",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-157",
+          "requirement_id": "FR-EPSIG-157",
           "additional_requirement_ids": []
         }
       },
@@ -4600,7 +4600,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -4610,9 +4610,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-157",
+            "requirement_id": "FR-EPSIG-157",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -4651,13 +4651,13 @@
       "use_case_id": "compliance_policy_POS_0061",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-158"
+        "FR-EPSIG-158"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-158 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-158: IG SHALL declare dependency package map.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -4667,9 +4667,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0061",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-158",
+          "requirement_id": "FR-EPSIG-158",
           "additional_requirement_ids": []
         }
       },
@@ -4677,7 +4677,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -4687,9 +4687,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-158",
+            "requirement_id": "FR-EPSIG-158",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -4728,13 +4728,13 @@
       "use_case_id": "compliance_policy_POS_0062",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-159"
+        "FR-EPSIG-159"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-159 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-159: Build SHALL be reproducible.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -4744,9 +4744,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0062",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-159",
+          "requirement_id": "FR-EPSIG-159",
           "additional_requirement_ids": []
         }
       },
@@ -4754,7 +4754,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -4764,9 +4764,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-159",
+            "requirement_id": "FR-EPSIG-159",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -4805,13 +4805,13 @@
       "use_case_id": "compliance_policy_POS_0063",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-160"
+        "FR-EPSIG-160"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-160 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-160: Releases SHALL be git-tagged.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -4821,9 +4821,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0063",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-160",
+          "requirement_id": "FR-EPSIG-160",
           "additional_requirement_ids": []
         }
       },
@@ -4831,7 +4831,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -4841,9 +4841,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-160",
+            "requirement_id": "FR-EPSIG-160",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -4882,13 +4882,13 @@
       "use_case_id": "compliance_policy_POS_0064",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-161"
+        "FR-EPSIG-161"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-161 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-161: Versioned publication URLs SHALL be stable.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -4898,9 +4898,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0064",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-161",
+          "requirement_id": "FR-EPSIG-161",
           "additional_requirement_ids": []
         }
       },
@@ -4908,7 +4908,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -4918,9 +4918,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-161",
+            "requirement_id": "FR-EPSIG-161",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -4959,13 +4959,13 @@
       "use_case_id": "compliance_policy_POS_0065",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-162"
+        "FR-EPSIG-162"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-162 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-162: A 'latest' URL alias SHALL be maintained.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -4975,9 +4975,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0065",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-162",
+          "requirement_id": "FR-EPSIG-162",
           "additional_requirement_ids": []
         }
       },
@@ -4985,7 +4985,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -4995,9 +4995,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-162",
+            "requirement_id": "FR-EPSIG-162",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -5036,13 +5036,13 @@
       "use_case_id": "compliance_policy_POS_0066",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-163"
+        "FR-EPSIG-163"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-163 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-163: Deprecated artefacts SHALL show deprecation banners.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -5052,9 +5052,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0066",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-163",
+          "requirement_id": "FR-EPSIG-163",
           "additional_requirement_ids": []
         }
       },
@@ -5062,7 +5062,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -5072,9 +5072,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-163",
+            "requirement_id": "FR-EPSIG-163",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -5113,13 +5113,13 @@
       "use_case_id": "compliance_policy_POS_0067",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-164"
+        "FR-EPSIG-164"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-164 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-164: Major version changes SHALL ship migration guides.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -5129,9 +5129,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0067",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-164",
+          "requirement_id": "FR-EPSIG-164",
           "additional_requirement_ids": []
         }
       },
@@ -5139,7 +5139,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -5149,9 +5149,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-164",
+            "requirement_id": "FR-EPSIG-164",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -5190,13 +5190,13 @@
       "use_case_id": "compliance_policy_POS_0068",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-165"
+        "FR-EPSIG-165"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-165 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-165: Releases SHALL auto-publish via CI.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -5206,9 +5206,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0068",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-165",
+          "requirement_id": "FR-EPSIG-165",
           "additional_requirement_ids": []
         }
       },
@@ -5216,7 +5216,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -5226,9 +5226,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-165",
+            "requirement_id": "FR-EPSIG-165",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -5267,13 +5267,13 @@
       "use_case_id": "compliance_policy_POS_0069",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-166"
+        "FR-EPSIG-166"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-166 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-166: Published packages SHALL be signed.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -5283,9 +5283,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0069",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-166",
+          "requirement_id": "FR-EPSIG-166",
           "additional_requirement_ids": []
         }
       },
@@ -5293,7 +5293,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -5303,9 +5303,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-166",
+            "requirement_id": "FR-EPSIG-166",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -5344,13 +5344,13 @@
       "use_case_id": "compliance_policy_POS_0070",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-167"
+        "FR-EPSIG-167"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-167 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-167: Published IG SHALL be mirrored to a FHIR registry.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -5360,9 +5360,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0070",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-167",
+          "requirement_id": "FR-EPSIG-167",
           "additional_requirement_ids": []
         }
       },
@@ -5370,7 +5370,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -5380,9 +5380,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-167",
+            "requirement_id": "FR-EPSIG-167",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -5421,13 +5421,13 @@
       "use_case_id": "compliance_policy_POS_0071",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-168"
+        "FR-EPSIG-168"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-168 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-168: Errata SHALL be tracked on a public page.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -5437,9 +5437,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0071",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-168",
+          "requirement_id": "FR-EPSIG-168",
           "additional_requirement_ids": []
         }
       },
@@ -5447,7 +5447,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -5457,9 +5457,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-168",
+            "requirement_id": "FR-EPSIG-168",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -5498,13 +5498,13 @@
       "use_case_id": "compliance_policy_POS_0072",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-169"
+        "FR-EPSIG-169"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-169 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-169: Issue tracker SHALL be public.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -5514,9 +5514,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0072",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-169",
+          "requirement_id": "FR-EPSIG-169",
           "additional_requirement_ids": []
         }
       },
@@ -5524,7 +5524,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -5534,9 +5534,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-169",
+            "requirement_id": "FR-EPSIG-169",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -5575,13 +5575,13 @@
       "use_case_id": "compliance_policy_POS_0073",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-170"
+        "FR-EPSIG-170"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-170 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-170: Each release SHALL ship a changelog.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -5591,9 +5591,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0073",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-170",
+          "requirement_id": "FR-EPSIG-170",
           "additional_requirement_ids": []
         }
       },
@@ -5601,7 +5601,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -5611,9 +5611,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-170",
+            "requirement_id": "FR-EPSIG-170",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -5652,13 +5652,13 @@
       "use_case_id": "compliance_policy_POS_0074",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-171"
+        "FR-EPSIG-171"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-171 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-171: IG SHALL be lint-clean per FHIR IG Publisher.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -5668,9 +5668,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0074",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-171",
+          "requirement_id": "FR-EPSIG-171",
           "additional_requirement_ids": []
         }
       },
@@ -5678,7 +5678,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -5688,9 +5688,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-171",
+            "requirement_id": "FR-EPSIG-171",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -5729,13 +5729,13 @@
       "use_case_id": "compliance_policy_POS_0075",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-172"
+        "FR-EPSIG-172"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-172 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-172: Each profile SHALL be covered by at least one example.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -5745,9 +5745,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0075",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-172",
+          "requirement_id": "FR-EPSIG-172",
           "additional_requirement_ids": []
         }
       },
@@ -5755,7 +5755,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -5765,9 +5765,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-172",
+            "requirement_id": "FR-EPSIG-172",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -5806,13 +5806,13 @@
       "use_case_id": "compliance_policy_POS_0076",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-173"
+        "FR-EPSIG-173"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-173 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-173: All citation tests SHALL pass (network-permitting).",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -5822,9 +5822,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0076",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-173",
+          "requirement_id": "FR-EPSIG-173",
           "additional_requirement_ids": []
         }
       },
@@ -5832,7 +5832,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -5842,9 +5842,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-173",
+            "requirement_id": "FR-EPSIG-173",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -5883,13 +5883,13 @@
       "use_case_id": "compliance_policy_POS_0077",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-174"
+        "FR-EPSIG-174"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-174 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-174: Each profile SHALL have a narrative page.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -5899,9 +5899,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0077",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-174",
+          "requirement_id": "FR-EPSIG-174",
           "additional_requirement_ids": []
         }
       },
@@ -5909,7 +5909,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -5919,9 +5919,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-174",
+            "requirement_id": "FR-EPSIG-174",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -5960,13 +5960,13 @@
       "use_case_id": "compliance_policy_POS_0078",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-175"
+        "FR-EPSIG-175"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-175 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-175: IG SHALL declare dependsOn list.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -5976,9 +5976,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0078",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-175",
+          "requirement_id": "FR-EPSIG-175",
           "additional_requirement_ids": []
         }
       },
@@ -5986,7 +5986,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -5996,9 +5996,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-175",
+            "requirement_id": "FR-EPSIG-175",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -6037,13 +6037,13 @@
       "use_case_id": "compliance_policy_POS_0079",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-176"
+        "FR-EPSIG-176"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-176 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-176: IG SHALL declare global profiles.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -6053,9 +6053,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0079",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-176",
+          "requirement_id": "FR-EPSIG-176",
           "additional_requirement_ids": []
         }
       },
@@ -6063,7 +6063,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -6073,9 +6073,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-176",
+            "requirement_id": "FR-EPSIG-176",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -6114,13 +6114,13 @@
       "use_case_id": "compliance_policy_POS_0080",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-177"
+        "FR-EPSIG-177"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-177 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-177: IG SHALL set definition.parameter values.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -6130,9 +6130,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0080",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-177",
+          "requirement_id": "FR-EPSIG-177",
           "additional_requirement_ids": []
         }
       },
@@ -6140,7 +6140,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -6150,9 +6150,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-177",
+            "requirement_id": "FR-EPSIG-177",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -6191,13 +6191,13 @@
       "use_case_id": "compliance_policy_POS_0081",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-178"
+        "FR-EPSIG-178"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-178 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-178: IG SHALL set definition.template values.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -6207,9 +6207,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0081",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-178",
+          "requirement_id": "FR-EPSIG-178",
           "additional_requirement_ids": []
         }
       },
@@ -6217,7 +6217,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -6227,9 +6227,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-178",
+            "requirement_id": "FR-EPSIG-178",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -6268,13 +6268,13 @@
       "use_case_id": "compliance_policy_POS_0082",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-179"
+        "FR-EPSIG-179"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-179 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-179: Each example SHALL reference its profile via meta.profile.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -6284,9 +6284,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0082",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-179",
+          "requirement_id": "FR-EPSIG-179",
           "additional_requirement_ids": []
         }
       },
@@ -6294,7 +6294,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -6304,9 +6304,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-179",
+            "requirement_id": "FR-EPSIG-179",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -6345,13 +6345,13 @@
       "use_case_id": "compliance_policy_POS_0083",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-180"
+        "FR-EPSIG-180"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-180 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-180: Example bundles SHALL validate against their profiles.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -6361,9 +6361,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0083",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-180",
+          "requirement_id": "FR-EPSIG-180",
           "additional_requirement_ids": []
         }
       },
@@ -6371,7 +6371,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -6381,9 +6381,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-180",
+            "requirement_id": "FR-EPSIG-180",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -6422,13 +6422,13 @@
       "use_case_id": "compliance_policy_POS_0084",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-181"
+        "FR-EPSIG-181"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-181 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-181: IG SHALL trace consumed REA template families.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -6438,9 +6438,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0084",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-181",
+          "requirement_id": "FR-EPSIG-181",
           "additional_requirement_ids": []
         }
       },
@@ -6448,7 +6448,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -6458,9 +6458,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-181",
+            "requirement_id": "FR-EPSIG-181",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -6499,13 +6499,13 @@
       "use_case_id": "compliance_policy_POS_0085",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-182"
+        "FR-EPSIG-182"
       ],
       "scenario_category": "Positive",
       "title": "Policy artefact present for EPSIG-182 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-182: IG SHALL ingest REA gap-filler output.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -6515,9 +6515,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_POS_0085",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-182",
+          "requirement_id": "FR-EPSIG-182",
           "additional_requirement_ids": []
         }
       },
@@ -6525,7 +6525,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 200
         }
@@ -6535,9 +6535,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-182",
+            "requirement_id": "FR-EPSIG-182",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -6576,13 +6576,13 @@
       "use_case_id": "compliance_policy_NEG_0086",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-183"
+        "FR-EPSIG-183"
       ],
       "scenario_category": "Negative",
       "title": "Policy artefact present for EPSIG-183 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-183: IG SHALL emit REA coverage heatmap.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -6592,9 +6592,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_NEG_0086",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-183",
+          "requirement_id": "FR-EPSIG-183",
           "additional_requirement_ids": []
         }
       },
@@ -6602,7 +6602,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 404
         }
@@ -6612,9 +6612,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.missing",
           "payload": {
-            "requirement_id": "EPSIG-183",
+            "requirement_id": "FR-EPSIG-183",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -6653,13 +6653,13 @@
       "use_case_id": "compliance_policy_NEG_0087",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-184"
+        "FR-EPSIG-184"
       ],
       "scenario_category": "Negative",
       "title": "Policy artefact present for EPSIG-184 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-184: IG SHALL support REA batch runs.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -6669,9 +6669,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_NEG_0087",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-184",
+          "requirement_id": "FR-EPSIG-184",
           "additional_requirement_ids": []
         }
       },
@@ -6679,7 +6679,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 404
         }
@@ -6689,9 +6689,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.missing",
           "payload": {
-            "requirement_id": "EPSIG-184",
+            "requirement_id": "FR-EPSIG-184",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -6730,13 +6730,13 @@
       "use_case_id": "compliance_policy_NEG_0088",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-185"
+        "FR-EPSIG-185"
       ],
       "scenario_category": "Negative",
       "title": "Policy artefact present for EPSIG-185 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-185: IG SHALL expose REA anomaly diagnostics.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -6746,9 +6746,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_NEG_0088",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-185",
+          "requirement_id": "FR-EPSIG-185",
           "additional_requirement_ids": []
         }
       },
@@ -6756,7 +6756,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 404
         }
@@ -6766,9 +6766,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.missing",
           "payload": {
-            "requirement_id": "EPSIG-185",
+            "requirement_id": "FR-EPSIG-185",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -6807,13 +6807,13 @@
       "use_case_id": "compliance_policy_NEG_0089",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-186"
+        "FR-EPSIG-186"
       ],
       "scenario_category": "Negative",
       "title": "Policy artefact present for EPSIG-186 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-186: IG SHALL ship a CONTRIBUTING guide.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -6823,9 +6823,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_NEG_0089",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-186",
+          "requirement_id": "FR-EPSIG-186",
           "additional_requirement_ids": []
         }
       },
@@ -6833,7 +6833,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 404
         }
@@ -6843,9 +6843,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.missing",
           "payload": {
-            "requirement_id": "EPSIG-186",
+            "requirement_id": "FR-EPSIG-186",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -6884,13 +6884,13 @@
       "use_case_id": "compliance_policy_NEG_0090",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-187"
+        "FR-EPSIG-187"
       ],
       "scenario_category": "Negative",
       "title": "Policy artefact present for EPSIG-187 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-187: IG SHALL ship a CODE_OF_CONDUCT.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -6900,9 +6900,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_NEG_0090",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-187",
+          "requirement_id": "FR-EPSIG-187",
           "additional_requirement_ids": []
         }
       },
@@ -6910,7 +6910,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 404
         }
@@ -6920,9 +6920,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.missing",
           "payload": {
-            "requirement_id": "EPSIG-187",
+            "requirement_id": "FR-EPSIG-187",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -6961,13 +6961,13 @@
       "use_case_id": "compliance_policy_NEG_0091",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-188"
+        "FR-EPSIG-188"
       ],
       "scenario_category": "Negative",
       "title": "Policy artefact present for EPSIG-188 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-188: IG SHALL ship a LICENSE file.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -6977,9 +6977,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_NEG_0091",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-188",
+          "requirement_id": "FR-EPSIG-188",
           "additional_requirement_ids": []
         }
       },
@@ -6987,7 +6987,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 404
         }
@@ -6997,9 +6997,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.missing",
           "payload": {
-            "requirement_id": "EPSIG-188",
+            "requirement_id": "FR-EPSIG-188",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -7038,13 +7038,13 @@
       "use_case_id": "compliance_policy_NEG_0092",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-189"
+        "FR-EPSIG-189"
       ],
       "scenario_category": "Negative",
       "title": "Policy artefact present for EPSIG-189 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-189: IG SHALL ship a security policy.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -7054,9 +7054,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_NEG_0092",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-189",
+          "requirement_id": "FR-EPSIG-189",
           "additional_requirement_ids": []
         }
       },
@@ -7064,7 +7064,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 404
         }
@@ -7074,9 +7074,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.missing",
           "payload": {
-            "requirement_id": "EPSIG-189",
+            "requirement_id": "FR-EPSIG-189",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -7115,13 +7115,13 @@
       "use_case_id": "compliance_policy_NEG_0093",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-190"
+        "FR-EPSIG-190"
       ],
       "scenario_category": "Negative",
       "title": "Policy artefact present for EPSIG-190 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-190: IG SHALL document review cadence.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -7131,9 +7131,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_NEG_0093",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-190",
+          "requirement_id": "FR-EPSIG-190",
           "additional_requirement_ids": []
         }
       },
@@ -7141,7 +7141,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 404
         }
@@ -7151,9 +7151,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.missing",
           "payload": {
-            "requirement_id": "EPSIG-190",
+            "requirement_id": "FR-EPSIG-190",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -7192,13 +7192,13 @@
       "use_case_id": "compliance_policy_NEG_0094",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-191"
+        "FR-EPSIG-191"
       ],
       "scenario_category": "Negative",
       "title": "Policy artefact present for EPSIG-191 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-191: IG SHALL maintain an author + maintainer registry.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -7208,9 +7208,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_NEG_0094",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-191",
+          "requirement_id": "FR-EPSIG-191",
           "additional_requirement_ids": []
         }
       },
@@ -7218,7 +7218,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 404
         }
@@ -7228,9 +7228,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.missing",
           "payload": {
-            "requirement_id": "EPSIG-191",
+            "requirement_id": "FR-EPSIG-191",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -7269,13 +7269,13 @@
       "use_case_id": "compliance_policy_NEG_0095",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-192"
+        "FR-EPSIG-192"
       ],
       "scenario_category": "Negative",
       "title": "Policy artefact present for EPSIG-192 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-192: IG SHALL ship a comment-period policy.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -7285,9 +7285,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_NEG_0095",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-192",
+          "requirement_id": "FR-EPSIG-192",
           "additional_requirement_ids": []
         }
       },
@@ -7295,7 +7295,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 404
         }
@@ -7305,9 +7305,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.missing",
           "payload": {
-            "requirement_id": "EPSIG-192",
+            "requirement_id": "FR-EPSIG-192",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -7346,13 +7346,13 @@
       "use_case_id": "compliance_policy_EDG_0096",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-193"
+        "FR-EPSIG-193"
       ],
       "scenario_category": "Edge",
       "title": "Policy artefact present for EPSIG-193 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-193: IG SHALL link to a conformance test compendium.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -7362,9 +7362,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_EDG_0096",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-193",
+          "requirement_id": "FR-EPSIG-193",
           "additional_requirement_ids": []
         }
       },
@@ -7372,7 +7372,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 404
         }
@@ -7382,9 +7382,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.missing",
           "payload": {
-            "requirement_id": "EPSIG-193",
+            "requirement_id": "FR-EPSIG-193",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -7423,13 +7423,13 @@
       "use_case_id": "compliance_policy_EDG_0097",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-194"
+        "FR-EPSIG-194"
       ],
       "scenario_category": "Edge",
       "title": "Policy artefact present for EPSIG-194 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-194: IG SHALL publish meeting notes.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -7439,9 +7439,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_EDG_0097",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-194",
+          "requirement_id": "FR-EPSIG-194",
           "additional_requirement_ids": []
         }
       },
@@ -7449,7 +7449,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 404
         }
@@ -7459,9 +7459,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.missing",
           "payload": {
-            "requirement_id": "EPSIG-194",
+            "requirement_id": "FR-EPSIG-194",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -7500,13 +7500,13 @@
       "use_case_id": "compliance_policy_EDG_0098",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-195"
+        "FR-EPSIG-195"
       ],
       "scenario_category": "Edge",
       "title": "Policy artefact present for EPSIG-195 (and 0 others)",
       "description": "Asserts documented control artefact exists for EPSIG-195: IG SHALL ship a legal liability disclaimer.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: docs/REQUIREMENTS.md"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -7516,9 +7516,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_EDG_0098",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "docs/REQUIREMENTS.md",
         "body": {
-          "requirement_id": "EPSIG-195",
+          "requirement_id": "FR-EPSIG-195",
           "additional_requirement_ids": []
         }
       },
@@ -7526,7 +7526,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 404
         }
@@ -7536,9 +7536,9 @@
           "topic": "compliance-policy.events",
           "type": "policy-artefact.missing",
           "payload": {
-            "requirement_id": "EPSIG-195",
+            "requirement_id": "FR-EPSIG-195",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "docs/REQUIREMENTS.md"
           }
         }
       ],
@@ -7577,13 +7577,15 @@
       "use_case_id": "compliance_policy_EDG_0099",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-001"
+        "FR-EPSIG-004",
+        "REQ-REA-0032"
       ],
       "scenario_category": "Edge",
-      "title": "Policy artefact present for EPSIG-001 (and 0 others)",
-      "description": "Asserts documented control artefact exists for EPSIG-001: IG SHALL conform to FHIR 4.0.1.",
+      "title": "CodeSystem + downstream-binding artefacts present (FR-EPSIG-004, REQ-REA-0032)",
+      "description": "Asserts EpsControlledDrugSchedule CodeSystem is declared (FR-EPSIG-004) and the IG output is reachable by REA-Agent-mcp (REQ-REA-0032).",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: input/fsh/valuesets.fsh",
+        "file exists: fsh-generated/resources"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -7593,17 +7595,19 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_EDG_0099",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "input/fsh/valuesets.fsh",
         "body": {
-          "requirement_id": "EPSIG-001",
-          "additional_requirement_ids": []
+          "requirement_id": "FR-EPSIG-004",
+          "additional_requirement_ids": [
+            "REQ-REA-0032"
+          ]
         }
       },
       "expected_connector_calls": [
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 404
         }
@@ -7611,11 +7615,13 @@
       "expected_events": [
         {
           "topic": "compliance-policy.events",
-          "type": "policy-artefact.missing",
+          "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-001",
-            "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "requirement_id": "FR-EPSIG-004",
+            "additional_requirement_ids": [
+              "REQ-REA-0032"
+            ],
+            "artefact": "input/fsh/valuesets.fsh"
           }
         }
       ],
@@ -7654,13 +7660,13 @@
       "use_case_id": "compliance_policy_EDG_0100",
       "subsystem": "compliance-policy",
       "requirement_ids": [
-        "EPSIG-002"
+        "FR-EPSIG-005"
       ],
       "scenario_category": "Edge",
-      "title": "Policy artefact present for EPSIG-002 (and 0 others)",
-      "description": "Asserts documented control artefact exists for EPSIG-002: IG canonical URL SHALL be https://symphonix.health/fhir/eps.",
+      "title": "CapabilityStatement artefact present for FR-EPSIG-005 (EpsClinicalServer)",
+      "description": "Asserts the EpsClinicalServer CapabilityStatement is declared in input/fsh/capabilitystatements.fsh.",
       "preconditions": [
-        "file exists: README.md"
+        "file exists: input/fsh/capabilitystatements.fsh"
       ],
       "trigger": {
         "api": "FILE-EXISTS",
@@ -7670,9 +7676,9 @@
       "input_payload": {
         "correlation_id": "corr-compliance_policy_EDG_0100",
         "method": "FILE-EXISTS",
-        "path": "README.md",
+        "path": "input/fsh/capabilitystatements.fsh",
         "body": {
-          "requirement_id": "EPSIG-002",
+          "requirement_id": "FR-EPSIG-005",
           "additional_requirement_ids": []
         }
       },
@@ -7680,7 +7686,7 @@
         {
           "connector": "filesystem",
           "direction": "outbound",
-          "endpoint_or_channel": "README.md",
+          "endpoint_or_channel": "docs/REQUIREMENTS.md",
           "protocol": "FILE",
           "expected_status": 404
         }
@@ -7688,11 +7694,11 @@
       "expected_events": [
         {
           "topic": "compliance-policy.events",
-          "type": "policy-artefact.missing",
+          "type": "policy-artefact.present",
           "payload": {
-            "requirement_id": "EPSIG-002",
+            "requirement_id": "FR-EPSIG-005",
             "additional_requirement_ids": [],
-            "artefact": "README.md"
+            "artefact": "input/fsh/capabilitystatements.fsh"
           }
         }
       ],
