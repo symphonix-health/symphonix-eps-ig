@@ -208,13 +208,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-001-AC01",
+          "FR-EPSIG-001-AC02",
+          "FR-EPSIG-001-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0001",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -223,7 +229,10 @@
       "tags": [
         "FR-EPSIG-001",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-001-AC01",
+        "AC:FR-EPSIG-001-AC02",
+        "AC:FR-EPSIG-001-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -310,13 +319,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-002-AC01",
+          "FR-EPSIG-002-AC02",
+          "FR-EPSIG-002-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0002",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -325,7 +340,10 @@
       "tags": [
         "FR-EPSIG-002",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-002-AC01",
+        "AC:FR-EPSIG-002-AC02",
+        "AC:FR-EPSIG-002-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -412,13 +430,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-003-AC01",
+          "FR-EPSIG-003-AC02",
+          "FR-EPSIG-003-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0003",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -427,7 +451,10 @@
       "tags": [
         "FR-EPSIG-003",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-003-AC01",
+        "AC:FR-EPSIG-003-AC02",
+        "AC:FR-EPSIG-003-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -514,13 +541,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-101-AC01",
+          "FR-EPSIG-101-AC02",
+          "FR-EPSIG-101-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0004",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -529,7 +562,10 @@
       "tags": [
         "FR-EPSIG-101",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-101-AC01",
+        "AC:FR-EPSIG-101-AC02",
+        "AC:FR-EPSIG-101-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -616,13 +652,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-102-AC01",
+          "FR-EPSIG-102-AC02",
+          "FR-EPSIG-102-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0005",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -631,7 +673,10 @@
       "tags": [
         "FR-EPSIG-102",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-102-AC01",
+        "AC:FR-EPSIG-102-AC02",
+        "AC:FR-EPSIG-102-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -718,13 +763,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-103-AC01",
+          "FR-EPSIG-103-AC02",
+          "FR-EPSIG-103-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0006",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -733,7 +784,10 @@
       "tags": [
         "FR-EPSIG-103",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-103-AC01",
+        "AC:FR-EPSIG-103-AC02",
+        "AC:FR-EPSIG-103-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -820,13 +874,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-104-AC01",
+          "FR-EPSIG-104-AC02",
+          "FR-EPSIG-104-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0007",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -835,7 +895,10 @@
       "tags": [
         "FR-EPSIG-104",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-104-AC01",
+        "AC:FR-EPSIG-104-AC02",
+        "AC:FR-EPSIG-104-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -922,13 +985,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-105-AC01",
+          "FR-EPSIG-105-AC02",
+          "FR-EPSIG-105-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0008",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -937,7 +1006,10 @@
       "tags": [
         "FR-EPSIG-105",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-105-AC01",
+        "AC:FR-EPSIG-105-AC02",
+        "AC:FR-EPSIG-105-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -1024,13 +1096,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-106-AC01",
+          "FR-EPSIG-106-AC02",
+          "FR-EPSIG-106-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0009",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -1039,7 +1117,10 @@
       "tags": [
         "FR-EPSIG-106",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-106-AC01",
+        "AC:FR-EPSIG-106-AC02",
+        "AC:FR-EPSIG-106-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -1126,13 +1207,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-107-AC01",
+          "FR-EPSIG-107-AC02",
+          "FR-EPSIG-107-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0010",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -1141,7 +1228,10 @@
       "tags": [
         "FR-EPSIG-107",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-107-AC01",
+        "AC:FR-EPSIG-107-AC02",
+        "AC:FR-EPSIG-107-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -1228,13 +1318,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-108-AC01",
+          "FR-EPSIG-108-AC02",
+          "FR-EPSIG-108-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0011",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -1243,7 +1339,10 @@
       "tags": [
         "FR-EPSIG-108",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-108-AC01",
+        "AC:FR-EPSIG-108-AC02",
+        "AC:FR-EPSIG-108-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -1330,13 +1429,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-109-AC01",
+          "FR-EPSIG-109-AC02",
+          "FR-EPSIG-109-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0012",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -1345,7 +1450,10 @@
       "tags": [
         "FR-EPSIG-109",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-109-AC01",
+        "AC:FR-EPSIG-109-AC02",
+        "AC:FR-EPSIG-109-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -1432,13 +1540,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-110-AC01",
+          "FR-EPSIG-110-AC02",
+          "FR-EPSIG-110-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0013",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -1447,7 +1561,10 @@
       "tags": [
         "FR-EPSIG-110",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-110-AC01",
+        "AC:FR-EPSIG-110-AC02",
+        "AC:FR-EPSIG-110-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -1534,13 +1651,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-111-AC01",
+          "FR-EPSIG-111-AC02",
+          "FR-EPSIG-111-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0014",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -1549,7 +1672,10 @@
       "tags": [
         "FR-EPSIG-111",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-111-AC01",
+        "AC:FR-EPSIG-111-AC02",
+        "AC:FR-EPSIG-111-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -1636,13 +1762,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-112-AC01",
+          "FR-EPSIG-112-AC02",
+          "FR-EPSIG-112-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0015",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -1651,7 +1783,10 @@
       "tags": [
         "FR-EPSIG-112",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-112-AC01",
+        "AC:FR-EPSIG-112-AC02",
+        "AC:FR-EPSIG-112-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -1738,13 +1873,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-113-AC01",
+          "FR-EPSIG-113-AC02",
+          "FR-EPSIG-113-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0016",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -1753,7 +1894,10 @@
       "tags": [
         "FR-EPSIG-113",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-113-AC01",
+        "AC:FR-EPSIG-113-AC02",
+        "AC:FR-EPSIG-113-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -1840,13 +1984,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-114-AC01",
+          "FR-EPSIG-114-AC02",
+          "FR-EPSIG-114-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0017",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -1855,7 +2005,10 @@
       "tags": [
         "FR-EPSIG-114",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-114-AC01",
+        "AC:FR-EPSIG-114-AC02",
+        "AC:FR-EPSIG-114-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -1942,13 +2095,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-115-AC01",
+          "FR-EPSIG-115-AC02",
+          "FR-EPSIG-115-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0018",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -1957,7 +2116,10 @@
       "tags": [
         "FR-EPSIG-115",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-115-AC01",
+        "AC:FR-EPSIG-115-AC02",
+        "AC:FR-EPSIG-115-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -2044,13 +2206,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-116-AC01",
+          "FR-EPSIG-116-AC02",
+          "FR-EPSIG-116-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0019",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -2059,7 +2227,10 @@
       "tags": [
         "FR-EPSIG-116",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-116-AC01",
+        "AC:FR-EPSIG-116-AC02",
+        "AC:FR-EPSIG-116-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -2146,13 +2317,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-117-AC01",
+          "FR-EPSIG-117-AC02",
+          "FR-EPSIG-117-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0020",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -2161,7 +2338,10 @@
       "tags": [
         "FR-EPSIG-117",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-117-AC01",
+        "AC:FR-EPSIG-117-AC02",
+        "AC:FR-EPSIG-117-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -2248,13 +2428,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-118-AC01",
+          "FR-EPSIG-118-AC02",
+          "FR-EPSIG-118-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0021",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -2263,7 +2449,10 @@
       "tags": [
         "FR-EPSIG-118",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-118-AC01",
+        "AC:FR-EPSIG-118-AC02",
+        "AC:FR-EPSIG-118-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -2350,13 +2539,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-119-AC01",
+          "FR-EPSIG-119-AC02",
+          "FR-EPSIG-119-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0022",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -2365,7 +2560,10 @@
       "tags": [
         "FR-EPSIG-119",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-119-AC01",
+        "AC:FR-EPSIG-119-AC02",
+        "AC:FR-EPSIG-119-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -2452,13 +2650,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-120-AC01",
+          "FR-EPSIG-120-AC02",
+          "FR-EPSIG-120-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0023",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -2467,7 +2671,10 @@
       "tags": [
         "FR-EPSIG-120",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-120-AC01",
+        "AC:FR-EPSIG-120-AC02",
+        "AC:FR-EPSIG-120-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -2554,13 +2761,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-121-AC01",
+          "FR-EPSIG-121-AC02",
+          "FR-EPSIG-121-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0024",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -2569,7 +2782,10 @@
       "tags": [
         "FR-EPSIG-121",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-121-AC01",
+        "AC:FR-EPSIG-121-AC02",
+        "AC:FR-EPSIG-121-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -2656,13 +2872,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-122-AC01",
+          "FR-EPSIG-122-AC02",
+          "FR-EPSIG-122-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0025",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -2671,7 +2893,10 @@
       "tags": [
         "FR-EPSIG-122",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-122-AC01",
+        "AC:FR-EPSIG-122-AC02",
+        "AC:FR-EPSIG-122-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -2758,13 +2983,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-123-AC01",
+          "FR-EPSIG-123-AC02",
+          "FR-EPSIG-123-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0026",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -2773,7 +3004,10 @@
       "tags": [
         "FR-EPSIG-123",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-123-AC01",
+        "AC:FR-EPSIG-123-AC02",
+        "AC:FR-EPSIG-123-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -2860,13 +3094,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-124-AC01",
+          "FR-EPSIG-124-AC02",
+          "FR-EPSIG-124-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0027",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -2875,7 +3115,10 @@
       "tags": [
         "FR-EPSIG-124",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-124-AC01",
+        "AC:FR-EPSIG-124-AC02",
+        "AC:FR-EPSIG-124-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -2962,13 +3205,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-125-AC01",
+          "FR-EPSIG-125-AC02",
+          "FR-EPSIG-125-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0028",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -2977,7 +3226,10 @@
       "tags": [
         "FR-EPSIG-125",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-125-AC01",
+        "AC:FR-EPSIG-125-AC02",
+        "AC:FR-EPSIG-125-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -3064,13 +3316,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-126-AC01",
+          "FR-EPSIG-126-AC02",
+          "FR-EPSIG-126-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0029",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -3079,7 +3337,10 @@
       "tags": [
         "FR-EPSIG-126",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-126-AC01",
+        "AC:FR-EPSIG-126-AC02",
+        "AC:FR-EPSIG-126-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -3166,13 +3427,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-127-AC01",
+          "FR-EPSIG-127-AC02",
+          "FR-EPSIG-127-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0030",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -3181,7 +3448,10 @@
       "tags": [
         "FR-EPSIG-127",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-127-AC01",
+        "AC:FR-EPSIG-127-AC02",
+        "AC:FR-EPSIG-127-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -3268,13 +3538,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-128-AC01",
+          "FR-EPSIG-128-AC02",
+          "FR-EPSIG-128-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0031",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -3283,7 +3559,10 @@
       "tags": [
         "FR-EPSIG-128",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-128-AC01",
+        "AC:FR-EPSIG-128-AC02",
+        "AC:FR-EPSIG-128-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -3370,13 +3649,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-129-AC01",
+          "FR-EPSIG-129-AC02",
+          "FR-EPSIG-129-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0032",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -3385,7 +3670,10 @@
       "tags": [
         "FR-EPSIG-129",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-129-AC01",
+        "AC:FR-EPSIG-129-AC02",
+        "AC:FR-EPSIG-129-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -3472,13 +3760,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-130-AC01",
+          "FR-EPSIG-130-AC02",
+          "FR-EPSIG-130-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0033",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -3487,7 +3781,10 @@
       "tags": [
         "FR-EPSIG-130",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-130-AC01",
+        "AC:FR-EPSIG-130-AC02",
+        "AC:FR-EPSIG-130-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -3574,13 +3871,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-131-AC01",
+          "FR-EPSIG-131-AC02",
+          "FR-EPSIG-131-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0034",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -3589,7 +3892,10 @@
       "tags": [
         "FR-EPSIG-131",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-131-AC01",
+        "AC:FR-EPSIG-131-AC02",
+        "AC:FR-EPSIG-131-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -3676,13 +3982,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-132-AC01",
+          "FR-EPSIG-132-AC02",
+          "FR-EPSIG-132-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0035",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -3691,7 +4003,10 @@
       "tags": [
         "FR-EPSIG-132",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-132-AC01",
+        "AC:FR-EPSIG-132-AC02",
+        "AC:FR-EPSIG-132-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -3778,13 +4093,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-133-AC01",
+          "FR-EPSIG-133-AC02",
+          "FR-EPSIG-133-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0036",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -3793,7 +4114,10 @@
       "tags": [
         "FR-EPSIG-133",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-133-AC01",
+        "AC:FR-EPSIG-133-AC02",
+        "AC:FR-EPSIG-133-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -3880,13 +4204,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-134-AC01",
+          "FR-EPSIG-134-AC02",
+          "FR-EPSIG-134-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0037",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -3895,7 +4225,10 @@
       "tags": [
         "FR-EPSIG-134",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-134-AC01",
+        "AC:FR-EPSIG-134-AC02",
+        "AC:FR-EPSIG-134-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -3982,13 +4315,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-135-AC01",
+          "FR-EPSIG-135-AC02",
+          "FR-EPSIG-135-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0038",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -3997,7 +4336,10 @@
       "tags": [
         "FR-EPSIG-135",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-135-AC01",
+        "AC:FR-EPSIG-135-AC02",
+        "AC:FR-EPSIG-135-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -4084,13 +4426,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-136-AC01",
+          "FR-EPSIG-136-AC02",
+          "FR-EPSIG-136-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0039",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -4099,7 +4447,10 @@
       "tags": [
         "FR-EPSIG-136",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-136-AC01",
+        "AC:FR-EPSIG-136-AC02",
+        "AC:FR-EPSIG-136-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -4186,13 +4537,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-137-AC01",
+          "FR-EPSIG-137-AC02",
+          "FR-EPSIG-137-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0040",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -4201,7 +4558,10 @@
       "tags": [
         "FR-EPSIG-137",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-137-AC01",
+        "AC:FR-EPSIG-137-AC02",
+        "AC:FR-EPSIG-137-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -4288,13 +4648,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-138-AC01",
+          "FR-EPSIG-138-AC02",
+          "FR-EPSIG-138-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0041",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -4303,7 +4669,10 @@
       "tags": [
         "FR-EPSIG-138",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-138-AC01",
+        "AC:FR-EPSIG-138-AC02",
+        "AC:FR-EPSIG-138-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -4390,13 +4759,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-139-AC01",
+          "FR-EPSIG-139-AC02",
+          "FR-EPSIG-139-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0042",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -4405,7 +4780,10 @@
       "tags": [
         "FR-EPSIG-139",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-139-AC01",
+        "AC:FR-EPSIG-139-AC02",
+        "AC:FR-EPSIG-139-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -4492,13 +4870,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-140-AC01",
+          "FR-EPSIG-140-AC02",
+          "FR-EPSIG-140-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0043",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -4507,7 +4891,10 @@
       "tags": [
         "FR-EPSIG-140",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-140-AC01",
+        "AC:FR-EPSIG-140-AC02",
+        "AC:FR-EPSIG-140-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -4594,13 +4981,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-141-AC01",
+          "FR-EPSIG-141-AC02",
+          "FR-EPSIG-141-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0044",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -4609,7 +5002,10 @@
       "tags": [
         "FR-EPSIG-141",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-141-AC01",
+        "AC:FR-EPSIG-141-AC02",
+        "AC:FR-EPSIG-141-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -4696,13 +5092,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-142-AC01",
+          "FR-EPSIG-142-AC02",
+          "FR-EPSIG-142-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0045",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -4711,7 +5113,10 @@
       "tags": [
         "FR-EPSIG-142",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-142-AC01",
+        "AC:FR-EPSIG-142-AC02",
+        "AC:FR-EPSIG-142-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -4798,13 +5203,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-143-AC01",
+          "FR-EPSIG-143-AC02",
+          "FR-EPSIG-143-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0046",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -4813,7 +5224,10 @@
       "tags": [
         "FR-EPSIG-143",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-143-AC01",
+        "AC:FR-EPSIG-143-AC02",
+        "AC:FR-EPSIG-143-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -4900,13 +5314,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-144-AC01",
+          "FR-EPSIG-144-AC02",
+          "FR-EPSIG-144-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0047",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -4915,7 +5335,10 @@
       "tags": [
         "FR-EPSIG-144",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-144-AC01",
+        "AC:FR-EPSIG-144-AC02",
+        "AC:FR-EPSIG-144-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -5002,13 +5425,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-145-AC01",
+          "FR-EPSIG-145-AC02",
+          "FR-EPSIG-145-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0048",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -5017,7 +5446,10 @@
       "tags": [
         "FR-EPSIG-145",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-145-AC01",
+        "AC:FR-EPSIG-145-AC02",
+        "AC:FR-EPSIG-145-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -5104,13 +5536,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-146-AC01",
+          "FR-EPSIG-146-AC02",
+          "FR-EPSIG-146-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0049",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -5119,7 +5557,10 @@
       "tags": [
         "FR-EPSIG-146",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-146-AC01",
+        "AC:FR-EPSIG-146-AC02",
+        "AC:FR-EPSIG-146-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -5206,13 +5647,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-147-AC01",
+          "FR-EPSIG-147-AC02",
+          "FR-EPSIG-147-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0050",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -5221,7 +5668,10 @@
       "tags": [
         "FR-EPSIG-147",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-147-AC01",
+        "AC:FR-EPSIG-147-AC02",
+        "AC:FR-EPSIG-147-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -5308,13 +5758,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-148-AC01",
+          "FR-EPSIG-148-AC02",
+          "FR-EPSIG-148-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0051",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -5323,7 +5779,10 @@
       "tags": [
         "FR-EPSIG-148",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-148-AC01",
+        "AC:FR-EPSIG-148-AC02",
+        "AC:FR-EPSIG-148-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -5410,13 +5869,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-149-AC01",
+          "FR-EPSIG-149-AC02",
+          "FR-EPSIG-149-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0052",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -5425,7 +5890,10 @@
       "tags": [
         "FR-EPSIG-149",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-149-AC01",
+        "AC:FR-EPSIG-149-AC02",
+        "AC:FR-EPSIG-149-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -5512,13 +5980,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-150-AC01",
+          "FR-EPSIG-150-AC02",
+          "FR-EPSIG-150-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0053",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -5527,7 +6001,10 @@
       "tags": [
         "FR-EPSIG-150",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-150-AC01",
+        "AC:FR-EPSIG-150-AC02",
+        "AC:FR-EPSIG-150-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -5614,13 +6091,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-151-AC01",
+          "FR-EPSIG-151-AC02",
+          "FR-EPSIG-151-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0054",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -5629,7 +6112,10 @@
       "tags": [
         "FR-EPSIG-151",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-151-AC01",
+        "AC:FR-EPSIG-151-AC02",
+        "AC:FR-EPSIG-151-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -5716,13 +6202,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-152-AC01",
+          "FR-EPSIG-152-AC02",
+          "FR-EPSIG-152-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0055",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -5731,7 +6223,10 @@
       "tags": [
         "FR-EPSIG-152",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-152-AC01",
+        "AC:FR-EPSIG-152-AC02",
+        "AC:FR-EPSIG-152-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -5818,13 +6313,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-153-AC01",
+          "FR-EPSIG-153-AC02",
+          "FR-EPSIG-153-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0056",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -5833,7 +6334,10 @@
       "tags": [
         "FR-EPSIG-153",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-153-AC01",
+        "AC:FR-EPSIG-153-AC02",
+        "AC:FR-EPSIG-153-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -5920,13 +6424,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-154-AC01",
+          "FR-EPSIG-154-AC02",
+          "FR-EPSIG-154-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0057",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -5935,7 +6445,10 @@
       "tags": [
         "FR-EPSIG-154",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-154-AC01",
+        "AC:FR-EPSIG-154-AC02",
+        "AC:FR-EPSIG-154-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -6022,13 +6535,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-155-AC01",
+          "FR-EPSIG-155-AC02",
+          "FR-EPSIG-155-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0058",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -6037,7 +6556,10 @@
       "tags": [
         "FR-EPSIG-155",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-155-AC01",
+        "AC:FR-EPSIG-155-AC02",
+        "AC:FR-EPSIG-155-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -6124,13 +6646,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-156-AC01",
+          "FR-EPSIG-156-AC02",
+          "FR-EPSIG-156-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0059",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -6139,7 +6667,10 @@
       "tags": [
         "FR-EPSIG-156",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-156-AC01",
+        "AC:FR-EPSIG-156-AC02",
+        "AC:FR-EPSIG-156-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -6226,13 +6757,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-157-AC01",
+          "FR-EPSIG-157-AC02",
+          "FR-EPSIG-157-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0060",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -6241,7 +6778,10 @@
       "tags": [
         "FR-EPSIG-157",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-157-AC01",
+        "AC:FR-EPSIG-157-AC02",
+        "AC:FR-EPSIG-157-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -6328,13 +6868,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-158-AC01",
+          "FR-EPSIG-158-AC02",
+          "FR-EPSIG-158-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0061",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -6343,7 +6889,10 @@
       "tags": [
         "FR-EPSIG-158",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-158-AC01",
+        "AC:FR-EPSIG-158-AC02",
+        "AC:FR-EPSIG-158-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -6430,13 +6979,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-159-AC01",
+          "FR-EPSIG-159-AC02",
+          "FR-EPSIG-159-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0062",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -6445,7 +7000,10 @@
       "tags": [
         "FR-EPSIG-159",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-159-AC01",
+        "AC:FR-EPSIG-159-AC02",
+        "AC:FR-EPSIG-159-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -6532,13 +7090,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-160-AC01",
+          "FR-EPSIG-160-AC02",
+          "FR-EPSIG-160-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0063",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -6547,7 +7111,10 @@
       "tags": [
         "FR-EPSIG-160",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-160-AC01",
+        "AC:FR-EPSIG-160-AC02",
+        "AC:FR-EPSIG-160-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -6634,13 +7201,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-161-AC01",
+          "FR-EPSIG-161-AC02",
+          "FR-EPSIG-161-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0064",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -6649,7 +7222,10 @@
       "tags": [
         "FR-EPSIG-161",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-161-AC01",
+        "AC:FR-EPSIG-161-AC02",
+        "AC:FR-EPSIG-161-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -6736,13 +7312,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-162-AC01",
+          "FR-EPSIG-162-AC02",
+          "FR-EPSIG-162-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0065",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -6751,7 +7333,10 @@
       "tags": [
         "FR-EPSIG-162",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-162-AC01",
+        "AC:FR-EPSIG-162-AC02",
+        "AC:FR-EPSIG-162-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -6838,13 +7423,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-163-AC01",
+          "FR-EPSIG-163-AC02",
+          "FR-EPSIG-163-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0066",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -6853,7 +7444,10 @@
       "tags": [
         "FR-EPSIG-163",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-163-AC01",
+        "AC:FR-EPSIG-163-AC02",
+        "AC:FR-EPSIG-163-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -6940,13 +7534,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-164-AC01",
+          "FR-EPSIG-164-AC02",
+          "FR-EPSIG-164-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0067",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -6955,7 +7555,10 @@
       "tags": [
         "FR-EPSIG-164",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-164-AC01",
+        "AC:FR-EPSIG-164-AC02",
+        "AC:FR-EPSIG-164-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -7042,13 +7645,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-165-AC01",
+          "FR-EPSIG-165-AC02",
+          "FR-EPSIG-165-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0068",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -7057,7 +7666,10 @@
       "tags": [
         "FR-EPSIG-165",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-165-AC01",
+        "AC:FR-EPSIG-165-AC02",
+        "AC:FR-EPSIG-165-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -7144,13 +7756,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-166-AC01",
+          "FR-EPSIG-166-AC02",
+          "FR-EPSIG-166-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0069",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -7159,7 +7777,10 @@
       "tags": [
         "FR-EPSIG-166",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-166-AC01",
+        "AC:FR-EPSIG-166-AC02",
+        "AC:FR-EPSIG-166-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -7246,13 +7867,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-167-AC01",
+          "FR-EPSIG-167-AC02",
+          "FR-EPSIG-167-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0070",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -7261,7 +7888,10 @@
       "tags": [
         "FR-EPSIG-167",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-167-AC01",
+        "AC:FR-EPSIG-167-AC02",
+        "AC:FR-EPSIG-167-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -7348,13 +7978,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-168-AC01",
+          "FR-EPSIG-168-AC02",
+          "FR-EPSIG-168-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0071",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -7363,7 +7999,10 @@
       "tags": [
         "FR-EPSIG-168",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-168-AC01",
+        "AC:FR-EPSIG-168-AC02",
+        "AC:FR-EPSIG-168-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -7450,13 +8089,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-169-AC01",
+          "FR-EPSIG-169-AC02",
+          "FR-EPSIG-169-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0072",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -7465,7 +8110,10 @@
       "tags": [
         "FR-EPSIG-169",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-169-AC01",
+        "AC:FR-EPSIG-169-AC02",
+        "AC:FR-EPSIG-169-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -7552,13 +8200,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-170-AC01",
+          "FR-EPSIG-170-AC02",
+          "FR-EPSIG-170-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0073",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -7567,7 +8221,10 @@
       "tags": [
         "FR-EPSIG-170",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-170-AC01",
+        "AC:FR-EPSIG-170-AC02",
+        "AC:FR-EPSIG-170-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -7654,13 +8311,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-171-AC01",
+          "FR-EPSIG-171-AC02",
+          "FR-EPSIG-171-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0074",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -7669,7 +8332,10 @@
       "tags": [
         "FR-EPSIG-171",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-171-AC01",
+        "AC:FR-EPSIG-171-AC02",
+        "AC:FR-EPSIG-171-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -7756,13 +8422,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-172-AC01",
+          "FR-EPSIG-172-AC02",
+          "FR-EPSIG-172-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0075",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -7771,7 +8443,10 @@
       "tags": [
         "FR-EPSIG-172",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-172-AC01",
+        "AC:FR-EPSIG-172-AC02",
+        "AC:FR-EPSIG-172-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -7858,13 +8533,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-173-AC01",
+          "FR-EPSIG-173-AC02",
+          "FR-EPSIG-173-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0076",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -7873,7 +8554,10 @@
       "tags": [
         "FR-EPSIG-173",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-173-AC01",
+        "AC:FR-EPSIG-173-AC02",
+        "AC:FR-EPSIG-173-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -7960,13 +8644,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-174-AC01",
+          "FR-EPSIG-174-AC02",
+          "FR-EPSIG-174-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0077",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -7975,7 +8665,10 @@
       "tags": [
         "FR-EPSIG-174",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-174-AC01",
+        "AC:FR-EPSIG-174-AC02",
+        "AC:FR-EPSIG-174-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -8062,13 +8755,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-175-AC01",
+          "FR-EPSIG-175-AC02",
+          "FR-EPSIG-175-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0078",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -8077,7 +8776,10 @@
       "tags": [
         "FR-EPSIG-175",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-175-AC01",
+        "AC:FR-EPSIG-175-AC02",
+        "AC:FR-EPSIG-175-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -8164,13 +8866,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-176-AC01",
+          "FR-EPSIG-176-AC02",
+          "FR-EPSIG-176-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0079",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -8179,7 +8887,10 @@
       "tags": [
         "FR-EPSIG-176",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-176-AC01",
+        "AC:FR-EPSIG-176-AC02",
+        "AC:FR-EPSIG-176-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -8266,13 +8977,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-177-AC01",
+          "FR-EPSIG-177-AC02",
+          "FR-EPSIG-177-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0080",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -8281,7 +8998,10 @@
       "tags": [
         "FR-EPSIG-177",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-177-AC01",
+        "AC:FR-EPSIG-177-AC02",
+        "AC:FR-EPSIG-177-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -8368,13 +9088,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-178-AC01",
+          "FR-EPSIG-178-AC02",
+          "FR-EPSIG-178-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0081",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -8383,7 +9109,10 @@
       "tags": [
         "FR-EPSIG-178",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-178-AC01",
+        "AC:FR-EPSIG-178-AC02",
+        "AC:FR-EPSIG-178-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -8470,13 +9199,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-179-AC01",
+          "FR-EPSIG-179-AC02",
+          "FR-EPSIG-179-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0082",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -8485,7 +9220,10 @@
       "tags": [
         "FR-EPSIG-179",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-179-AC01",
+        "AC:FR-EPSIG-179-AC02",
+        "AC:FR-EPSIG-179-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -8572,13 +9310,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-180-AC01",
+          "FR-EPSIG-180-AC02",
+          "FR-EPSIG-180-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0083",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -8587,7 +9331,10 @@
       "tags": [
         "FR-EPSIG-180",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-180-AC01",
+        "AC:FR-EPSIG-180-AC02",
+        "AC:FR-EPSIG-180-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -8674,13 +9421,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-181-AC01",
+          "FR-EPSIG-181-AC02",
+          "FR-EPSIG-181-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0084",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -8689,7 +9442,10 @@
       "tags": [
         "FR-EPSIG-181",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-181-AC01",
+        "AC:FR-EPSIG-181-AC02",
+        "AC:FR-EPSIG-181-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -8776,13 +9532,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-182-AC01",
+          "FR-EPSIG-182-AC02",
+          "FR-EPSIG-182-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_POS_0085",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -8791,7 +9553,10 @@
       "tags": [
         "FR-EPSIG-182",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-182-AC01",
+        "AC:FR-EPSIG-182-AC02",
+        "AC:FR-EPSIG-182-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -8878,13 +9643,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-183-AC01",
+          "FR-EPSIG-183-AC02",
+          "FR-EPSIG-183-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_NEG_0086",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -8893,7 +9664,10 @@
       "tags": [
         "FR-EPSIG-183",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-183-AC01",
+        "AC:FR-EPSIG-183-AC02",
+        "AC:FR-EPSIG-183-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -8980,13 +9754,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-184-AC01",
+          "FR-EPSIG-184-AC02",
+          "FR-EPSIG-184-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_NEG_0087",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -8995,7 +9775,10 @@
       "tags": [
         "FR-EPSIG-184",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-184-AC01",
+        "AC:FR-EPSIG-184-AC02",
+        "AC:FR-EPSIG-184-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -9082,13 +9865,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-185-AC01",
+          "FR-EPSIG-185-AC02",
+          "FR-EPSIG-185-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_NEG_0088",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -9097,7 +9886,10 @@
       "tags": [
         "FR-EPSIG-185",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-185-AC01",
+        "AC:FR-EPSIG-185-AC02",
+        "AC:FR-EPSIG-185-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -9184,13 +9976,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-186-AC01",
+          "FR-EPSIG-186-AC02",
+          "FR-EPSIG-186-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_NEG_0089",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -9199,7 +9997,10 @@
       "tags": [
         "FR-EPSIG-186",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-186-AC01",
+        "AC:FR-EPSIG-186-AC02",
+        "AC:FR-EPSIG-186-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -9286,13 +10087,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-187-AC01",
+          "FR-EPSIG-187-AC02",
+          "FR-EPSIG-187-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_NEG_0090",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -9301,7 +10108,10 @@
       "tags": [
         "FR-EPSIG-187",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-187-AC01",
+        "AC:FR-EPSIG-187-AC02",
+        "AC:FR-EPSIG-187-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -9388,13 +10198,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-188-AC01",
+          "FR-EPSIG-188-AC02",
+          "FR-EPSIG-188-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_NEG_0091",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -9403,7 +10219,10 @@
       "tags": [
         "FR-EPSIG-188",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-188-AC01",
+        "AC:FR-EPSIG-188-AC02",
+        "AC:FR-EPSIG-188-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -9490,13 +10309,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-189-AC01",
+          "FR-EPSIG-189-AC02",
+          "FR-EPSIG-189-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_NEG_0092",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -9505,7 +10330,10 @@
       "tags": [
         "FR-EPSIG-189",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-189-AC01",
+        "AC:FR-EPSIG-189-AC02",
+        "AC:FR-EPSIG-189-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -9592,13 +10420,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-190-AC01",
+          "FR-EPSIG-190-AC02",
+          "FR-EPSIG-190-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_NEG_0093",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -9607,7 +10441,10 @@
       "tags": [
         "FR-EPSIG-190",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-190-AC01",
+        "AC:FR-EPSIG-190-AC02",
+        "AC:FR-EPSIG-190-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -9694,13 +10531,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-191-AC01",
+          "FR-EPSIG-191-AC02",
+          "FR-EPSIG-191-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_NEG_0094",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -9709,7 +10552,10 @@
       "tags": [
         "FR-EPSIG-191",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-191-AC01",
+        "AC:FR-EPSIG-191-AC02",
+        "AC:FR-EPSIG-191-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -9796,13 +10642,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-192-AC01",
+          "FR-EPSIG-192-AC02",
+          "FR-EPSIG-192-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_NEG_0095",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -9811,7 +10663,10 @@
       "tags": [
         "FR-EPSIG-192",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-192-AC01",
+        "AC:FR-EPSIG-192-AC02",
+        "AC:FR-EPSIG-192-AC03"
       ],
       "estimated_duration": 5,
       "automation_status": "automated",
@@ -9898,13 +10753,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-193-AC01",
+          "FR-EPSIG-193-AC02",
+          "FR-EPSIG-193-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_EDG_0096",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -9913,7 +10774,10 @@
       "tags": [
         "FR-EPSIG-193",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-193-AC01",
+        "AC:FR-EPSIG-193-AC02",
+        "AC:FR-EPSIG-193-AC03"
       ],
       "estimated_duration": 10,
       "automation_status": "automated",
@@ -10000,13 +10864,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-194-AC01",
+          "FR-EPSIG-194-AC02",
+          "FR-EPSIG-194-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_EDG_0097",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -10015,7 +10885,10 @@
       "tags": [
         "FR-EPSIG-194",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-194-AC01",
+        "AC:FR-EPSIG-194-AC02",
+        "AC:FR-EPSIG-194-AC03"
       ],
       "estimated_duration": 10,
       "automation_status": "automated",
@@ -10102,13 +10975,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-195-AC01",
+          "FR-EPSIG-195-AC02",
+          "FR-EPSIG-195-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_EDG_0098",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -10117,7 +10996,10 @@
       "tags": [
         "FR-EPSIG-195",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-195-AC01",
+        "AC:FR-EPSIG-195-AC02",
+        "AC:FR-EPSIG-195-AC03"
       ],
       "estimated_duration": 10,
       "automation_status": "automated",
@@ -10210,13 +11092,22 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-004-AC01",
+          "FR-EPSIG-004-AC02",
+          "FR-EPSIG-004-AC03",
+          "REQ-REA-0032-AC01",
+          "REQ-REA-0032-AC02",
+          "REQ-REA-0032-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_EDG_0099",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -10232,7 +11123,13 @@
         "FR-EPSIG-004",
         "REQ-REA-0032",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-004-AC01",
+        "AC:FR-EPSIG-004-AC02",
+        "AC:FR-EPSIG-004-AC03",
+        "AC:REQ-REA-0032-AC01",
+        "AC:REQ-REA-0032-AC02",
+        "AC:REQ-REA-0032-AC03"
       ],
       "estimated_duration": 10,
       "automation_status": "automated",
@@ -10319,13 +11216,19 @@
           ],
           "transport": "mTLS",
           "expected_auth_result": "ALLOW"
-        }
+        },
+        "acceptance_criteria_ids": [
+          "FR-EPSIG-005-AC01",
+          "FR-EPSIG-005-AC02",
+          "FR-EPSIG-005-AC03"
+        ]
       },
       "validation_rules": [
         "source_matrix:tests/harness/json_matrices/compliance-policy_scenarios.json",
         "source_use_case_id:compliance_policy_EDG_0100",
         "requirement_ids trace to tests/harness/requirements_matrix.json",
-        "expected outputs are preserved from the source matrix"
+        "expected outputs are preserved from the source matrix",
+        "acceptance_criteria_ids trace to tests/harness/requirements_matrix.json"
       ],
       "dependencies": [
         "filesystem",
@@ -10338,7 +11241,10 @@
         "fr-epsig-005",
         "FR-EPSIG-005",
         "compliance-policy_scenarios",
-        "BT_CANONICAL_MATRIX_V1_14COL"
+        "BT_CANONICAL_MATRIX_V1_14COL",
+        "AC:FR-EPSIG-005-AC01",
+        "AC:FR-EPSIG-005-AC02",
+        "AC:FR-EPSIG-005-AC03"
       ],
       "estimated_duration": 10,
       "automation_status": "automated",
