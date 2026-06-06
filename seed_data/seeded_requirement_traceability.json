@@ -1,0 +1,695 @@
+{
+  "schema_version": "BT_SEEDED_REQUIREMENT_TRACEABILITY_V1",
+  "repo": "symphonix-eps-ig",
+  "seed_profiles": [
+    {
+      "seed_profile_id": "generic-healthcare-tenant",
+      "tenant_scope": "configurable",
+      "care_settings": [
+        "hospital",
+        "primary_care",
+        "community",
+        "mental_health",
+        "public_health"
+      ],
+      "roles": [
+        "clinician",
+        "administrator",
+        "service_operator",
+        "auditor"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "requirement_id": "EPSIG-101",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "EPSIG-102",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "EPSIG-103",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "EPSIG-104",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "EPSIG-105",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "EPSIG-112",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "EPSIG-113",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "EPSIG-121",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "EPSIG-130",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "EPSIG-137",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "EPSIG-142",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "EPSIG-148",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-001",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-002",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-003",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-004",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-005",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-101",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-102",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-103",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-104",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-105",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-106",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-107",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-108",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-109",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-110",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-111",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-112",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-113",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-114",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-115",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-116",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-117",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-118",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-119",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-120",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-121",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-122",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-123",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-124",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-125",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-126",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-127",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-128",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-129",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-130",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-131",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-132",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-133",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-134",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-135",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-136",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-137",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-138",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-139",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-140",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-141",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-142",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-143",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-144",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-145",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-146",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-147",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-148",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-149",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-150",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-151",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-152",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-153",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-154",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-155",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-156",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-157",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-158",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-159",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-160",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-161",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-162",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-163",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-164",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-165",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-166",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-167",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-168",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-169",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-170",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-171",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-172",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-173",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-174",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-175",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-176",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-177",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-178",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-179",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-180",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-181",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-182",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-183",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-184",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-185",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-186",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-187",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-188",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-189",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-190",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-191",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-192",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-193",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-194",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "FR-EPSIG-195",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "NFR-CO-001",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "NFR-CO-002",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "NFR-FL-001",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "NFR-FL-002",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "NFR-IC-001",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "NFR-IC-002",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "NFR-MA-001",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "NFR-MA-002",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "NFR-MA-003",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "NFR-MA-004",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "NFR-PE-001",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "NFR-RE-001",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "NFR-RE-002",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "NFR-RE-003",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "NFR-SA-001",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "NFR-SA-002",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "NFR-SE-001",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "NFR-SE-002",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "NFR-SE-003",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "NFR-SE-004",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "NFR-SE-005",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    },
+    {
+      "requirement_id": "REQ-REA-0032",
+      "seed_profile_id": "generic-healthcare-tenant",
+      "seeded_scope": "tenant, role, care-setting, and policy profile evidence"
+    }
+  ]
+}
