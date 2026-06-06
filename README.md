@@ -99,3 +99,9 @@ is nested inside another (L-257 compliant).
 
 Semantic versioning: see `input/pagecontent/roadmap.md`. Breaking profile
 changes bump major; additive ValueSet entries bump minor.
+
+<!-- bullettrain-v1-matrix:start -->
+## BulletTrain 14-column functional matrices
+
+Functional use-case projections are stored in `tests/harness/reduced_json_matrices/*.14col.json`. They preserve the source V2 scenario IDs and requirement IDs, and `tests/test_bullettrain_v1_matrix.py` checks the 14-column schema, source-row parity, and `tests/harness/requirements_matrix.json` coverage. Existing service and integration suites remain the runtime evidence for real service behavior.
+<!-- bullettrain-v1-matrix:end -->
