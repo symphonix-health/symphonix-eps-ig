@@ -32,6 +32,7 @@ No runtime consumer reads from this module. Removing it does not
 change the behaviour of any simulator. Removing it DOES break the
 seeding-alignment gate.
 """
+
 from __future__ import annotations
 
 from dataclasses import dataclass, field
@@ -210,163 +211,363 @@ def seed_positive_lower_anchors() -> None:
 
     # CAID-SEED-REQ: FR-EPSIG-101
     # CAID-SEED-PK: id=FR-EPSIG-101
-    FhirPolicyControl(id="FR-EPSIG-101", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 101.")
+    FhirPolicyControl(
+        id="FR-EPSIG-101",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 101.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-102
     # CAID-SEED-PK: id=FR-EPSIG-102
-    FhirPolicyControl(id="FR-EPSIG-102", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 102.")
+    FhirPolicyControl(
+        id="FR-EPSIG-102",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 102.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-103
     # CAID-SEED-PK: id=FR-EPSIG-103
-    FhirPolicyControl(id="FR-EPSIG-103", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 103.")
+    FhirPolicyControl(
+        id="FR-EPSIG-103",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 103.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-104
     # CAID-SEED-PK: id=FR-EPSIG-104
-    FhirPolicyControl(id="FR-EPSIG-104", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 104.")
+    FhirPolicyControl(
+        id="FR-EPSIG-104",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 104.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-105
     # CAID-SEED-PK: id=FR-EPSIG-105
-    FhirPolicyControl(id="FR-EPSIG-105", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 105.")
+    FhirPolicyControl(
+        id="FR-EPSIG-105",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 105.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-106
     # CAID-SEED-PK: id=FR-EPSIG-106
-    FhirPolicyControl(id="FR-EPSIG-106", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 106.")
+    FhirPolicyControl(
+        id="FR-EPSIG-106",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 106.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-107
     # CAID-SEED-PK: id=FR-EPSIG-107
-    FhirPolicyControl(id="FR-EPSIG-107", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 107.")
+    FhirPolicyControl(
+        id="FR-EPSIG-107",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 107.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-108
     # CAID-SEED-PK: id=FR-EPSIG-108
-    FhirPolicyControl(id="FR-EPSIG-108", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 108.")
+    FhirPolicyControl(
+        id="FR-EPSIG-108",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 108.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-109
     # CAID-SEED-PK: id=FR-EPSIG-109
-    FhirPolicyControl(id="FR-EPSIG-109", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 109.")
+    FhirPolicyControl(
+        id="FR-EPSIG-109",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 109.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-110
     # CAID-SEED-PK: id=FR-EPSIG-110
-    FhirPolicyControl(id="FR-EPSIG-110", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 110.")
+    FhirPolicyControl(
+        id="FR-EPSIG-110",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 110.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-111
     # CAID-SEED-PK: id=FR-EPSIG-111
-    FhirPolicyControl(id="FR-EPSIG-111", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 111.")
+    FhirPolicyControl(
+        id="FR-EPSIG-111",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 111.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-112
     # CAID-SEED-PK: id=FR-EPSIG-112
-    FhirPolicyControl(id="FR-EPSIG-112", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 112.")
+    FhirPolicyControl(
+        id="FR-EPSIG-112",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 112.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-113
     # CAID-SEED-PK: id=FR-EPSIG-113
-    FhirPolicyControl(id="FR-EPSIG-113", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 113.")
+    FhirPolicyControl(
+        id="FR-EPSIG-113",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 113.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-114
     # CAID-SEED-PK: id=FR-EPSIG-114
-    FhirPolicyControl(id="FR-EPSIG-114", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 114.")
+    FhirPolicyControl(
+        id="FR-EPSIG-114",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 114.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-115
     # CAID-SEED-PK: id=FR-EPSIG-115
-    FhirPolicyControl(id="FR-EPSIG-115", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 115.")
+    FhirPolicyControl(
+        id="FR-EPSIG-115",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 115.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-116
     # CAID-SEED-PK: id=FR-EPSIG-116
-    FhirPolicyControl(id="FR-EPSIG-116", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 116.")
+    FhirPolicyControl(
+        id="FR-EPSIG-116",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 116.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-117
     # CAID-SEED-PK: id=FR-EPSIG-117
-    FhirPolicyControl(id="FR-EPSIG-117", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 117.")
+    FhirPolicyControl(
+        id="FR-EPSIG-117",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 117.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-118
     # CAID-SEED-PK: id=FR-EPSIG-118
-    FhirPolicyControl(id="FR-EPSIG-118", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 118.")
+    FhirPolicyControl(
+        id="FR-EPSIG-118",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 118.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-119
     # CAID-SEED-PK: id=FR-EPSIG-119
-    FhirPolicyControl(id="FR-EPSIG-119", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 119.")
+    FhirPolicyControl(
+        id="FR-EPSIG-119",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 119.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-120
     # CAID-SEED-PK: id=FR-EPSIG-120
-    FhirPolicyControl(id="FR-EPSIG-120", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 120.")
+    FhirPolicyControl(
+        id="FR-EPSIG-120",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 120.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-121
     # CAID-SEED-PK: id=FR-EPSIG-121
-    FhirPolicyControl(id="FR-EPSIG-121", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 121.")
+    FhirPolicyControl(
+        id="FR-EPSIG-121",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 121.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-122
     # CAID-SEED-PK: id=FR-EPSIG-122
-    FhirPolicyControl(id="FR-EPSIG-122", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 122.")
+    FhirPolicyControl(
+        id="FR-EPSIG-122",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 122.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-123
     # CAID-SEED-PK: id=FR-EPSIG-123
-    FhirPolicyControl(id="FR-EPSIG-123", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 123.")
+    FhirPolicyControl(
+        id="FR-EPSIG-123",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 123.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-124
     # CAID-SEED-PK: id=FR-EPSIG-124
-    FhirPolicyControl(id="FR-EPSIG-124", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 124.")
+    FhirPolicyControl(
+        id="FR-EPSIG-124",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 124.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-125
     # CAID-SEED-PK: id=FR-EPSIG-125
-    FhirPolicyControl(id="FR-EPSIG-125", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 125.")
+    FhirPolicyControl(
+        id="FR-EPSIG-125",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 125.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-126
     # CAID-SEED-PK: id=FR-EPSIG-126
-    FhirPolicyControl(id="FR-EPSIG-126", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 126.")
+    FhirPolicyControl(
+        id="FR-EPSIG-126",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 126.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-127
     # CAID-SEED-PK: id=FR-EPSIG-127
-    FhirPolicyControl(id="FR-EPSIG-127", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 127.")
+    FhirPolicyControl(
+        id="FR-EPSIG-127",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 127.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-128
     # CAID-SEED-PK: id=FR-EPSIG-128
-    FhirPolicyControl(id="FR-EPSIG-128", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 128.")
+    FhirPolicyControl(
+        id="FR-EPSIG-128",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 128.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-129
     # CAID-SEED-PK: id=FR-EPSIG-129
-    FhirPolicyControl(id="FR-EPSIG-129", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 129.")
+    FhirPolicyControl(
+        id="FR-EPSIG-129",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 129.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-130
     # CAID-SEED-PK: id=FR-EPSIG-130
-    FhirPolicyControl(id="FR-EPSIG-130", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 130.")
+    FhirPolicyControl(
+        id="FR-EPSIG-130",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 130.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-131
     # CAID-SEED-PK: id=FR-EPSIG-131
-    FhirPolicyControl(id="FR-EPSIG-131", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 131.")
+    FhirPolicyControl(
+        id="FR-EPSIG-131",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 131.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-132
     # CAID-SEED-PK: id=FR-EPSIG-132
-    FhirPolicyControl(id="FR-EPSIG-132", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 132.")
+    FhirPolicyControl(
+        id="FR-EPSIG-132",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 132.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-133
     # CAID-SEED-PK: id=FR-EPSIG-133
-    FhirPolicyControl(id="FR-EPSIG-133", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 133.")
+    FhirPolicyControl(
+        id="FR-EPSIG-133",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 133.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-134
     # CAID-SEED-PK: id=FR-EPSIG-134
-    FhirPolicyControl(id="FR-EPSIG-134", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 134.")
+    FhirPolicyControl(
+        id="FR-EPSIG-134",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 134.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-135
     # CAID-SEED-PK: id=FR-EPSIG-135
-    FhirPolicyControl(id="FR-EPSIG-135", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 135.")
+    FhirPolicyControl(
+        id="FR-EPSIG-135",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 135.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-136
     # CAID-SEED-PK: id=FR-EPSIG-136
-    FhirPolicyControl(id="FR-EPSIG-136", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 136.")
+    FhirPolicyControl(
+        id="FR-EPSIG-136",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 136.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-137
     # CAID-SEED-PK: id=FR-EPSIG-137
-    FhirPolicyControl(id="FR-EPSIG-137", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 137.")
+    FhirPolicyControl(
+        id="FR-EPSIG-137",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 137.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-138
     # CAID-SEED-PK: id=FR-EPSIG-138
-    FhirPolicyControl(id="FR-EPSIG-138", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 138.")
+    FhirPolicyControl(
+        id="FR-EPSIG-138",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 138.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-139
     # CAID-SEED-PK: id=FR-EPSIG-139
-    FhirPolicyControl(id="FR-EPSIG-139", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 139.")
+    FhirPolicyControl(
+        id="FR-EPSIG-139",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 139.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-140
     # CAID-SEED-PK: id=FR-EPSIG-140
-    FhirPolicyControl(id="FR-EPSIG-140", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 140.")
+    FhirPolicyControl(
+        id="FR-EPSIG-140",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 140.",
+    )
 
 
 def seed_positive_upper_anchors() -> None:
@@ -380,163 +581,363 @@ def seed_positive_upper_anchors() -> None:
 
     # CAID-SEED-REQ: FR-EPSIG-141
     # CAID-SEED-PK: id=FR-EPSIG-141
-    FhirPolicyControl(id="FR-EPSIG-141", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 141.")
+    FhirPolicyControl(
+        id="FR-EPSIG-141",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 141.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-142
     # CAID-SEED-PK: id=FR-EPSIG-142
-    FhirPolicyControl(id="FR-EPSIG-142", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 142.")
+    FhirPolicyControl(
+        id="FR-EPSIG-142",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 142.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-143
     # CAID-SEED-PK: id=FR-EPSIG-143
-    FhirPolicyControl(id="FR-EPSIG-143", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 143.")
+    FhirPolicyControl(
+        id="FR-EPSIG-143",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 143.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-144
     # CAID-SEED-PK: id=FR-EPSIG-144
-    FhirPolicyControl(id="FR-EPSIG-144", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 144.")
+    FhirPolicyControl(
+        id="FR-EPSIG-144",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 144.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-145
     # CAID-SEED-PK: id=FR-EPSIG-145
-    FhirPolicyControl(id="FR-EPSIG-145", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 145.")
+    FhirPolicyControl(
+        id="FR-EPSIG-145",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 145.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-146
     # CAID-SEED-PK: id=FR-EPSIG-146
-    FhirPolicyControl(id="FR-EPSIG-146", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 146.")
+    FhirPolicyControl(
+        id="FR-EPSIG-146",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 146.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-147
     # CAID-SEED-PK: id=FR-EPSIG-147
-    FhirPolicyControl(id="FR-EPSIG-147", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 147.")
+    FhirPolicyControl(
+        id="FR-EPSIG-147",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 147.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-148
     # CAID-SEED-PK: id=FR-EPSIG-148
-    FhirPolicyControl(id="FR-EPSIG-148", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 148.")
+    FhirPolicyControl(
+        id="FR-EPSIG-148",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 148.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-149
     # CAID-SEED-PK: id=FR-EPSIG-149
-    FhirPolicyControl(id="FR-EPSIG-149", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 149.")
+    FhirPolicyControl(
+        id="FR-EPSIG-149",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 149.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-150
     # CAID-SEED-PK: id=FR-EPSIG-150
-    FhirPolicyControl(id="FR-EPSIG-150", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 150.")
+    FhirPolicyControl(
+        id="FR-EPSIG-150",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 150.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-151
     # CAID-SEED-PK: id=FR-EPSIG-151
-    FhirPolicyControl(id="FR-EPSIG-151", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 151.")
+    FhirPolicyControl(
+        id="FR-EPSIG-151",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 151.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-152
     # CAID-SEED-PK: id=FR-EPSIG-152
-    FhirPolicyControl(id="FR-EPSIG-152", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 152.")
+    FhirPolicyControl(
+        id="FR-EPSIG-152",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 152.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-153
     # CAID-SEED-PK: id=FR-EPSIG-153
-    FhirPolicyControl(id="FR-EPSIG-153", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 153.")
+    FhirPolicyControl(
+        id="FR-EPSIG-153",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 153.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-154
     # CAID-SEED-PK: id=FR-EPSIG-154
-    FhirPolicyControl(id="FR-EPSIG-154", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 154.")
+    FhirPolicyControl(
+        id="FR-EPSIG-154",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 154.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-155
     # CAID-SEED-PK: id=FR-EPSIG-155
-    FhirPolicyControl(id="FR-EPSIG-155", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 155.")
+    FhirPolicyControl(
+        id="FR-EPSIG-155",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 155.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-156
     # CAID-SEED-PK: id=FR-EPSIG-156
-    FhirPolicyControl(id="FR-EPSIG-156", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 156.")
+    FhirPolicyControl(
+        id="FR-EPSIG-156",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 156.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-157
     # CAID-SEED-PK: id=FR-EPSIG-157
-    FhirPolicyControl(id="FR-EPSIG-157", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 157.")
+    FhirPolicyControl(
+        id="FR-EPSIG-157",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 157.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-158
     # CAID-SEED-PK: id=FR-EPSIG-158
-    FhirPolicyControl(id="FR-EPSIG-158", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 158.")
+    FhirPolicyControl(
+        id="FR-EPSIG-158",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 158.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-159
     # CAID-SEED-PK: id=FR-EPSIG-159
-    FhirPolicyControl(id="FR-EPSIG-159", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 159.")
+    FhirPolicyControl(
+        id="FR-EPSIG-159",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 159.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-160
     # CAID-SEED-PK: id=FR-EPSIG-160
-    FhirPolicyControl(id="FR-EPSIG-160", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 160.")
+    FhirPolicyControl(
+        id="FR-EPSIG-160",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 160.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-161
     # CAID-SEED-PK: id=FR-EPSIG-161
-    FhirPolicyControl(id="FR-EPSIG-161", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 161.")
+    FhirPolicyControl(
+        id="FR-EPSIG-161",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 161.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-162
     # CAID-SEED-PK: id=FR-EPSIG-162
-    FhirPolicyControl(id="FR-EPSIG-162", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 162.")
+    FhirPolicyControl(
+        id="FR-EPSIG-162",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 162.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-163
     # CAID-SEED-PK: id=FR-EPSIG-163
-    FhirPolicyControl(id="FR-EPSIG-163", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 163.")
+    FhirPolicyControl(
+        id="FR-EPSIG-163",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 163.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-164
     # CAID-SEED-PK: id=FR-EPSIG-164
-    FhirPolicyControl(id="FR-EPSIG-164", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 164.")
+    FhirPolicyControl(
+        id="FR-EPSIG-164",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 164.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-165
     # CAID-SEED-PK: id=FR-EPSIG-165
-    FhirPolicyControl(id="FR-EPSIG-165", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 165.")
+    FhirPolicyControl(
+        id="FR-EPSIG-165",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 165.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-166
     # CAID-SEED-PK: id=FR-EPSIG-166
-    FhirPolicyControl(id="FR-EPSIG-166", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 166.")
+    FhirPolicyControl(
+        id="FR-EPSIG-166",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 166.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-167
     # CAID-SEED-PK: id=FR-EPSIG-167
-    FhirPolicyControl(id="FR-EPSIG-167", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 167.")
+    FhirPolicyControl(
+        id="FR-EPSIG-167",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 167.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-168
     # CAID-SEED-PK: id=FR-EPSIG-168
-    FhirPolicyControl(id="FR-EPSIG-168", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 168.")
+    FhirPolicyControl(
+        id="FR-EPSIG-168",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 168.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-169
     # CAID-SEED-PK: id=FR-EPSIG-169
-    FhirPolicyControl(id="FR-EPSIG-169", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 169.")
+    FhirPolicyControl(
+        id="FR-EPSIG-169",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 169.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-170
     # CAID-SEED-PK: id=FR-EPSIG-170
-    FhirPolicyControl(id="FR-EPSIG-170", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 170.")
+    FhirPolicyControl(
+        id="FR-EPSIG-170",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 170.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-171
     # CAID-SEED-PK: id=FR-EPSIG-171
-    FhirPolicyControl(id="FR-EPSIG-171", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 171.")
+    FhirPolicyControl(
+        id="FR-EPSIG-171",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 171.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-172
     # CAID-SEED-PK: id=FR-EPSIG-172
-    FhirPolicyControl(id="FR-EPSIG-172", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 172.")
+    FhirPolicyControl(
+        id="FR-EPSIG-172",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 172.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-173
     # CAID-SEED-PK: id=FR-EPSIG-173
-    FhirPolicyControl(id="FR-EPSIG-173", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 173.")
+    FhirPolicyControl(
+        id="FR-EPSIG-173",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 173.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-174
     # CAID-SEED-PK: id=FR-EPSIG-174
-    FhirPolicyControl(id="FR-EPSIG-174", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 174.")
+    FhirPolicyControl(
+        id="FR-EPSIG-174",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 174.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-175
     # CAID-SEED-PK: id=FR-EPSIG-175
-    FhirPolicyControl(id="FR-EPSIG-175", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 175.")
+    FhirPolicyControl(
+        id="FR-EPSIG-175",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 175.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-176
     # CAID-SEED-PK: id=FR-EPSIG-176
-    FhirPolicyControl(id="FR-EPSIG-176", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 176.")
+    FhirPolicyControl(
+        id="FR-EPSIG-176",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 176.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-177
     # CAID-SEED-PK: id=FR-EPSIG-177
-    FhirPolicyControl(id="FR-EPSIG-177", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 177.")
+    FhirPolicyControl(
+        id="FR-EPSIG-177",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 177.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-178
     # CAID-SEED-PK: id=FR-EPSIG-178
-    FhirPolicyControl(id="FR-EPSIG-178", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 178.")
+    FhirPolicyControl(
+        id="FR-EPSIG-178",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 178.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-179
     # CAID-SEED-PK: id=FR-EPSIG-179
-    FhirPolicyControl(id="FR-EPSIG-179", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 179.")
+    FhirPolicyControl(
+        id="FR-EPSIG-179",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 179.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-180
     # CAID-SEED-PK: id=FR-EPSIG-180
-    FhirPolicyControl(id="FR-EPSIG-180", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation", description="Catalogued control 180.")
+    FhirPolicyControl(
+        id="FR-EPSIG-180",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation",
+        description="Catalogued control 180.",
+    )
 
 
 def seed_negative_anchors() -> None:
@@ -549,43 +950,93 @@ def seed_negative_anchors() -> None:
 
     # CAID-SEED-REQ: FR-EPSIG-181
     # CAID-SEED-PK: id=FR-EPSIG-181
-    FhirPolicyControl(id="FR-EPSIG-181", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation-negative", description="Catalogued negative-path control 181.")
+    FhirPolicyControl(
+        id="FR-EPSIG-181",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation-negative",
+        description="Catalogued negative-path control 181.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-182
     # CAID-SEED-PK: id=FR-EPSIG-182
-    FhirPolicyControl(id="FR-EPSIG-182", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation-negative", description="Catalogued negative-path control 182.")
+    FhirPolicyControl(
+        id="FR-EPSIG-182",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation-negative",
+        description="Catalogued negative-path control 182.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-183
     # CAID-SEED-PK: id=FR-EPSIG-183
-    FhirPolicyControl(id="FR-EPSIG-183", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation-negative", description="Catalogued negative-path control 183.")
+    FhirPolicyControl(
+        id="FR-EPSIG-183",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation-negative",
+        description="Catalogued negative-path control 183.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-184
     # CAID-SEED-PK: id=FR-EPSIG-184
-    FhirPolicyControl(id="FR-EPSIG-184", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation-negative", description="Catalogued negative-path control 184.")
+    FhirPolicyControl(
+        id="FR-EPSIG-184",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation-negative",
+        description="Catalogued negative-path control 184.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-185
     # CAID-SEED-PK: id=FR-EPSIG-185
-    FhirPolicyControl(id="FR-EPSIG-185", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation-negative", description="Catalogued negative-path control 185.")
+    FhirPolicyControl(
+        id="FR-EPSIG-185",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation-negative",
+        description="Catalogued negative-path control 185.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-186
     # CAID-SEED-PK: id=FR-EPSIG-186
-    FhirPolicyControl(id="FR-EPSIG-186", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation-negative", description="Catalogued negative-path control 186.")
+    FhirPolicyControl(
+        id="FR-EPSIG-186",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation-negative",
+        description="Catalogued negative-path control 186.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-187
     # CAID-SEED-PK: id=FR-EPSIG-187
-    FhirPolicyControl(id="FR-EPSIG-187", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation-negative", description="Catalogued negative-path control 187.")
+    FhirPolicyControl(
+        id="FR-EPSIG-187",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation-negative",
+        description="Catalogued negative-path control 187.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-188
     # CAID-SEED-PK: id=FR-EPSIG-188
-    FhirPolicyControl(id="FR-EPSIG-188", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation-negative", description="Catalogued negative-path control 188.")
+    FhirPolicyControl(
+        id="FR-EPSIG-188",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation-negative",
+        description="Catalogued negative-path control 188.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-189
     # CAID-SEED-PK: id=FR-EPSIG-189
-    FhirPolicyControl(id="FR-EPSIG-189", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation-negative", description="Catalogued negative-path control 189.")
+    FhirPolicyControl(
+        id="FR-EPSIG-189",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation-negative",
+        description="Catalogued negative-path control 189.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-190
     # CAID-SEED-PK: id=FR-EPSIG-190
-    FhirPolicyControl(id="FR-EPSIG-190", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation-negative", description="Catalogued negative-path control 190.")
+    FhirPolicyControl(
+        id="FR-EPSIG-190",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation-negative",
+        description="Catalogued negative-path control 190.",
+    )
 
 
 def seed_edge_anchors() -> None:
@@ -598,23 +1049,48 @@ def seed_edge_anchors() -> None:
 
     # CAID-SEED-REQ: FR-EPSIG-191
     # CAID-SEED-PK: id=FR-EPSIG-191
-    FhirPolicyControl(id="FR-EPSIG-191", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation-edge", description="Catalogued edge-case control 191.")
+    FhirPolicyControl(
+        id="FR-EPSIG-191",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation-edge",
+        description="Catalogued edge-case control 191.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-192
     # CAID-SEED-PK: id=FR-EPSIG-192
-    FhirPolicyControl(id="FR-EPSIG-192", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation-edge", description="Catalogued edge-case control 192.")
+    FhirPolicyControl(
+        id="FR-EPSIG-192",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation-edge",
+        description="Catalogued edge-case control 192.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-193
     # CAID-SEED-PK: id=FR-EPSIG-193
-    FhirPolicyControl(id="FR-EPSIG-193", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation-edge", description="Catalogued edge-case control 193.")
+    FhirPolicyControl(
+        id="FR-EPSIG-193",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation-edge",
+        description="Catalogued edge-case control 193.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-194
     # CAID-SEED-PK: id=FR-EPSIG-194
-    FhirPolicyControl(id="FR-EPSIG-194", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation-edge", description="Catalogued edge-case control 194.")
+    FhirPolicyControl(
+        id="FR-EPSIG-194",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation-edge",
+        description="Catalogued edge-case control 194.",
+    )
 
     # CAID-SEED-REQ: FR-EPSIG-195
     # CAID-SEED-PK: id=FR-EPSIG-195
-    FhirPolicyControl(id="FR-EPSIG-195", artefact_path="docs/REQUIREMENTS.md", artefact_class="documentation-edge", description="Catalogued edge-case control 195.")
+    FhirPolicyControl(
+        id="FR-EPSIG-195",
+        artefact_path="docs/REQUIREMENTS.md",
+        artefact_class="documentation-edge",
+        description="Catalogued edge-case control 195.",
+    )
 
 
 def seed_downstream_anchors() -> None:

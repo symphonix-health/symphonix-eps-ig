@@ -28,9 +28,7 @@ def _load(name: str) -> dict:
     """Read a generated FHIR resource by SUSHI output filename."""
     path = FSH_GENERATED / name
     if not path.exists():
-        pytest.skip(
-            f"SUSHI output missing ({path.name}); run ./_genonce.sh first"
-        )
+        pytest.skip(f"SUSHI output missing ({path.name}); run ./_genonce.sh first")
     return json.loads(path.read_text(encoding="utf-8"))
 
 
@@ -43,8 +41,14 @@ CANONICAL_BASE = "https://symphonix.health/fhir/eps/StructureDefinition/"
         (
             "MedicationRequest-ExampleRxAmoxicillin.json",
             "eps-medication-request",
-            ["status", "intent", "subject", "requester",
-             "medicationCodeableConcept", "dosageInstruction"],
+            [
+                "status",
+                "intent",
+                "subject",
+                "requester",
+                "medicationCodeableConcept",
+                "dosageInstruction",
+            ],
         ),
         (
             "MedicationRequest-ExampleRxParacetamolOne.json",
@@ -80,9 +84,7 @@ def test_example_conforms(filename, profile_id, required_fields):
         f"{filename} missing expected profile reference {profile_id}"
     )
     for field in required_fields:
-        assert field in resource, (
-            f"{filename} missing required field {field}"
-        )
+        assert field in resource, f"{filename} missing required field {field}"
 
 
 def test_paediatric_example_declares_dose_band():
@@ -90,8 +92,7 @@ def test_paediatric_example_declares_dose_band():
     dose_and_rate = resource["dosageInstruction"][0]["doseAndRate"][0]
     extensions = dose_and_rate.get("extension", [])
     assert any(
-        e.get("url") == f"{CANONICAL_BASE}eps-dose-band-limit"
-        for e in extensions
+        e.get("url") == f"{CANONICAL_BASE}eps-dose-band-limit" for e in extensions
     ), "Paediatric example must carry eps-dose-band-limit extension"
 
 

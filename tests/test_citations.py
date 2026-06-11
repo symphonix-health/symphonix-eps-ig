@@ -68,10 +68,12 @@ def test_citation_resolves(source, label, url):
         """
         try:
             if method == "HEAD":
-                return httpx.head(url, follow_redirects=True, timeout=15,
-                                  headers=_BROWSER_HEADERS)
-            return httpx.get(url, follow_redirects=True, timeout=15,
-                             headers=_BROWSER_HEADERS)
+                return httpx.head(
+                    url, follow_redirects=True, timeout=15, headers=_BROWSER_HEADERS
+                )
+            return httpx.get(
+                url, follow_redirects=True, timeout=15, headers=_BROWSER_HEADERS
+            )
         except httpx.TimeoutException:
             return None
         except httpx.TransportError:
@@ -95,8 +97,7 @@ def test_citation_resolves(source, label, url):
     if response.status_code in (403, 429):
         # Persistent anti-bot block; treat as skip — the citation itself is
         # not the unit under test, the IG content is.
-        pytest.skip(
-            f"{url} returned {response.status_code} (anti-bot block)")
+        pytest.skip(f"{url} returned {response.status_code} (anti-bot block)")
     assert response.status_code < 400, (
         f"{source.name}: {label} -> {url} returned {response.status_code}"
     )
