@@ -1,5 +1,25 @@
 # Symphonix EPS Implementation Guide
 
+
+<!-- symphonix-health-ecosystem:start -->
+## Symphonix Health ecosystem
+
+<p>
+  <a href="https://github.com/symphonix-health"><img alt="Symphonix Health" src="https://img.shields.io/badge/Symphonix_Health-clinical_sibling-6366F1?style=flat-square" /></a>
+  <a href="https://github.com/symphonix-health/symphonix-health.github.io/blob/main/docs/system-catalogue.md"><img alt="System catalogue" src="https://img.shields.io/badge/catalogue-51_repos-14919B?style=flat-square" /></a>
+  <a href="https://github.com/symphonix-health/design-system"><img alt="Design system" src="https://img.shields.io/badge/design_system-dark_first-6366F1?style=flat-square" /></a>
+</p>
+
+| Field | Value |
+|---|---|
+| Organisation | `Symphonix-Health` |
+| Ecosystem layer | Clinical sibling system |
+| Repository role | FHIR R4 implementation guide for electronic prescription workflows. |
+| Catalogue | [Symphonix system catalogue](https://github.com/symphonix-health/symphonix-health.github.io/blob/main/docs/system-catalogue.md) |
+| Design system | [Symphonix Health design system](https://github.com/symphonix-health/design-system) |
+| Evidence rule | Catalogue presence is orientation only. Use repo-local tests, CAID artefacts, seeded data, and runbooks for readiness claims. |
+<!-- symphonix-health-ecosystem:end -->
+
 FHIR R4 Implementation Guide for the Symphonix Electronic Prescription Service —
 the shared contract between the `etps` transport simulator and the `eps`
 clinical-workflow simulator on the Symphonix BulletTrain Health Information
