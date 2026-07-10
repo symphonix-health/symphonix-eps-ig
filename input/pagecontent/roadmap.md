@@ -17,11 +17,35 @@
 - Python validator harness.
 - GitHub Actions CI for SUSHI + IG Publisher.
 
-## v0.2.0 (planned)
+## v0.2.0 (released)
 
-- Additional example instances: cross-border EU 2011/24, discharge push,
-  cancel race, repeat-dispensing issue progression.
+- Cephalosporin cross-reactivity cascade added to the `eps-allergen-group`
+  ValueSet: `cephalosporin-class` (1st/2nd gen, ~10% empirical
+  cross-reactivity with penicillin allergy per BNF, advisory at sign-time)
+  and `cephalosporin-class-extended` (3rd/4th/5th gen, ~1-3% side-chain-
+  specific cross-reactivity per the 2026 NatPSA update, advisory only when
+  the patient is recorded penicillin-class allergic with no prior
+  tolerance). Additive bump per `update-cascade.md`.
+- Five canonical FHIR Bundle example fixtures added under
+  `input/examples/bundles/`, consumed by the caid-agent journey runner:
+  `j1-amoxicillin-prescribe.json` (happy-path nominated Rx),
+  `j6-paracetamol-duplicate-pair.json` (QE coroner duplicate-therapy
+  hard-stop reference case), `j7-cefalexin-cross-reactivity.json`
+  (penicillin-allergic patient + cefalexin -> advisory cross-reactivity
+  alert), `j8-paediatric-overdose.json` (10x enoxaparin in an 18.5kg child
+  -> hard-stop per HSSIB reference case), and `j9-cross-border.json` (Irish
+  prescriber + UK dispenser per EU Directive 2011/24 -- delivers the
+  cross-border EU 2011/24 example instance planned below).
+- Downstream cascade: `eps` sibling repo's allergen-group data, CDS rule,
+  and matrix rows were updated in lock-step; `etps` pins the v0.2.0
+  dependency (additive, no code change); frontend allergen-group dropdowns
+  pick the new codes up automatically via `/api/reference/allergen-groups`.
+
+### Carried forward to a future release
+
 - Negative-example validator fixtures with `.expected.txt` sidecars.
+- Discharge push, cancel race, and repeat-dispensing issue progression
+  example instances.
 - Extended DDI extension for drug-pair severity metadata.
 - openEHR medication archetype crosswalk.
 - US-core Patient/Practitioner/Organization crosswalk.
