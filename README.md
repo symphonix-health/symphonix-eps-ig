@@ -95,15 +95,23 @@ authoring (v2+), mobile SDKs.
 
 ## Compliance surface
 
-- **DCB0129** (clinical risk in design): starter hazard sheet in
-  `input/pagecontent/safety.md`. Manufacturers extend with product-specific
-  hazards.
+- **DCB0129** (clinical risk in design): full CSAA-generated safety pack in
+  `safety/` -- `CRMP.md` (Clinical Risk Management Plan), `HAZARD_LOG.md` (8
+  seeded hazards across clinical and CDS categories, 5x5-rated), and
+  `CLINICAL_SAFETY_CASE_REPORT.md` (hazard summary by residual risk). All
+  three are DRAFT until reviewed and signed off by a registered human Clinical
+  Safety Officer (CSO); CSAA is an assurance agent, not a substitute for
+  statutory CSO accountability. `SAFETY_SCOPE.md` records the scope decision
+  (`cds_support`; CSAA invocation, MHRA review, and DPIA all required).
+  `input/pagecontent/safety.md` remains the narrative starter hazard sheet;
+  manufacturers extend both with product-specific hazards.
 - **DCB0160** (clinical risk in deployment): deployers regenerate at each
   IG release.
 - **GDPR / UK DPA 2018**: Art 30 register starter in `safety.md`; deployers
   localise and attach to their DPIA.
 - **UK MDR 2002 + MHRA**: ePMA medical-device posture documented; deployers
-  complete their own classification statement.
+  complete their own classification statement. See `safety/hazards.json` for
+  the machine-readable hazard data.
 
 ## Related repos
 
