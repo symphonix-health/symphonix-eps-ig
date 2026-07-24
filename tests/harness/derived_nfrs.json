@@ -3,8 +3,8 @@
   "iso_model": "ISO/IEC 25010:2023",
   "metadata": {
     "subsystem": "symphonix-eps-ig",
-    "fr_count": 50,
-    "derived_nfr_count": 21,
+    "fr_count": 63,
+    "derived_nfr_count": 16,
     "project_type": "docs_site",
     "regulatory_regime": [
       "ISO_27001",
@@ -27,18 +27,18 @@
       "requirement_id": "NFR-PE-001",
       "title": "API time behaviour (p95 latency)",
       "statement": "The system SHALL respond to mutating + read requests within 100ms (p95) under nominal load.",
-      "rationale": "ISO/IEC 25010:2023 Performance Efficiency / time_behaviour. Derived because the project exposes 50 functional endpoint(s); without a quantified latency target the SRS is unverifiable per Eckhardt 2016.",
+      "rationale": "ISO/IEC 25010:2023 Performance Efficiency / time_behaviour. Derived because the project exposes 63 functional endpoint(s); without a quantified latency target the SRS is unverifiable per Eckhardt 2016.",
       "category": "non-functional",
       "priority": "HIGH",
       "iso_25010_characteristic": "Performance Efficiency",
       "iso_25010_subcharacteristic": "time_behaviour",
       "regulatory_ref": "",
       "trace_links": [
-        "EPSIG-101",
-        "EPSIG-102",
-        "EPSIG-103",
-        "EPSIG-104",
-        "EPSIG-105"
+        "FR-EPSIG-101",
+        "FR-EPSIG-102",
+        "FR-EPSIG-103",
+        "FR-EPSIG-104",
+        "FR-EPSIG-105"
       ],
       "acceptance_criteria": [
         {
@@ -51,57 +51,7 @@
       ]
     },
     {
-      "requirement_id": "NFR-FL-001",
-      "title": "Horizontal scalability target",
-      "statement": "The system SHALL sustain 100 RPS sustained throughput with horizontal pod scaling without per-request degradation.",
-      "rationale": "ISO/IEC 25010:2023 Flexibility / scalability. Derived from scale_tier='production'; pilot tier omits this.",
-      "category": "non-functional",
-      "priority": "MEDIUM",
-      "iso_25010_characteristic": "Flexibility",
-      "iso_25010_subcharacteristic": "scalability",
-      "regulatory_ref": "",
-      "trace_links": [
-        "EPSIG-101",
-        "EPSIG-102",
-        "EPSIG-103"
-      ],
-      "acceptance_criteria": [
-        {
-          "ac_id": "NFR-FL-001-AC01",
-          "given": "the system is deployed with replica count >= 2",
-          "when": "sustained load of 100 RPS is applied for 5 minutes",
-          "then": "p95 latency stays within performance target with no 5xx errors",
-          "test_type": "Positive"
-        }
-      ]
-    },
-    {
       "requirement_id": "NFR-RE-001",
-      "title": "Availability target (99.9%)",
-      "statement": "The system SHALL be available 99.9% measured monthly, excluding documented planned maintenance windows.",
-      "rationale": "ISO/IEC 25010:2023 Reliability / availability. Tier-specific target ('production'); without a quantified target the SLO is unaccountable.",
-      "category": "non-functional",
-      "priority": "HIGH",
-      "iso_25010_characteristic": "Reliability",
-      "iso_25010_subcharacteristic": "availability",
-      "regulatory_ref": "",
-      "trace_links": [
-        "EPSIG-101",
-        "EPSIG-102",
-        "EPSIG-103"
-      ],
-      "acceptance_criteria": [
-        {
-          "ac_id": "NFR-RE-001-AC01",
-          "given": "the /health endpoint is documented",
-          "when": "external uptime probe queries /health every 60 s for a month",
-          "then": "recorded availability >= 99.9%",
-          "test_type": "Positive"
-        }
-      ]
-    },
-    {
-      "requirement_id": "NFR-RE-002",
       "title": "Downstream-call resilience (circuit breaker + retry)",
       "statement": "Calls to downstream systems SHALL be wrapped in a circuit breaker with exponential-backoff retry; the system SHALL degrade gracefully and surface a typed error to the caller rather than propagating the underlying failure.",
       "rationale": "ISO/IEC 25010:2023 Reliability / fault_tolerance. Derived from FRs that touch external systems; without breaker + retry semantics, transient downstream faults cascade.",
@@ -111,46 +61,21 @@
       "iso_25010_subcharacteristic": "fault_tolerance",
       "regulatory_ref": "",
       "trace_links": [
-        "EPSIG-101"
+        "REQ-REA-0032"
       ],
       "acceptance_criteria": [
         {
-          "ac_id": "NFR-RE-002-AC01",
+          "ac_id": "NFR-RE-001-AC01",
           "given": "the downstream is artificially returning 5xx",
           "when": "the system invokes the downstream",
           "then": "the breaker opens after threshold and a typed error is returned to the caller",
           "test_type": "Negative"
         },
         {
-          "ac_id": "NFR-RE-002-AC02",
+          "ac_id": "NFR-RE-001-AC02",
           "given": "the downstream recovers",
           "when": "the breaker reset window elapses",
           "then": "the breaker half-opens, probes succeed, and full traffic resumes",
-          "test_type": "Positive"
-        }
-      ]
-    },
-    {
-      "requirement_id": "NFR-RE-003",
-      "title": "Disaster recovery (RPO 15 min / RTO 1 h)",
-      "statement": "The system SHALL declare and exercise documented RPO 15 min and RTO 1 h via at least an annual DR drill.",
-      "rationale": "ISO/IEC 25010:2023 Reliability / recoverability. Derived from scale_tier='production'.",
-      "category": "non-functional",
-      "priority": "HIGH",
-      "iso_25010_characteristic": "Reliability",
-      "iso_25010_subcharacteristic": "recoverability",
-      "regulatory_ref": "",
-      "trace_links": [
-        "EPSIG-101",
-        "EPSIG-102",
-        "EPSIG-103"
-      ],
-      "acceptance_criteria": [
-        {
-          "ac_id": "NFR-RE-003-AC01",
-          "given": "the operator triggers a DR drill",
-          "when": "primary region is taken offline",
-          "then": "failover completes within RTO (1 h) and data loss <= RPO (15 min)",
           "test_type": "Positive"
         }
       ]
@@ -166,7 +91,7 @@
       "iso_25010_subcharacteristic": "confidentiality",
       "regulatory_ref": "",
       "trace_links": [
-        "EPSIG-121"
+        "FR-EPSIG-121"
       ],
       "acceptance_criteria": [
         {
@@ -196,9 +121,9 @@
       "iso_25010_subcharacteristic": "integrity",
       "regulatory_ref": "",
       "trace_links": [
-        "EPSIG-102",
-        "EPSIG-104",
-        "EPSIG-130"
+        "FR-EPSIG-102",
+        "FR-EPSIG-104",
+        "FR-EPSIG-130"
       ],
       "acceptance_criteria": [
         {
@@ -221,11 +146,11 @@
       "iso_25010_subcharacteristic": "accountability",
       "regulatory_ref": "",
       "trace_links": [
-        "EPSIG-101",
-        "EPSIG-102",
-        "EPSIG-103",
-        "EPSIG-104",
-        "EPSIG-105"
+        "FR-EPSIG-101",
+        "FR-EPSIG-102",
+        "FR-EPSIG-103",
+        "FR-EPSIG-104",
+        "FR-EPSIG-105"
       ],
       "acceptance_criteria": [
         {
@@ -234,65 +159,6 @@
           "when": "the operator queries the audit log",
           "then": "the request appears with caller, ts, correlation_id, operation, and outcome",
           "test_type": "Positive"
-        }
-      ]
-    },
-    {
-      "requirement_id": "NFR-SE-004",
-      "title": "Strong authentication on all endpoints",
-      "statement": "All endpoints SHALL require authentication (OIDC JWT or mTLS); credentials SHALL be hashed with a memory-hard KDF (argon2id or bcrypt cost >= 12); JWT TTL <= 24 h.",
-      "rationale": "ISO/IEC 25010:2023 Security / authenticity. Anonymous endpoints are an OWASP A01 (broken access control) risk.",
-      "category": "non-functional",
-      "priority": "CRITICAL",
-      "iso_25010_characteristic": "Security",
-      "iso_25010_subcharacteristic": "authenticity",
-      "regulatory_ref": "",
-      "trace_links": [
-        "EPSIG-101",
-        "EPSIG-102",
-        "EPSIG-103"
-      ],
-      "acceptance_criteria": [
-        {
-          "ac_id": "NFR-SE-004-AC01",
-          "given": "no credentials are presented",
-          "when": "any documented endpoint is invoked",
-          "then": "the response is 401 Unauthorized",
-          "test_type": "Negative"
-        },
-        {
-          "ac_id": "NFR-SE-004-AC02",
-          "given": "valid credentials are presented",
-          "when": "the documented login endpoint is invoked",
-          "then": "a bearer token is returned with TTL <= 24 h",
-          "test_type": "Positive"
-        }
-      ]
-    },
-    {
-      "requirement_id": "NFR-SE-005",
-      "title": "Rate limiting + abuse defence",
-      "statement": "Public endpoints SHALL apply per-principal rate limiting with documented thresholds; mutating endpoints SHALL honour Idempotency-Key headers; replay attacks within the Idempotency-Key window SHALL be rejected.",
-      "rationale": "ISO/IEC 25010:2023 Security / resistance. OWASP A07.",
-      "category": "non-functional",
-      "priority": "HIGH",
-      "iso_25010_characteristic": "Security",
-      "iso_25010_subcharacteristic": "resistance",
-      "regulatory_ref": "",
-      "trace_links": [
-        "EPSIG-101",
-        "EPSIG-102",
-        "EPSIG-103",
-        "EPSIG-104",
-        "EPSIG-105"
-      ],
-      "acceptance_criteria": [
-        {
-          "ac_id": "NFR-SE-005-AC01",
-          "given": "a principal exceeds the documented rate threshold",
-          "when": "they continue making requests",
-          "then": "subsequent requests return 429 with Retry-After",
-          "test_type": "Negative"
         }
       ]
     },
@@ -307,7 +173,8 @@
       "iso_25010_subcharacteristic": "interoperability",
       "regulatory_ref": "",
       "trace_links": [
-        "EPSIG-142"
+        "FR-EPSIG-142",
+        "REQ-REA-0032"
       ],
       "acceptance_criteria": [
         {
@@ -330,7 +197,7 @@
       "iso_25010_subcharacteristic": "coexistence",
       "regulatory_ref": "",
       "trace_links": [
-        "EPSIG-101"
+        "FR-EPSIG-101"
       ],
       "acceptance_criteria": [
         {
@@ -353,9 +220,9 @@
       "iso_25010_subcharacteristic": "accessibility",
       "regulatory_ref": "WCAG 2.2 Level AA",
       "trace_links": [
-        "EPSIG-101",
-        "EPSIG-102",
-        "EPSIG-103"
+        "FR-EPSIG-101",
+        "FR-EPSIG-102",
+        "FR-EPSIG-103"
       ],
       "acceptance_criteria": [
         {
@@ -378,8 +245,8 @@
       "iso_25010_subcharacteristic": "operability",
       "regulatory_ref": "",
       "trace_links": [
-        "EPSIG-104",
-        "EPSIG-137"
+        "FR-EPSIG-104",
+        "FR-EPSIG-137"
       ],
       "acceptance_criteria": [
         {
@@ -402,7 +269,7 @@
       "iso_25010_subcharacteristic": "modularity",
       "regulatory_ref": "",
       "trace_links": [
-        "EPSIG-101"
+        "FR-EPSIG-101"
       ],
       "acceptance_criteria": [
         {
@@ -425,7 +292,7 @@
       "iso_25010_subcharacteristic": "testability",
       "regulatory_ref": "",
       "trace_links": [
-        "EPSIG-101"
+        "FR-EPSIG-101"
       ],
       "acceptance_criteria": [
         {
@@ -448,9 +315,9 @@
       "iso_25010_subcharacteristic": "analysability",
       "regulatory_ref": "",
       "trace_links": [
-        "EPSIG-101",
-        "EPSIG-102",
-        "EPSIG-103"
+        "FR-EPSIG-101",
+        "FR-EPSIG-102",
+        "FR-EPSIG-103"
       ],
       "acceptance_criteria": [
         {
@@ -473,7 +340,7 @@
       "iso_25010_subcharacteristic": "modifiability",
       "regulatory_ref": "",
       "trace_links": [
-        "EPSIG-101"
+        "FR-EPSIG-101"
       ],
       "acceptance_criteria": [
         {
@@ -486,7 +353,7 @@
       ]
     },
     {
-      "requirement_id": "NFR-FL-002",
+      "requirement_id": "NFR-FL-001",
       "title": "Single-command install + Helm chart parity",
       "statement": "The system SHALL ship a Helm chart (production deployment) and a docker-compose for local development; both SHALL produce the same runtime contract.",
       "rationale": "ISO/IEC 25010:2023 Flexibility / installability — covers Portability in the user's NFR list.",
@@ -496,11 +363,11 @@
       "iso_25010_subcharacteristic": "installability",
       "regulatory_ref": "",
       "trace_links": [
-        "EPSIG-101"
+        "FR-EPSIG-101"
       ],
       "acceptance_criteria": [
         {
-          "ac_id": "NFR-FL-002-AC01",
+          "ac_id": "NFR-FL-001-AC01",
           "given": "a fresh operator clones the repo",
           "when": "they run docker-compose up",
           "then": "the documented endpoints respond without further configuration",
@@ -519,9 +386,9 @@
       "iso_25010_subcharacteristic": "hazard_warning",
       "regulatory_ref": "",
       "trace_links": [
-        "EPSIG-112",
-        "EPSIG-113",
-        "EPSIG-148"
+        "FR-EPSIG-112",
+        "FR-EPSIG-113",
+        "FR-EPSIG-148"
       ],
       "acceptance_criteria": [
         {
@@ -544,9 +411,9 @@
       "iso_25010_subcharacteristic": "fail_safe",
       "regulatory_ref": "",
       "trace_links": [
-        "EPSIG-112",
-        "EPSIG-113",
-        "EPSIG-148"
+        "FR-EPSIG-112",
+        "FR-EPSIG-113",
+        "FR-EPSIG-148"
       ],
       "acceptance_criteria": [
         {
