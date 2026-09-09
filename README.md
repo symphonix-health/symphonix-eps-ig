@@ -6,7 +6,7 @@
 
 <p>
   <a href="https://github.com/symphonix-health"><img alt="Symphonix Health" src="https://img.shields.io/badge/Symphonix_Health-clinical_sibling-6366F1?style=flat-square" /></a>
-  <a href="https://github.com/symphonix-health/symphonix-health.github.io/blob/main/docs/system-catalogue.md"><img alt="System catalogue" src="https://img.shields.io/badge/catalogue-43_repos-14919B?style=flat-square" /></a>
+  <a href="https://github.com/symphonix-health/symphonix-health.github.io/blob/main/docs/system-catalogue.md"><img alt="System catalogue" src="https://img.shields.io/badge/catalogue-64_repos-14919B?style=flat-square" /></a>
 </p>
 
 | Field | Value |
@@ -15,9 +15,12 @@
 | Ecosystem layer | Clinical sibling system |
 | Repository role | FHIR R4 implementation guide for electronic prescription workflows. |
 | Catalogue | [Symphonix system catalogue](https://github.com/symphonix-health/symphonix-health.github.io/blob/main/docs/system-catalogue.md) |
-| Scope basis | Current catalogue snapshot: 43 catalogued repositories; forked/imported repos are excluded. |
+| Scope basis | Current catalogue snapshot: 64 catalogued repositories; forked/imported repos are excluded. |
 | Evidence rule | Catalogue presence is orientation only. Use repo-local tests, CAID artefacts, seeded data, and runbooks for readiness claims. |
 <!-- symphonix-health-ecosystem:end -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/symphonix-health/.github/master/profile/assets/github-org-atlas.svg" alt="Symphonix Health GitHub system atlas - 64 catalogued repositories, 37 clinical sibling systems" width="100%" />
+</p>
 
 FHIR R4 Implementation Guide for the Symphonix Electronic Prescription Service —
 the shared contract between the `etps` transport simulator and the `eps`
