@@ -19,6 +19,47 @@ repos:
         pass_filenames: false
         files: ^(input/.*|tests/test_profiles\.py)$
 
+      # Workspace guards -- PRECOMMIT_LOCAL_HOOK_SNIPPET from
+      # workspace-tooling/install_precommit_hooks.py, the documented integration
+      # path for repos managed by the pre-commit framework. This repo is one, so
+      # install_precommit_hooks.py deliberately does NOT overwrite
+      # .git/hooks/pre-commit here; until this stanza landed, the estate
+      # port-registry and design-token guards never ran on a commit to this repo
+      # at all (F-IV-TOOL-13 residual (a)).
+      #
+      # workspace-safe-landing-guard is in the snippet but deliberately NOT
+      # declared here: .git/hooks/pre-push already carries it
+      # (# workspace-safe-landing-guard v2), so declaring it would run the same
+      # fetch-and-compare twice on every push.
+      - id: workspace-agent-skill-submodule-ignore
+        name: workspace agent skill submodule ignore
+        entry: >-
+          bash -c 'ws="$(dirname "$(dirname "$(git rev-parse --path-format=absolute --git-common-dir)")")";
+          exec python "$ws/workspace-tooling/ignore_agent_skill_submodules.py" --repo . --unstage --quiet'
+        language: system
+        pass_filenames: false
+        always_run: true
+
+      - id: workspace-port-guard
+        name: workspace port-registry guard
+        entry: >-
+          bash -c 'gcd="$(git rev-parse --path-format=absolute --git-common-dir)"; repo="$(basename "$(dirname "$gcd")")";
+          ws="$(dirname "$(dirname "$gcd")")";
+          exec python "$ws/workspace-tooling/check_workspace_ports.py" --repo-name "$repo" --file "$@"' --
+        language: system
+        pass_filenames: true
+        files: '(^|/)(docker-compose[^/]*\.yml|Dockerfile(\..+)?|Makefile|GNUmakefile)$|\.(py|ts|tsx|js|jsx|mjs|cjs|sh|bash|ya?ml|md|env)$'
+
+      - id: workspace-style-guard
+        name: workspace design-token / colour guard
+        entry: >-
+          bash -c 'gcd="$(git rev-parse --path-format=absolute --git-common-dir)"; repo="$(basename "$(dirname "$gcd")")";
+          ws="$(dirname "$(dirname "$gcd")")";
+          exec python "$ws/workspace-tooling/check_workspace_styles.py" --repo-name "$repo" --file "$@"' --
+        language: system
+        pass_filenames: true
+        files: '\.(tsx|jsx|ts|css|scss|vue|svelte)$'
+
 # NOTE: The full IG build (fsh-sushi + _genonce.sh) downloads the FHIR
 # publisher JAR and takes minutes. Run as a local script, not pre-commit:
 #   npm install -g fsh-sushi && bash _updatePublisher.sh && bash _genonce.sh
