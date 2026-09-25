@@ -546,7 +546,8 @@ def test_specs_include_acceptance_criteria() -> None:
                 missing_ac_ids.append(ac_id)
 
     assert not missing_requirement_ids, (
-        f"Specs must include every requirement ID. Missing: {missing_requirement_ids}"
+        "Specs must include every requirement ID. "
+        f"Missing: {missing_requirement_ids}"
     )
     assert not missing_ac_ids, (
         "Specs must include every active acceptance criterion ID. "
