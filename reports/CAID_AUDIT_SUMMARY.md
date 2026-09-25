@@ -90,9 +90,9 @@ Each section is its own `def seed_*_anchors()` function so no single body exceed
 | Orphan seed | 0 |
 | Missing seed | 0 |
 | Partial seeding | 0 |
-| Inspected seed | `C:\Users\hgeec\github\symphonix-eps-ig\src\seed.py` |
-| Inspected matrices | `C:\Users\hgeec\github\symphonix-eps-ig\tests\harness\json_matrices` |
-| Inspected requirements | `C:\Users\hgeec\github\symphonix-eps-ig\docs\REQUIREMENTS.md` |
+| Inspected seed | `<WORKSPACE_ROOT>\symphonix-eps-ig\src\seed.py` |
+| Inspected matrices | `<WORKSPACE_ROOT>\symphonix-eps-ig\tests\harness\json_matrices` |
+| Inspected requirements | `<WORKSPACE_ROOT>\symphonix-eps-ig\docs\REQUIREMENTS.md` |
 | Rationale | Every matrix row aligned; functional testing may proceed. |
 
 ## 6. Pytest regression check

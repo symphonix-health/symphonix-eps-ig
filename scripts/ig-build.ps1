@@ -6,7 +6,8 @@
       pwsh -File scripts/ig-build.ps1
 #>
 $ErrorActionPreference = "Stop"
-Set-Location C:\Users\hgeec\github\symphonix-eps-ig
+# Run from the repo root, wherever this checkout lives (script sits in <repo>/scripts).
+Set-Location (Split-Path -Parent $PSScriptRoot)
 
 Write-Host "[INFO] Installing SUSHI..."
 npm install -g fsh-sushi
