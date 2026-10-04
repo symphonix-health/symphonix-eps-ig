@@ -3,9 +3,9 @@ repos:
     rev: v5.0.0
     hooks:
       - id: trailing-whitespace
-        exclude: '^(?:tests/test_requirement_acceptance_alignment\.py|tests/test_specification_alignment\.py)'
+        exclude: '(?:^(?:tests/test_requirement_acceptance_alignment\.py|tests/test_specification_alignment\.py))|^(?:conftest\.py|tests/test_bullettrain_v1_matrix\.py|tests/test_canonical_matrix_integrity\.py|tests/harness/build_compliance_policy_matrix\.py|tests/harness/build_nfr_canonical_matrices\.py)'
       - id: end-of-file-fixer
-        exclude: '^(?:tests/test_requirement_acceptance_alignment\.py|tests/test_specification_alignment\.py)'
+        exclude: '(?:^(?:tests/test_requirement_acceptance_alignment\.py|tests/test_specification_alignment\.py))|^(?:conftest\.py|tests/test_bullettrain_v1_matrix\.py|tests/test_canonical_matrix_integrity\.py|tests/harness/build_compliance_policy_matrix\.py|tests/harness/build_nfr_canonical_matrices\.py)'
       - id: check-yaml
       - id: check-json
       - id: check-merge-conflict
