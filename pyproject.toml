@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "Symphonix Electronic Prescription Service FHIR R4 Implementation Guide validator harness"
 readme = "README.md"
 requires-python = ">=3.12"
-license = { text = "CC0-1.0" }
+license = "Apache-2.0"
 authors = [{ name = "Symphonix Health" }]
 dependencies = [
     "fhir.resources>=7.1.0",

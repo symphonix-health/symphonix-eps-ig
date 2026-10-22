@@ -5,11 +5,11 @@
 - **Rationale**: Every matrix row aligned; functional testing may proceed.
 
 ## Inspected paths
-- requirements: `C:\Users\hgeec\github\symphonix-eps-ig\docs\REQUIREMENTS.md`
+- requirements: `<WORKSPACE_ROOT>\symphonix-eps-ig\docs\REQUIREMENTS.md`
 - requirements_all: `(none)`
 - spec: `(none)`
-- matrices: `C:\Users\hgeec\github\symphonix-eps-ig\tests\harness\canonical_matrices`
-- seed: `C:\Users\hgeec\github\symphonix-eps-ig\src\seed.py`
+- matrices: `<WORKSPACE_ROOT>\symphonix-eps-ig\tests\harness\canonical_matrices`
+- seed: `<WORKSPACE_ROOT>\symphonix-eps-ig\src\seed.py`
 
 ## Alignment matrix (summary)
 

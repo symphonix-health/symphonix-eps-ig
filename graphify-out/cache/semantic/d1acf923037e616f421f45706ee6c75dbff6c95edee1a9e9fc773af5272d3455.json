@@ -1,1 +1,0 @@
-{"nodes": [], "edges": [{"source": "assurancefinalseedingassurancereport_assurance_pack", "target": "assurancerepositoryassurancepack_assurance_pack", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "docs/assurance/final-seeding-assurance-report.md", "source_location": null, "weight": 1.0}], "hyperedges": []}

@@ -30,7 +30,7 @@ Exchange.
 - **Canonical URL**: `https://symphonix.health/fhir/eps`
 - **FHIR version**: 4.0.1
 - **Package id**: `symphonix.eps.ig`
-- **Licence**: CC0-1.0
+- **Licence**: Apache-2.0 (see [LICENSE](LICENSE))
 
 ## What is this?
 

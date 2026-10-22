@@ -4,11 +4,11 @@
   "functional_testing_permitted": true,
   "rationale": "Every matrix row aligned; functional testing may proceed.",
   "inspected_paths": {
-    "requirements": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\docs\\REQUIREMENTS.md",
+    "requirements": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\docs\\REQUIREMENTS.md",
     "requirements_all": "",
     "spec": "",
-    "matrices": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\tests\\harness\\canonical_matrices",
-    "seed": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py"
+    "matrices": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\tests\\harness\\canonical_matrices",
+    "seed": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py"
   },
   "matrix": [
     {
@@ -20,7 +20,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-142",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -44,7 +44,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-004",
       "actual_seed_data": "FhirCapabilityStatement, FhirCodeSystem, FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirCapabilityStatement",
         "FhirCodeSystem",
@@ -70,7 +70,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-102",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -94,7 +94,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-180",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -118,7 +118,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-171",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -142,7 +142,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-151",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -166,7 +166,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-112",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -190,7 +190,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-136",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -214,7 +214,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-162",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -238,7 +238,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-132",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -262,7 +262,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-157",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -286,7 +286,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-130",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -310,7 +310,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-113",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -334,7 +334,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-155",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -358,7 +358,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-181",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -382,7 +382,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-145",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -406,7 +406,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-148",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -430,7 +430,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-149",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -454,7 +454,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-129",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -478,7 +478,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-167",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -502,7 +502,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-170",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -526,7 +526,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-166",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -550,7 +550,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-158",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -574,7 +574,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-106",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -598,7 +598,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-131",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -622,7 +622,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-176",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -646,7 +646,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-002",
       "actual_seed_data": "FhirCapabilityStatement, FhirCodeSystem, FhirPolicyControl, FhirProfile, FhirValueSet",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirCapabilityStatement",
         "FhirCodeSystem",
@@ -674,7 +674,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-143",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -698,7 +698,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-119",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -722,7 +722,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-190",
       "actual_seed_data": "FhirDownstreamBinding, FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirDownstreamBinding",
         "FhirPolicyControl"
@@ -747,7 +747,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-187",
       "actual_seed_data": "FhirDownstreamBinding, FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirDownstreamBinding",
         "FhirPolicyControl"
@@ -772,7 +772,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-105",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -796,7 +796,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-152",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -820,7 +820,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-161",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -844,7 +844,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-123",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -868,7 +868,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-125",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -892,7 +892,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-127",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -916,7 +916,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-192",
       "actual_seed_data": "FhirDownstreamBinding, FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirDownstreamBinding",
         "FhirPolicyControl"
@@ -941,7 +941,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-182",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -965,7 +965,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-185",
       "actual_seed_data": "FhirDownstreamBinding, FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirDownstreamBinding",
         "FhirPolicyControl"
@@ -990,7 +990,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-191",
       "actual_seed_data": "FhirDownstreamBinding, FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirDownstreamBinding",
         "FhirPolicyControl"
@@ -1015,7 +1015,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-139",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -1039,7 +1039,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-126",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -1063,7 +1063,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-138",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -1087,7 +1087,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-153",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -1111,7 +1111,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-114",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -1135,7 +1135,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-117",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -1159,7 +1159,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-120",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -1183,7 +1183,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-124",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -1207,7 +1207,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-174",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -1231,7 +1231,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-179",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -1255,7 +1255,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-150",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -1279,7 +1279,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-128",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -1303,7 +1303,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-189",
       "actual_seed_data": "FhirDownstreamBinding, FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirDownstreamBinding",
         "FhirPolicyControl"
@@ -1328,7 +1328,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-147",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -1352,7 +1352,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-134",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -1376,7 +1376,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-164",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -1400,7 +1400,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-144",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -1424,7 +1424,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-172",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -1448,7 +1448,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-195",
       "actual_seed_data": "FhirDownstreamBinding, FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirDownstreamBinding",
         "FhirPolicyControl"
@@ -1473,7 +1473,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-165",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -1497,7 +1497,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in REQ-REA-0032",
       "actual_seed_data": "FhirDownstreamBinding",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirDownstreamBinding"
       ],
@@ -1521,7 +1521,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-107",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -1545,7 +1545,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-122",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -1569,7 +1569,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-183",
       "actual_seed_data": "FhirDownstreamBinding, FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirDownstreamBinding",
         "FhirPolicyControl"
@@ -1594,7 +1594,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-109",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -1618,7 +1618,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-178",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -1642,7 +1642,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-141",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -1666,7 +1666,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-103",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -1690,7 +1690,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-115",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -1714,7 +1714,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-177",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -1738,7 +1738,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-111",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -1762,7 +1762,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-186",
       "actual_seed_data": "FhirDownstreamBinding, FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirDownstreamBinding",
         "FhirPolicyControl"
@@ -1787,7 +1787,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-101",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -1811,7 +1811,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-135",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -1835,7 +1835,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-184",
       "actual_seed_data": "FhirDownstreamBinding, FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirDownstreamBinding",
         "FhirPolicyControl"
@@ -1860,7 +1860,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-005",
       "actual_seed_data": "FhirCapabilityStatement, FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirCapabilityStatement",
         "FhirPolicyControl"
@@ -1885,7 +1885,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-160",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -1909,7 +1909,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-137",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -1933,7 +1933,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-001",
       "actual_seed_data": "FhirCapabilityStatement, FhirCodeSystem, FhirPolicyControl, FhirProfile, FhirValueSet",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirCapabilityStatement",
         "FhirCodeSystem",
@@ -1961,7 +1961,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-121",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -1985,7 +1985,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-108",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -2009,7 +2009,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-140",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -2033,7 +2033,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-118",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -2057,7 +2057,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-133",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -2081,7 +2081,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-154",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -2105,7 +2105,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-169",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -2129,7 +2129,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-163",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -2153,7 +2153,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-116",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -2177,7 +2177,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-175",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -2201,7 +2201,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-146",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -2225,7 +2225,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-156",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -2249,7 +2249,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-003",
       "actual_seed_data": "FhirCapabilityStatement, FhirCodeSystem, FhirPolicyControl, FhirValueSet",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirCapabilityStatement",
         "FhirCodeSystem",
@@ -2276,7 +2276,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-159",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -2300,7 +2300,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-168",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -2324,7 +2324,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-194",
       "actual_seed_data": "FhirDownstreamBinding, FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirDownstreamBinding",
         "FhirPolicyControl"
@@ -2349,7 +2349,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-110",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -2373,7 +2373,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-188",
       "actual_seed_data": "FhirDownstreamBinding, FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirDownstreamBinding",
         "FhirPolicyControl"
@@ -2398,7 +2398,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-173",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],
@@ -2422,7 +2422,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-193",
       "actual_seed_data": "FhirDownstreamBinding, FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirDownstreamBinding",
         "FhirPolicyControl"
@@ -2447,7 +2447,7 @@
       "scenario_flow": "positive",
       "required_seed_data": "At least one record per entity named in FR-EPSIG-104",
       "actual_seed_data": "FhirPolicyControl",
-      "seed_file_reference": "C:\\Users\\hgeec\\github\\symphonix-eps-ig\\src\\seed.py",
+      "seed_file_reference": "<WORKSPACE_ROOT>\\symphonix-eps-ig\\src\\seed.py",
       "data_entities": [
         "FhirPolicyControl"
       ],

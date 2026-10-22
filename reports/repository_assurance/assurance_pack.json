@@ -416,26 +416,26 @@
   ],
   "generated_at": "2026-06-07T10:42:09Z",
   "repo": "symphonix-eps-ig",
-  "repo_path": "C:\\Users\\hgeec\\github\\symphonix-eps-ig",
+  "repo_path": "<WORKSPACE_ROOT>\\symphonix-eps-ig",
   "runtime_gates": {
     "commands": [
       {
         "command": "python -m pytest tests/test_requirement_acceptance_alignment.py tests/test_specification_alignment.py -q",
-        "cwd": "C:\\Users\\hgeec\\github\\symphonix-eps-ig",
+        "cwd": "<WORKSPACE_ROOT>\\symphonix-eps-ig",
         "exit_code": 0,
         "stderr_tail": "",
         "stdout_tail": "..........                                                               [100%]\n10 passed in 0.17s\n"
       },
       {
-        "command": "python -m caid.cli fpfn-audit --repo C:\\Users\\hgeec\\github\\symphonix-eps-ig --format text --fail-on none",
-        "cwd": "C:\\Users\\hgeec\\github\\caid-agent",
+        "command": "python -m caid.cli fpfn-audit --repo <WORKSPACE_ROOT>\\symphonix-eps-ig --format text --fail-on none",
+        "cwd": "<WORKSPACE_ROOT>\\caid-agent",
         "exit_code": 0,
         "stderr_tail": "",
-        "stdout_tail": "FP/FN audit: C:\\Users\\hgeec\\github\\symphonix-eps-ig\nVerdict: PASS\nCounts: {'PASS': 1, 'FAIL': 0, 'PARTIAL': 0, 'BLOCKED': 0}\n\n- PASS seed_surface symphonix-eps-ig (seed_only)\n  direct_tests: tests/test_canonical_matrix_integrity.py\n  notes: seed-only or matrix-only repo has direct canonical matrix evidence\n"
+        "stdout_tail": "FP/FN audit: <WORKSPACE_ROOT>\\symphonix-eps-ig\nVerdict: PASS\nCounts: {'PASS': 1, 'FAIL': 0, 'PARTIAL': 0, 'BLOCKED': 0}\n\n- PASS seed_surface symphonix-eps-ig (seed_only)\n  direct_tests: tests/test_canonical_matrix_integrity.py\n  notes: seed-only or matrix-only repo has direct canonical matrix evidence\n"
       },
       {
-        "command": "python C:\\Users\\hgeec\\github\\caid-agent\\scripts\\check_seeding_alignment.py --project-dir C:\\Users\\hgeec\\github\\symphonix-eps-ig --report-dir C:\\Users\\hgeec\\github\\symphonix-eps-ig\\reports",
-        "cwd": "C:\\Users\\hgeec\\github\\symphonix-eps-ig",
+        "command": "python <WORKSPACE_ROOT>\\caid-agent\\scripts\\check_seeding_alignment.py --project-dir <WORKSPACE_ROOT>\\symphonix-eps-ig --report-dir <WORKSPACE_ROOT>\\symphonix-eps-ig\\reports",
+        "cwd": "<WORKSPACE_ROOT>\\symphonix-eps-ig",
         "exit_code": 1,
         "stderr_tail": "",
         "stdout_tail": "[SEEDING-ALIGNMENT-GATE] decision=FAIL\n[SEEDING-ALIGNMENT-GATE] functional_testing_permitted=NO\n[SEEDING-ALIGNMENT-GATE] rationale=One or more rows flagged ORPHAN / MISSING -- requirement, spec, use-case, and seed must be aligned before functional testing fires.\n[SEEDING-ALIGNMENT-GATE] rows=336 blocking=33 orphan_seed=0 missing_seed=0 partial_seeding=0\n[SEEDING-ALIGNMENT-GATE] Functional testing is blocked because the Seeding Alignment Gate has not passed.\n"
