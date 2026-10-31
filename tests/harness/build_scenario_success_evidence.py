@@ -1,40 +1,42 @@
-"""Build keyed scenario-success evidence for symphonix-eps-ig (FHIR IG repo).
+"""Build keyed scenario-success evidence for symphonix-eps-ig (Option C).
 
-Per-row ``app_paths_exercised`` is extracted from each matrix scenario using the
-SAME runtime-path extractor the CAID test-agent gate uses
-(``caid.test_agent._scenario_runtime_paths``) so evidence and gate always agree.
-Source-file anchors are unioned in so the app-harness pytest node still has an
-app-touching surface to point at. The IG repo declares a small set of route
-paths (/health, /openapi.json, /api/quality-attribute-probe) in its scenarios
-even though it is not a running service — the evidence covers them so the gate's
-declared-runtime-path check passes.
+Cites ONLY the genuinely executed pytest nodes in
+tests/harness/test_matrix_scenario_execution.py and counts unexecuted rows
+honestly.
 """
 
 from __future__ import annotations
 
+import argparse
 import json
+import sys
 from pathlib import Path
 from typing import Any
 
-from caid.test_agent import _scenario_runtime_paths
-
 ROOT = Path(__file__).resolve().parents[2]
-MATRIX_DIRS = (
-    ROOT / "tests" / "harness" / "json_matrices",
-    ROOT / "tests" / "harness" / "canonical_matrices",
-    ROOT / "tests" / "harness" / "nfr_canonical_matrices",
-    ROOT / "tests" / "harness" / "reduced_json_matrices",
-)
 OUTPUT = ROOT / "tests" / "harness" / "scenario_success_evidence.json"
-PYTEST_FILE = "tests/harness/test_matrix_scenario_app_harness.py"
-PYTEST_FUNCTION = "test_matrix_scenario_app_harness"
+EXPECTED_PATH = ROOT / "tests" / "harness" / "scenario_execution_expected.json"
+
+MATRIX_DIRS = (
+    ROOT / "tests" / "harness" / "canonical_matrices",
+    ROOT / "tests" / "harness" / "reduced_json_matrices",
+    ROOT / "tests" / "harness" / "nfr_canonical_matrices",
+    ROOT / "tests" / "harness" / "json_matrices",
+)
+
+PYTEST_FILE = "tests/harness/test_matrix_scenario_execution.py"
+PYTEST_FUNCTION = "test_matrix_scenario_execution"
 ROW_KEYS = ("scenarios", "test_cases", "rows", "requirements", "matrix", "items")
-APP_PATHS_EXERCISED = (
+
+APP_PATHS_EXERCISED = [
     "src/seed.py",
     "src/__init__.py",
-    "seeded_alignment_trace.py",
-    "conftest.py",
-)
+    "input/fsh/profiles.fsh",
+    "input/fsh/extensions.fsh",
+    "input/fsh/valuesets.fsh",
+    "input/fsh/capabilitystatements.fsh",
+    "docs/REQUIREMENTS.md",
+]
 
 
 def _rows(payload: Any) -> list[dict[str, Any]]:
@@ -59,47 +61,87 @@ def _use_case_id(row: dict[str, Any], rel_path: str, index: int) -> str:
     return f"{Path(rel_path).stem}-{index + 1:05d}"
 
 
-def build() -> dict[str, Any]:
+def build(root: Path = ROOT) -> dict[str, Any]:
+    expected: dict[str, Any] = {}
+    if EXPECTED_PATH.exists():
+        expected = json.loads(EXPECTED_PATH.read_text(encoding="utf-8"))
+    executed_ids = set(expected.keys())
+
     evidence: list[dict[str, Any]] = []
+    unexecuted_count = 0
+    total_rows = 0
+
     for matrix_dir in MATRIX_DIRS:
         if not matrix_dir.exists():
             continue
         for matrix_path in sorted(matrix_dir.glob("*.json")):
-            rel_path = matrix_path.relative_to(ROOT).as_posix()
-            payload = json.loads(matrix_path.read_text(encoding="utf-8"))
-            for index, row in enumerate(_rows(payload)):
-                use_case_id = _use_case_id(row, rel_path, index)
-                pytest_param_id = f"EPSIG{len(evidence):06d}"
-                declared = sorted(_scenario_runtime_paths(row))
-                exercised = sorted(set(declared) | set(APP_PATHS_EXERCISED))
-                evidence.append(
-                    {
-                        "use_case_id": use_case_id,
-                        "matrix_file": rel_path,
-                        "matrix_row_index": index,
-                        "matrix_row_key": f"{rel_path}#{index}:{use_case_id}",
-                        "pytest_param_id": pytest_param_id,
-                        "pytest_node_id": (
-                            f"{PYTEST_FILE}::{PYTEST_FUNCTION}[{pytest_param_id}]"
-                        ),
-                        "expected_status": "passed",
-                        "app_paths_exercised": exercised,
-                    }
-                )
+            rel_path = matrix_path.relative_to(root).as_posix()
+            try:
+                payload = json.loads(matrix_path.read_text(encoding="utf-8"))
+            except (json.JSONDecodeError, OSError):
+                continue
+            rows = _rows(payload)
+            for index, row in enumerate(rows):
+                total_rows += 1
+                uc_id = _use_case_id(row, rel_path, index)
+                # Only primary canonical matrices cite execution nodes
+                if uc_id in executed_ids and "canonical_matrices" in rel_path:
+                    evidence.append(
+                        {
+                            "use_case_id": uc_id,
+                            "matrix_file": rel_path,
+                            "matrix_row_index": index,
+                            "matrix_row_key": f"{rel_path}#{index}:{uc_id}",
+                            "pytest_param_id": uc_id,
+                            "pytest_node_id": f"{PYTEST_FILE}::{PYTEST_FUNCTION}[{uc_id}]",
+                            "expected_status": "passed",
+                            "app_paths_exercised": list(APP_PATHS_EXERCISED),
+                            "component": "symphonix-eps-ig",
+                            "title": row.get("title") or row.get("scenario") or uc_id,
+                        }
+                    )
+                else:
+                    unexecuted_count += 1
 
     return {
         "schema_version": "SYMPHONIX_SCENARIO_SUCCESS_EVIDENCE_V1",
         "generated_by": "tests/harness/build_scenario_success_evidence.py",
         "pytest_file": PYTEST_FILE,
         "pytest_function": PYTEST_FUNCTION,
+        "executed_row_count": len(evidence),
+        "unexecuted_row_count": unexecuted_count,
+        "total_matrix_rows": total_rows,
         "evidence": evidence,
     }
 
 
 def main() -> None:
-    payload = build()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--check",
+        action="store_true",
+        help="Check that the committed evidence matches the generated evidence without writing.",
+    )
+    args = parser.parse_args()
+
+    payload = build(ROOT)
+
+    if args.check:
+        if not OUTPUT.exists():
+            print(f"[FAIL] {OUTPUT} does not exist", file=sys.stderr)
+            sys.exit(1)
+        committed = json.loads(OUTPUT.read_text(encoding="utf-8"))
+        if committed != payload:
+            print(f"[FAIL] {OUTPUT} is out of sync with generator", file=sys.stderr)
+            sys.exit(1)
+        print("[OK] scenario_success_evidence.json matches its matrix")
+        return
+
     OUTPUT.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
-    print(f"[OK] wrote {len(payload['evidence'])} evidence rows to {OUTPUT}")
+    print(
+        f"[OK] wrote {payload['executed_row_count']} executed rows and "
+        f"{payload['unexecuted_row_count']} unexecuted rows to {OUTPUT}"
+    )
 
 
 if __name__ == "__main__":

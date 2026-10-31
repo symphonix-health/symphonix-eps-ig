@@ -1,0 +1,702 @@
+{
+  "compliance_policy_EDG_0096": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-193",
+    "status": "passed"
+  },
+  "compliance_policy_EDG_0097": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-194",
+    "status": "passed"
+  },
+  "compliance_policy_EDG_0098": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-195",
+    "status": "passed"
+  },
+  "compliance_policy_EDG_0099": {
+    "anchor_class": "FhirCodeSystem",
+    "artefact": "input/fsh/valuesets.fsh",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-004",
+    "status": "passed"
+  },
+  "compliance_policy_EDG_0100": {
+    "anchor_class": "FhirCapabilityStatement",
+    "artefact": "input/fsh/capabilitystatements.fsh",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-005",
+    "status": "passed"
+  },
+  "compliance_policy_NEG_0086": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-183",
+    "status": "passed"
+  },
+  "compliance_policy_NEG_0087": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-184",
+    "status": "passed"
+  },
+  "compliance_policy_NEG_0088": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-185",
+    "status": "passed"
+  },
+  "compliance_policy_NEG_0089": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-186",
+    "status": "passed"
+  },
+  "compliance_policy_NEG_0090": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-187",
+    "status": "passed"
+  },
+  "compliance_policy_NEG_0091": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-188",
+    "status": "passed"
+  },
+  "compliance_policy_NEG_0092": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-189",
+    "status": "passed"
+  },
+  "compliance_policy_NEG_0093": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-190",
+    "status": "passed"
+  },
+  "compliance_policy_NEG_0094": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-191",
+    "status": "passed"
+  },
+  "compliance_policy_NEG_0095": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-192",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0001": {
+    "anchor_class": "FhirProfile",
+    "artefact": "input/fsh/profiles.fsh",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-001",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0002": {
+    "anchor_class": "FhirProfile",
+    "artefact": "input/fsh/profiles.fsh",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-002",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0003": {
+    "anchor_class": "FhirValueSet",
+    "artefact": "input/fsh/valuesets.fsh",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-003",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0004": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-101",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0005": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-102",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0006": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-103",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0007": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-104",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0008": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-105",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0009": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-106",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0010": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-107",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0011": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-108",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0012": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-109",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0013": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-110",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0014": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-111",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0015": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-112",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0016": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-113",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0017": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-114",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0018": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-115",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0019": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-116",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0020": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-117",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0021": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-118",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0022": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-119",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0023": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-120",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0024": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-121",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0025": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-122",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0026": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-123",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0027": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-124",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0028": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-125",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0029": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-126",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0030": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-127",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0031": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-128",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0032": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-129",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0033": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-130",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0034": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-131",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0035": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-132",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0036": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-133",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0037": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-134",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0038": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-135",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0039": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-136",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0040": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-137",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0041": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-138",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0042": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-139",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0043": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-140",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0044": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-141",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0045": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-142",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0046": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-143",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0047": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-144",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0048": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-145",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0049": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-146",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0050": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-147",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0051": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-148",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0052": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-149",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0053": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-150",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0054": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-151",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0055": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-152",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0056": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-153",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0057": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-154",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0058": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-155",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0059": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-156",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0060": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-157",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0061": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-158",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0062": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-159",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0063": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-160",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0064": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-161",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0065": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-162",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0066": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-163",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0067": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-164",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0068": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-165",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0069": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-166",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0070": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-167",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0071": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-168",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0072": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-169",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0073": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-170",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0074": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-171",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0075": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-172",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0076": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-173",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0077": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-174",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0078": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-175",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0079": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-176",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0080": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-177",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0081": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-178",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0082": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-179",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0083": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-180",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0084": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-181",
+    "status": "passed"
+  },
+  "compliance_policy_POS_0085": {
+    "anchor_class": "FhirPolicyControl",
+    "artefact": "docs/REQUIREMENTS.md",
+    "artefact_present": true,
+    "requirement_id": "FR-EPSIG-182",
+    "status": "passed"
+  }
+}
