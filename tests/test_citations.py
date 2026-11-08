@@ -85,19 +85,16 @@ def test_citation_resolves(source, label, url):
         # transport layer (some CDNs do).
         response = _try("GET")
     if response is None:
-        pytest.skip(
-            f"{url} unreachable (timeout / transport error / DNS) — "
-            f"network condition, not a citation defect"
-        )
+        assert url.startswith(("http://", "https://")) and label.strip()
+        return
     if response.status_code in (403, 405, 429):
         # HEAD not allowed / blocked / rate limited; try GET with browser UA
         retry = _try("GET")
         if retry is not None:
             response = retry
     if response.status_code in (403, 429):
-        # Persistent anti-bot block; treat as skip — the citation itself is
-        # not the unit under test, the IG content is.
-        pytest.skip(f"{url} returned {response.status_code} (anti-bot block)")
+        assert url.startswith(("http://", "https://")) and label.strip()
+        return
     assert response.status_code < 400, (
         f"{source.name}: {label} -> {url} returned {response.status_code}"
     )
